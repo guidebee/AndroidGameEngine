@@ -1,0 +1,2 @@
+del javadoc\*.html /S
+javadoc -locale en_US   -subpackages com.guidebee -exclude com.guidebee.game.engine:com.guidebee.game.engine.utils  -public -d javadoc -sourcepath src -doclet com.google.doclava.Doclava -docletpath "doclava-1.0.6.jar" -title "Guidebee Game Engine API"  -hdf project.name "Guidebee Game Engine" -hide 105 -classpath "D:\Android\sdk\platforms\android-19\android.jar;D:\Android\sdk\platforms\android-19\data\res;D:\Android\sdk\tools\support\annotations.jar;C:\ScalaHome\scala-2.10.2\lib\scala-library.jar" -XDignore.symbol.file

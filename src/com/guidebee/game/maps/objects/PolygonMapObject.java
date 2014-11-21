@@ -1,0 +1,77 @@
+/**
+ *
+ */
+//--------------------------------- PACKAGE ------------------------------------
+package com.guidebee.game.maps.objects;
+
+//--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.maps.MapObject;
+import com.guidebee.math.geometry.Circle;
+import com.guidebee.math.geometry.Polygon;
+import com.guidebee.math.geometry.Rectangle;
+
+//[------------------------------ MAIN CLASS ----------------------------------]
+
+/**
+ * Represents {@link Polygon} map objects
+ */
+public class PolygonMapObject extends MapObject {
+
+    private Polygon polygon;
+
+    /**
+     * @return polygon shape
+     */
+    public Polygon getPolygon() {
+        return polygon;
+    }
+
+    /**
+     * @param polygon new object's polygon shape
+     */
+    public void setPolygon(Polygon polygon) {
+        this.polygon = polygon;
+    }
+
+    /**
+     * Creates empty polygon map object
+     */
+    public PolygonMapObject() {
+        this(new float[0]);
+    }
+
+    /**
+     * @param vertices polygon defining vertices (at least 3)
+     */
+    public PolygonMapObject(float[] vertices) {
+        polygon = new Polygon(vertices);
+    }
+
+    /**
+     * @param polygon the polygon
+     */
+    public PolygonMapObject(Polygon polygon) {
+        this.polygon = polygon;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return false;
+    }
+
+    @Override
+    public Rectangle getBoundingAABB() {
+        return null;
+    }
+
+    @Override
+    public Polygon getBoundingPolygon() {
+        return null;
+    }
+
+    @Override
+    public Circle getBoundingCircle() {
+        return null;
+    }
+}

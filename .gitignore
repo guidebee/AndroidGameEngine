@@ -1,0 +1,8 @@
+build
+target
+bin
+gen
+obj
+out
+proguard_logs
+javadoc
