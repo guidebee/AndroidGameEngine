@@ -5,9 +5,7 @@
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
     <uses-feature android:glEsVersion="0x00020000" android:required="true" />
-    <application
-
-            android:label="" >
+    <application    android:label="" >
         <activity
                 android:name=".MainActivity"
                 android:label="BattleCity"
