@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.mapdigit.game.battlecity"
+          package="com.mapdigit.game.tutorial.basics"
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
     <uses-feature android:glEsVersion="0x00020000" android:required="true" />
     <application    android:label="" >
         <activity
-                android:name=".MainActivity"
-                android:label="BattleCity"
+                android:name=".HelloWorldActivity"
+                android:label="HelloWorld"
                 android:screenOrientation="landscape"
                 android:configChanges="keyboard|keyboardHidden|orientation">
             <intent-filter>
