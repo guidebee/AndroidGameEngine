@@ -99,11 +99,6 @@ public interface Graphics {
      */
     public int getFramesPerSecond();
 
-    /**
-     * get the type of the Graphics instance.
-     * @return the {@link GraphicsType} of this Graphics instance
-     */
-    public GraphicsType getType();
 
     /**
      * get the pixels per inch on the x-axis.
@@ -255,20 +250,7 @@ public interface Graphics {
      */
     public void clearScreen(float red, float green, float blue, float alpha);
 
-    /**
-     * Enumeration describing different types of {@link Graphics} implementations.
-     *
-     * @author mzechner
-     */
-    public enum GraphicsType {
-        AndroidGL,
-        LWJGL,
-        Angle,
-        WebGL,
-        iOSGL,
-        JGLFW,
-        Mock
-    }
+
 
     /**
      * Describe a fullscreen display mode

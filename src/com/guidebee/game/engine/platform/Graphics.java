@@ -492,13 +492,6 @@ public class Graphics implements com.guidebee.game.Graphics, Renderer {
         return deltaTime;
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public GraphicsType getType() {
-        return GraphicsType.AndroidGL;
-    }
 
     /**
      * {@inheritDoc}

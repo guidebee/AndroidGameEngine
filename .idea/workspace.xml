@@ -35,17 +35,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="remove application type, since we only target android platform">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/Application.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/activity/BaseGameActivity.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/activity/BaseGameActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatFrameBuffer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatFrameBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatTextureData.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatTextureData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/graphics/FrameBuffer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/graphics/FrameBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/activity/GameActivityWrapper.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/activity/GameActivityWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/MipMapGenerator.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/MipMapGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/Net.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/Net.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/Graphics.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/Graphics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/engine/platform/Graphics.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/platform/Graphics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f2163357-2680-4fbe-98a0-1512f06b8f87" name="New changelist" comment="" />
@@ -64,11 +56,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="DebuggerManager">
-    <ui_properties converted="true" />
     <breakpoint_any converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -105,6 +93,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -113,34 +102,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3332" max-vertical-offset="4709">
-              <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Net.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Net.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6427" max-vertical-offset="6902">
-              <caret line="439" column="0" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameActivityWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/GameActivityWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4062" max-vertical-offset="7497">
+            <state vertical-scroll-proportion="0.0">
               <caret line="303" column="13" selection-start-line="303" selection-start-column="13" selection-end-line="303" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#17133#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3199#3200#0" expanded="false" />
+                <element signature="e#3239#3240#0" expanded="false" />
+                <element signature="e#4391#4392#0" expanded="false" />
+                <element signature="e#4436#4437#0" expanded="false" />
+                <element signature="e#7369#7370#0" expanded="false" />
+                <element signature="e#7414#7415#0" expanded="false" />
+                <element signature="e#7473#7474#0" expanded="false" />
+                <element signature="e#7520#7521#0" expanded="false" />
+                <element signature="e#11031#11032#0" expanded="false" />
+                <element signature="e#11062#11063#0" expanded="false" />
+                <element signature="e#11125#11126#0" expanded="false" />
+                <element signature="e#11153#11154#0" expanded="false" />
+                <element signature="e#11216#11217#0" expanded="false" />
+                <element signature="e#11244#11245#0" expanded="false" />
+                <element signature="e#11313#11314#0" expanded="false" />
+                <element signature="e#11344#11345#0" expanded="false" />
+                <element signature="e#11423#11424#0" expanded="false" />
+                <element signature="e#11451#11452#0" expanded="false" />
+                <element signature="e#11510#11511#0" expanded="false" />
+                <element signature="e#11536#11537#0" expanded="false" />
+                <element signature="e#11583#11584#0" expanded="false" />
+                <element signature="e#11638#11639#0" expanded="false" />
+                <element signature="e#11685#11686#0" expanded="false" />
+                <element signature="e#11778#11779#0" expanded="false" />
+                <element signature="e#11827#11828#0" expanded="false" />
+                <element signature="e#11884#11885#0" expanded="false" />
+                <element signature="e#12710#12711#0" expanded="false" />
+                <element signature="e#12759#12760#0" expanded="false" />
+                <element signature="e#13180#13181#0" expanded="false" />
+                <element signature="e#13241#13242#0" expanded="false" />
+                <element signature="e#13466#13467#0" expanded="false" />
+                <element signature="e#13528#13529#0" expanded="false" />
+                <element signature="e#13748#13749#0" expanded="false" />
+                <element signature="e#13788#13789#0" expanded="false" />
+                <element signature="e#13834#13835#0" expanded="false" />
+                <element signature="e#13865#13866#0" expanded="false" />
+                <element signature="e#14307#14308#0" expanded="false" />
+                <element signature="e#14338#14339#0" expanded="false" />
+                <element signature="e#14397#14398#0" expanded="false" />
+                <element signature="e#14429#14430#0" expanded="false" />
+                <element signature="e#14496#14497#0" expanded="false" />
+                <element signature="e#14536#14537#0" expanded="false" />
+                <element signature="e#14602#14603#0" expanded="false" />
+                <element signature="e#14650#14651#0" expanded="false" />
+                <element signature="e#14712#14713#0" expanded="false" />
+                <element signature="e#14758#14759#0" expanded="false" />
+                <element signature="e#14835#14836#0" expanded="false" />
+                <element signature="e#14876#14877#0" expanded="false" />
+                <element signature="e#14934#14935#0" expanded="false" />
+                <element signature="e#14977#14978#0" expanded="false" />
+                <element signature="e#15038#15039#0" expanded="false" />
+                <element signature="e#15088#15089#0" expanded="false" />
+                <element signature="e#15137#15138#0" expanded="false" />
+                <element signature="e#15172#15173#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,10 +172,12 @@
       <file leaf-file-name="FloatFrameBuffer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatFrameBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="782">
+            <state vertical-scroll-proportion="0.0">
               <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#2507#0" expanded="false" />
+                <element signature="e#1970#1971#0" expanded="false" />
+                <element signature="e#2022#2023#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -160,10 +186,12 @@
       <file leaf-file-name="MipMapGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/MipMapGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1853">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#5238#0" expanded="false" />
+                <element signature="e#1503#1504#0" expanded="false" />
+                <element signature="e#1560#1561#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -172,19 +200,42 @@
       <file leaf-file-name="FrameBuffer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/graphics/FrameBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1933" max-vertical-offset="5763">
+            <state vertical-scroll-proportion="0.0">
               <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5010526" vertical-offset="0" max-vertical-offset="475">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graphics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Graphics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graphics.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/platform/Graphics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24806201">
+              <caret line="497" column="4" selection-start-line="497" selection-start-column="4" selection-end-line="497" selection-end-column="4" />
+              <folding>
+                <element signature="e#17338#17339#0" expanded="true" />
+                <element signature="e#17364#17365#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,9 +243,24 @@
       <file leaf-file-name="FloatTextureData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatTextureData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="658" max-vertical-offset="1411">
+            <state vertical-scroll-proportion="0.0">
               <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="e#0#3559#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1777#1778#0" expanded="false" />
+                <element signature="e#1822#1823#0" expanded="false" />
+                <element signature="e#1871#1872#0" expanded="false" />
+                <element signature="e#1904#1905#0" expanded="false" />
+                <element signature="e#3132#3133#0" expanded="false" />
+                <element signature="e#3160#3161#0" expanded="false" />
+                <element signature="e#3204#3205#0" expanded="false" />
+                <element signature="e#3233#3234#0" expanded="false" />
+                <element signature="e#3452#3453#0" expanded="false" />
+                <element signature="e#3480#3481#0" expanded="false" />
+                <element signature="e#3528#3529#0" expanded="false" />
+                <element signature="e#3555#3556#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,9 +268,58 @@
       <file leaf-file-name="Stage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3739" max-vertical-offset="15623">
+            <state vertical-scroll-proportion="0.0">
               <caret line="275" column="0" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#35472#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6923#6924#0" expanded="false" />
+                <element signature="e#6966#6967#0" expanded="false" />
+                <element signature="e#8965#8966#0" expanded="false" />
+                <element signature="e#9039#9040#0" expanded="false" />
+                <element signature="e#22335#22336#0" expanded="false" />
+                <element signature="e#22379#22380#0" expanded="false" />
+                <element signature="e#24036#24037#0" expanded="false" />
+                <element signature="e#24072#24073#0" expanded="false" />
+                <element signature="e#24255#24256#0" expanded="false" />
+                <element signature="e#24293#24294#0" expanded="false" />
+                <element signature="e#24427#24428#0" expanded="false" />
+                <element signature="e#24463#24464#0" expanded="false" />
+                <element signature="e#24625#24626#0" expanded="false" />
+                <element signature="e#24674#24675#0" expanded="false" />
+                <element signature="e#24847#24848#0" expanded="false" />
+                <element signature="e#24899#24900#0" expanded="false" />
+                <element signature="e#25083#25084#0" expanded="false" />
+                <element signature="e#25139#25140#0" expanded="false" />
+                <element signature="e#25326#25327#0" expanded="false" />
+                <element signature="e#25385#25386#0" expanded="false" />
+                <element signature="e#27223#27224#0" expanded="false" />
+                <element signature="e#27259#27260#0" expanded="false" />
+                <element signature="e#28355#28356#0" expanded="false" />
+                <element signature="e#28389#28390#0" expanded="false" />
+                <element signature="e#28420#28421#0" expanded="false" />
+                <element signature="e#28448#28449#0" expanded="false" />
+                <element signature="e#28485#28486#0" expanded="false" />
+                <element signature="e#28516#28517#0" expanded="false" />
+                <element signature="e#28566#28567#0" expanded="false" />
+                <element signature="e#28606#28607#0" expanded="false" />
+                <element signature="e#28688#28689#0" expanded="false" />
+                <element signature="e#28735#28736#0" expanded="false" />
+                <element signature="e#28819#28820#0" expanded="false" />
+                <element signature="e#28867#28868#0" expanded="false" />
+                <element signature="e#28946#28947#0" expanded="false" />
+                <element signature="e#28989#28990#0" expanded="false" />
+                <element signature="e#29102#29103#0" expanded="false" />
+                <element signature="e#29129#29130#0" expanded="false" />
+                <element signature="e#32126#32127#0" expanded="false" />
+                <element signature="e#32159#32160#0" expanded="false" />
+                <element signature="e#32331#32332#0" expanded="false" />
+                <element signature="e#32383#32384#0" expanded="false" />
+                <element signature="e#35262#35263#0" expanded="false" />
+                <element signature="e#35295#35296#0" expanded="false" />
+                <element signature="e#35424#35425#0" expanded="false" />
+                <element signature="e#35468#35469#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,10 +327,84 @@
       <file leaf-file-name="BaseGameActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/BaseGameActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2307" max-vertical-offset="3893">
+            <state vertical-scroll-proportion="0.0">
               <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding>
-                <element signature="e#0#9033#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2558#2559#0" expanded="false" />
+                <element signature="e#2602#2603#0" expanded="false" />
+                <element signature="e#3307#3308#0" expanded="false" />
+                <element signature="e#3359#3360#0" expanded="false" />
+                <element signature="e#3878#3879#0" expanded="false" />
+                <element signature="e#3936#3937#0" expanded="false" />
+                <element signature="e#4869#4870#0" expanded="false" />
+                <element signature="e#4920#4921#0" expanded="false" />
+                <element signature="e#4970#4971#0" expanded="false" />
+                <element signature="e#5013#5014#0" expanded="false" />
+                <element signature="e#5063#5064#0" expanded="false" />
+                <element signature="e#5106#5107#0" expanded="false" />
+                <element signature="e#5360#5361#0" expanded="false" />
+                <element signature="e#5405#5406#0" expanded="false" />
+                <element signature="e#5665#5666#0" expanded="false" />
+                <element signature="e#5698#5699#0" expanded="false" />
+                <element signature="e#5771#5772#0" expanded="false" />
+                <element signature="e#5826#5827#0" expanded="false" />
+                <element signature="e#5871#5872#0" expanded="false" />
+                <element signature="e#5912#5913#0" expanded="false" />
+                <element signature="e#5957#5958#0" expanded="false" />
+                <element signature="e#5998#5999#0" expanded="false" />
+                <element signature="e#6049#6050#0" expanded="false" />
+                <element signature="e#6093#6094#0" expanded="false" />
+                <element signature="e#6172#6173#0" expanded="false" />
+                <element signature="e#6213#6214#0" expanded="false" />
+                <element signature="e#6254#6255#0" expanded="false" />
+                <element signature="e#6293#6294#0" expanded="false" />
+                <element signature="e#6339#6340#0" expanded="false" />
+                <element signature="e#6382#6383#0" expanded="false" />
+                <element signature="e#6429#6430#0" expanded="false" />
+                <element signature="e#6473#6474#0" expanded="false" />
+                <element signature="e#6522#6523#0" expanded="false" />
+                <element signature="e#6568#6569#0" expanded="false" />
+                <element signature="e#6636#6637#0" expanded="false" />
+                <element signature="e#6687#6688#0" expanded="false" />
+                <element signature="e#6742#6743#0" expanded="false" />
+                <element signature="e#6787#6788#0" expanded="false" />
+                <element signature="e#6852#6853#0" expanded="false" />
+                <element signature="e#6898#6899#0" expanded="false" />
+                <element signature="e#7136#7137#0" expanded="false" />
+                <element signature="e#7165#7166#0" expanded="false" />
+                <element signature="e#7232#7233#0" expanded="false" />
+                <element signature="e#7273#7274#0" expanded="false" />
+                <element signature="e#7361#7362#0" expanded="false" />
+                <element signature="e#7413#7414#0" expanded="false" />
+                <element signature="e#7478#7479#0" expanded="false" />
+                <element signature="e#7519#7520#0" expanded="false" />
+                <element signature="e#7605#7606#0" expanded="false" />
+                <element signature="e#7655#7656#0" expanded="false" />
+                <element signature="e#7722#7723#0" expanded="false" />
+                <element signature="e#7765#7766#0" expanded="false" />
+                <element signature="e#7853#7854#0" expanded="false" />
+                <element signature="e#7907#7908#0" expanded="false" />
+                <element signature="e#7966#7967#0" expanded="false" />
+                <element signature="e#8011#8012#0" expanded="false" />
+                <element signature="e#8057#8058#0" expanded="false" />
+                <element signature="e#8101#8102#0" expanded="false" />
+                <element signature="e#8183#8184#0" expanded="false" />
+                <element signature="e#8237#8238#0" expanded="false" />
+                <element signature="e#8322#8323#0" expanded="false" />
+                <element signature="e#8379#8380#0" expanded="false" />
+                <element signature="e#8428#8429#0" expanded="false" />
+                <element signature="e#8471#8472#0" expanded="false" />
+                <element signature="e#8530#8531#0" expanded="false" />
+                <element signature="e#8575#8576#0" expanded="false" />
+                <element signature="e#8642#8643#0" expanded="false" />
+                <element signature="e#8695#8696#0" expanded="false" />
+                <element signature="e#8772#8773#0" expanded="false" />
+                <element signature="e#8826#8827#0" expanded="false" />
+                <element signature="e#8884#8885#0" expanded="false" />
+                <element signature="e#8937#8938#0" expanded="false" />
+                <element signature="e#8986#8987#0" expanded="false" />
+                <element signature="e#9029#9030#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -244,6 +433,11 @@
       </map>
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -260,7 +454,10 @@
         <option value="$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/MipMapGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/graphics/FrameBuffer.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/project.properties" />
+        <option value="$PROJECT_DIR$/src/com/guidebee/game/Graphics.java" />
+        <option value="$PROJECT_DIR$/src/com/guidebee/game/engine/platform/Graphics.java" />
       </list>
     </option>
   </component>
@@ -268,12 +465,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -303,7 +501,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -338,10 +535,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,6 +619,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,7 +640,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
@@ -467,33 +661,10 @@
     </option>
   </component>
   <component name="RunManager" selected="Android Application.androidbox2d">
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -516,92 +687,6 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -621,6 +706,49 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -658,6 +786,20 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -674,38 +816,147 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
       <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
@@ -786,6 +1037,8 @@
       <workItem from="1445089338122" duration="343000" />
       <workItem from="1445139019956" duration="238000" />
       <workItem from="1445144713045" duration="2229000" />
+      <workItem from="1445166405331" duration="522000" />
+      <workItem from="1445167032786" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="add android javadoc (doclava) support">
       <created>1413514803895</created>
@@ -821,7 +1074,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51228000" />
+    <option name="totallyTimeSpent" value="52259000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -844,39 +1097,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5017341" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5228162" sideWeight="0.2534722" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34419817" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32464147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38591915" sideWeight="0.7465278" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26944444" sideWeight="0.4982659" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36505866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5228162" sideWeight="0.2534722" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5017341" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34232122" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21101993" sideWeight="0.7465278" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26944444" sideWeight="0.4982659" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3235639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36505866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -892,9 +1145,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <MESSAGE value="add android javadoc (doclava) support" />
     <MESSAGE value="Guidebee 2D Game Engine for android pre-release" />
     <MESSAGE value="resume development after 11 months" />
@@ -918,9 +1168,173 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatTextureData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#3559#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1777#1778#0" expanded="false" />
+            <element signature="e#1822#1823#0" expanded="false" />
+            <element signature="e#1871#1872#0" expanded="false" />
+            <element signature="e#1904#1905#0" expanded="false" />
+            <element signature="e#3132#3133#0" expanded="false" />
+            <element signature="e#3160#3161#0" expanded="false" />
+            <element signature="e#3204#3205#0" expanded="false" />
+            <element signature="e#3233#3234#0" expanded="false" />
+            <element signature="e#3452#3453#0" expanded="false" />
+            <element signature="e#3480#3481#0" expanded="false" />
+            <element signature="e#3528#3529#0" expanded="false" />
+            <element signature="e#3555#3556#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="275" column="0" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35472#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6923#6924#0" expanded="false" />
+            <element signature="e#6966#6967#0" expanded="false" />
+            <element signature="e#8965#8966#0" expanded="false" />
+            <element signature="e#9039#9040#0" expanded="false" />
+            <element signature="e#22335#22336#0" expanded="false" />
+            <element signature="e#22379#22380#0" expanded="false" />
+            <element signature="e#24036#24037#0" expanded="false" />
+            <element signature="e#24072#24073#0" expanded="false" />
+            <element signature="e#24255#24256#0" expanded="false" />
+            <element signature="e#24293#24294#0" expanded="false" />
+            <element signature="e#24427#24428#0" expanded="false" />
+            <element signature="e#24463#24464#0" expanded="false" />
+            <element signature="e#24625#24626#0" expanded="false" />
+            <element signature="e#24674#24675#0" expanded="false" />
+            <element signature="e#24847#24848#0" expanded="false" />
+            <element signature="e#24899#24900#0" expanded="false" />
+            <element signature="e#25083#25084#0" expanded="false" />
+            <element signature="e#25139#25140#0" expanded="false" />
+            <element signature="e#25326#25327#0" expanded="false" />
+            <element signature="e#25385#25386#0" expanded="false" />
+            <element signature="e#27223#27224#0" expanded="false" />
+            <element signature="e#27259#27260#0" expanded="false" />
+            <element signature="e#28355#28356#0" expanded="false" />
+            <element signature="e#28389#28390#0" expanded="false" />
+            <element signature="e#28420#28421#0" expanded="false" />
+            <element signature="e#28448#28449#0" expanded="false" />
+            <element signature="e#28485#28486#0" expanded="false" />
+            <element signature="e#28516#28517#0" expanded="false" />
+            <element signature="e#28566#28567#0" expanded="false" />
+            <element signature="e#28606#28607#0" expanded="false" />
+            <element signature="e#28688#28689#0" expanded="false" />
+            <element signature="e#28735#28736#0" expanded="false" />
+            <element signature="e#28819#28820#0" expanded="false" />
+            <element signature="e#28867#28868#0" expanded="false" />
+            <element signature="e#28946#28947#0" expanded="false" />
+            <element signature="e#28989#28990#0" expanded="false" />
+            <element signature="e#29102#29103#0" expanded="false" />
+            <element signature="e#29129#29130#0" expanded="false" />
+            <element signature="e#32126#32127#0" expanded="false" />
+            <element signature="e#32159#32160#0" expanded="false" />
+            <element signature="e#32331#32332#0" expanded="false" />
+            <element signature="e#32383#32384#0" expanded="false" />
+            <element signature="e#35262#35263#0" expanded="false" />
+            <element signature="e#35295#35296#0" expanded="false" />
+            <element signature="e#35424#35425#0" expanded="false" />
+            <element signature="e#35468#35469#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/BaseGameActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2558#2559#0" expanded="false" />
+            <element signature="e#2602#2603#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="e#3359#3360#0" expanded="false" />
+            <element signature="e#3878#3879#0" expanded="false" />
+            <element signature="e#3936#3937#0" expanded="false" />
+            <element signature="e#4869#4870#0" expanded="false" />
+            <element signature="e#4920#4921#0" expanded="false" />
+            <element signature="e#4970#4971#0" expanded="false" />
+            <element signature="e#5013#5014#0" expanded="false" />
+            <element signature="e#5063#5064#0" expanded="false" />
+            <element signature="e#5106#5107#0" expanded="false" />
+            <element signature="e#5360#5361#0" expanded="false" />
+            <element signature="e#5405#5406#0" expanded="false" />
+            <element signature="e#5665#5666#0" expanded="false" />
+            <element signature="e#5698#5699#0" expanded="false" />
+            <element signature="e#5771#5772#0" expanded="false" />
+            <element signature="e#5826#5827#0" expanded="false" />
+            <element signature="e#5871#5872#0" expanded="false" />
+            <element signature="e#5912#5913#0" expanded="false" />
+            <element signature="e#5957#5958#0" expanded="false" />
+            <element signature="e#5998#5999#0" expanded="false" />
+            <element signature="e#6049#6050#0" expanded="false" />
+            <element signature="e#6093#6094#0" expanded="false" />
+            <element signature="e#6172#6173#0" expanded="false" />
+            <element signature="e#6213#6214#0" expanded="false" />
+            <element signature="e#6254#6255#0" expanded="false" />
+            <element signature="e#6293#6294#0" expanded="false" />
+            <element signature="e#6339#6340#0" expanded="false" />
+            <element signature="e#6382#6383#0" expanded="false" />
+            <element signature="e#6429#6430#0" expanded="false" />
+            <element signature="e#6473#6474#0" expanded="false" />
+            <element signature="e#6522#6523#0" expanded="false" />
+            <element signature="e#6568#6569#0" expanded="false" />
+            <element signature="e#6636#6637#0" expanded="false" />
+            <element signature="e#6687#6688#0" expanded="false" />
+            <element signature="e#6742#6743#0" expanded="false" />
+            <element signature="e#6787#6788#0" expanded="false" />
+            <element signature="e#6852#6853#0" expanded="false" />
+            <element signature="e#6898#6899#0" expanded="false" />
+            <element signature="e#7136#7137#0" expanded="false" />
+            <element signature="e#7165#7166#0" expanded="false" />
+            <element signature="e#7232#7233#0" expanded="false" />
+            <element signature="e#7273#7274#0" expanded="false" />
+            <element signature="e#7361#7362#0" expanded="false" />
+            <element signature="e#7413#7414#0" expanded="false" />
+            <element signature="e#7478#7479#0" expanded="false" />
+            <element signature="e#7519#7520#0" expanded="false" />
+            <element signature="e#7605#7606#0" expanded="false" />
+            <element signature="e#7655#7656#0" expanded="false" />
+            <element signature="e#7722#7723#0" expanded="false" />
+            <element signature="e#7765#7766#0" expanded="false" />
+            <element signature="e#7853#7854#0" expanded="false" />
+            <element signature="e#7907#7908#0" expanded="false" />
+            <element signature="e#7966#7967#0" expanded="false" />
+            <element signature="e#8011#8012#0" expanded="false" />
+            <element signature="e#8057#8058#0" expanded="false" />
+            <element signature="e#8101#8102#0" expanded="false" />
+            <element signature="e#8183#8184#0" expanded="false" />
+            <element signature="e#8237#8238#0" expanded="false" />
+            <element signature="e#8322#8323#0" expanded="false" />
+            <element signature="e#8379#8380#0" expanded="false" />
+            <element signature="e#8428#8429#0" expanded="false" />
+            <element signature="e#8471#8472#0" expanded="false" />
+            <element signature="e#8530#8531#0" expanded="false" />
+            <element signature="e#8575#8576#0" expanded="false" />
+            <element signature="e#8642#8643#0" expanded="false" />
+            <element signature="e#8695#8696#0" expanded="false" />
+            <element signature="e#8772#8773#0" expanded="false" />
+            <element signature="e#8826#8827#0" expanded="false" />
+            <element signature="e#8884#8885#0" expanded="false" />
+            <element signature="e#8937#8938#0" expanded="false" />
+            <element signature="e#8986#8987#0" expanded="false" />
+            <element signature="e#9029#9030#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="494">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -928,15 +1342,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/common/BasicGamePlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="456">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/common/MainScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -946,215 +1359,338 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/basics/HelloWorldActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/GameActivityWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="8455">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="e#0#17133#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3199#3200#0" expanded="false" />
+            <element signature="e#3239#3240#0" expanded="false" />
+            <element signature="e#4391#4392#0" expanded="false" />
+            <element signature="e#4436#4437#0" expanded="false" />
+            <element signature="e#7369#7370#0" expanded="false" />
+            <element signature="e#7414#7415#0" expanded="false" />
+            <element signature="e#7473#7474#0" expanded="false" />
+            <element signature="e#7520#7521#0" expanded="false" />
+            <element signature="e#11031#11032#0" expanded="false" />
+            <element signature="e#11062#11063#0" expanded="false" />
+            <element signature="e#11125#11126#0" expanded="false" />
+            <element signature="e#11153#11154#0" expanded="false" />
+            <element signature="e#11216#11217#0" expanded="false" />
+            <element signature="e#11244#11245#0" expanded="false" />
+            <element signature="e#11313#11314#0" expanded="false" />
+            <element signature="e#11344#11345#0" expanded="false" />
+            <element signature="e#11423#11424#0" expanded="false" />
+            <element signature="e#11451#11452#0" expanded="false" />
+            <element signature="e#11510#11511#0" expanded="false" />
+            <element signature="e#11536#11537#0" expanded="false" />
+            <element signature="e#11583#11584#0" expanded="false" />
+            <element signature="e#11638#11639#0" expanded="false" />
+            <element signature="e#11685#11686#0" expanded="false" />
+            <element signature="e#11778#11779#0" expanded="false" />
+            <element signature="e#11827#11828#0" expanded="false" />
+            <element signature="e#11884#11885#0" expanded="false" />
+            <element signature="e#12710#12711#0" expanded="false" />
+            <element signature="e#12759#12760#0" expanded="false" />
+            <element signature="e#13180#13181#0" expanded="false" />
+            <element signature="e#13241#13242#0" expanded="false" />
+            <element signature="e#13466#13467#0" expanded="false" />
+            <element signature="e#13528#13529#0" expanded="false" />
+            <element signature="e#13748#13749#0" expanded="false" />
+            <element signature="e#13788#13789#0" expanded="false" />
+            <element signature="e#13834#13835#0" expanded="false" />
+            <element signature="e#13865#13866#0" expanded="false" />
+            <element signature="e#14307#14308#0" expanded="false" />
+            <element signature="e#14338#14339#0" expanded="false" />
+            <element signature="e#14397#14398#0" expanded="false" />
+            <element signature="e#14429#14430#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14536#14537#0" expanded="false" />
+            <element signature="e#14602#14603#0" expanded="false" />
+            <element signature="e#14650#14651#0" expanded="false" />
+            <element signature="e#14712#14713#0" expanded="false" />
+            <element signature="e#14758#14759#0" expanded="false" />
+            <element signature="e#14835#14836#0" expanded="false" />
+            <element signature="e#14876#14877#0" expanded="false" />
+            <element signature="e#14934#14935#0" expanded="false" />
+            <element signature="e#14977#14978#0" expanded="false" />
+            <element signature="e#15038#15039#0" expanded="false" />
+            <element signature="e#15088#15089#0" expanded="false" />
+            <element signature="e#15137#15138#0" expanded="false" />
+            <element signature="e#15172#15173#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/BaseGameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="4389">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding>
-            <element signature="e#0#9033#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2558#2559#0" expanded="false" />
+            <element signature="e#2602#2603#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="e#3359#3360#0" expanded="false" />
+            <element signature="e#3878#3879#0" expanded="false" />
+            <element signature="e#3936#3937#0" expanded="false" />
+            <element signature="e#4869#4870#0" expanded="false" />
+            <element signature="e#4920#4921#0" expanded="false" />
+            <element signature="e#4970#4971#0" expanded="false" />
+            <element signature="e#5013#5014#0" expanded="false" />
+            <element signature="e#5063#5064#0" expanded="false" />
+            <element signature="e#5106#5107#0" expanded="false" />
+            <element signature="e#5360#5361#0" expanded="false" />
+            <element signature="e#5405#5406#0" expanded="false" />
+            <element signature="e#5665#5666#0" expanded="false" />
+            <element signature="e#5698#5699#0" expanded="false" />
+            <element signature="e#5771#5772#0" expanded="false" />
+            <element signature="e#5826#5827#0" expanded="false" />
+            <element signature="e#5871#5872#0" expanded="false" />
+            <element signature="e#5912#5913#0" expanded="false" />
+            <element signature="e#5957#5958#0" expanded="false" />
+            <element signature="e#5998#5999#0" expanded="false" />
+            <element signature="e#6049#6050#0" expanded="false" />
+            <element signature="e#6093#6094#0" expanded="false" />
+            <element signature="e#6172#6173#0" expanded="false" />
+            <element signature="e#6213#6214#0" expanded="false" />
+            <element signature="e#6254#6255#0" expanded="false" />
+            <element signature="e#6293#6294#0" expanded="false" />
+            <element signature="e#6339#6340#0" expanded="false" />
+            <element signature="e#6382#6383#0" expanded="false" />
+            <element signature="e#6429#6430#0" expanded="false" />
+            <element signature="e#6473#6474#0" expanded="false" />
+            <element signature="e#6522#6523#0" expanded="false" />
+            <element signature="e#6568#6569#0" expanded="false" />
+            <element signature="e#6636#6637#0" expanded="false" />
+            <element signature="e#6687#6688#0" expanded="false" />
+            <element signature="e#6742#6743#0" expanded="false" />
+            <element signature="e#6787#6788#0" expanded="false" />
+            <element signature="e#6852#6853#0" expanded="false" />
+            <element signature="e#6898#6899#0" expanded="false" />
+            <element signature="e#7136#7137#0" expanded="false" />
+            <element signature="e#7165#7166#0" expanded="false" />
+            <element signature="e#7232#7233#0" expanded="false" />
+            <element signature="e#7273#7274#0" expanded="false" />
+            <element signature="e#7361#7362#0" expanded="false" />
+            <element signature="e#7413#7414#0" expanded="false" />
+            <element signature="e#7478#7479#0" expanded="false" />
+            <element signature="e#7519#7520#0" expanded="false" />
+            <element signature="e#7605#7606#0" expanded="false" />
+            <element signature="e#7655#7656#0" expanded="false" />
+            <element signature="e#7722#7723#0" expanded="false" />
+            <element signature="e#7765#7766#0" expanded="false" />
+            <element signature="e#7853#7854#0" expanded="false" />
+            <element signature="e#7907#7908#0" expanded="false" />
+            <element signature="e#7966#7967#0" expanded="false" />
+            <element signature="e#8011#8012#0" expanded="false" />
+            <element signature="e#8057#8058#0" expanded="false" />
+            <element signature="e#8101#8102#0" expanded="false" />
+            <element signature="e#8183#8184#0" expanded="false" />
+            <element signature="e#8237#8238#0" expanded="false" />
+            <element signature="e#8322#8323#0" expanded="false" />
+            <element signature="e#8379#8380#0" expanded="false" />
+            <element signature="e#8428#8429#0" expanded="false" />
+            <element signature="e#8471#8472#0" expanded="false" />
+            <element signature="e#8530#8531#0" expanded="false" />
+            <element signature="e#8575#8576#0" expanded="false" />
+            <element signature="e#8642#8643#0" expanded="false" />
+            <element signature="e#8695#8696#0" expanded="false" />
+            <element signature="e#8772#8773#0" expanded="false" />
+            <element signature="e#8826#8827#0" expanded="false" />
+            <element signature="e#8884#8885#0" expanded="false" />
+            <element signature="e#8937#8938#0" expanded="false" />
+            <element signature="e#8986#8987#0" expanded="false" />
+            <element signature="e#9029#9030#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/GameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="342">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1129#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/utils/QuickSelect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/utils/ReflectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/utils/Scaling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/utils/ScreenUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/utils/Select.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/utils/StreamUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="46" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/graphics/BitmapFont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="352" column="33" selection-start-line="352" selection-start-column="33" selection-end-line="352" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96291864" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="-0.96291864">
           <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/drawable/Drawable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/Label.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/ChildWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Screen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="236" column="26" selection-start-line="236" selection-start-column="26" selection-end-line="236" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/utils/collections/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/camera/viewports/FitViewport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/camera/viewports/Viewport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="311" column="16" selection-start-line="311" selection-start-column="16" selection-end-line="311" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/camera/viewports/ScalingViewport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6233293" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.6233293">
           <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="340" column="30" selection-start-line="340" selection-start-column="30" selection-end-line="340" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.188433" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="-2.188433">
           <caret line="635" column="16" selection-start-line="635" selection-start-column="16" selection-end-line="635" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/GameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1129#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/basics/HelloWorldActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -1162,15 +1698,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/common/BasicGamePlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/common/MainScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1180,23 +1715,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proguard_logs/seeds.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.114349775" vertical-offset="0" max-vertical-offset="15402">
+        <state vertical-scroll-proportion="0.114349775">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3332" max-vertical-offset="4709">
+        <state vertical-scroll-proportion="0.0">
           <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Net.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6427" max-vertical-offset="6902">
+        <state vertical-scroll-proportion="0.0">
           <caret line="439" column="0" selection-start-line="439" selection-start-column="0" selection-end-line="439" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1206,71 +1739,297 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/BaseGameActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2307" max-vertical-offset="3893">
+        <state vertical-scroll-proportion="0.0">
           <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9033#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2558#2559#0" expanded="false" />
+            <element signature="e#2602#2603#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="e#3359#3360#0" expanded="false" />
+            <element signature="e#3878#3879#0" expanded="false" />
+            <element signature="e#3936#3937#0" expanded="false" />
+            <element signature="e#4869#4870#0" expanded="false" />
+            <element signature="e#4920#4921#0" expanded="false" />
+            <element signature="e#4970#4971#0" expanded="false" />
+            <element signature="e#5013#5014#0" expanded="false" />
+            <element signature="e#5063#5064#0" expanded="false" />
+            <element signature="e#5106#5107#0" expanded="false" />
+            <element signature="e#5360#5361#0" expanded="false" />
+            <element signature="e#5405#5406#0" expanded="false" />
+            <element signature="e#5665#5666#0" expanded="false" />
+            <element signature="e#5698#5699#0" expanded="false" />
+            <element signature="e#5771#5772#0" expanded="false" />
+            <element signature="e#5826#5827#0" expanded="false" />
+            <element signature="e#5871#5872#0" expanded="false" />
+            <element signature="e#5912#5913#0" expanded="false" />
+            <element signature="e#5957#5958#0" expanded="false" />
+            <element signature="e#5998#5999#0" expanded="false" />
+            <element signature="e#6049#6050#0" expanded="false" />
+            <element signature="e#6093#6094#0" expanded="false" />
+            <element signature="e#6172#6173#0" expanded="false" />
+            <element signature="e#6213#6214#0" expanded="false" />
+            <element signature="e#6254#6255#0" expanded="false" />
+            <element signature="e#6293#6294#0" expanded="false" />
+            <element signature="e#6339#6340#0" expanded="false" />
+            <element signature="e#6382#6383#0" expanded="false" />
+            <element signature="e#6429#6430#0" expanded="false" />
+            <element signature="e#6473#6474#0" expanded="false" />
+            <element signature="e#6522#6523#0" expanded="false" />
+            <element signature="e#6568#6569#0" expanded="false" />
+            <element signature="e#6636#6637#0" expanded="false" />
+            <element signature="e#6687#6688#0" expanded="false" />
+            <element signature="e#6742#6743#0" expanded="false" />
+            <element signature="e#6787#6788#0" expanded="false" />
+            <element signature="e#6852#6853#0" expanded="false" />
+            <element signature="e#6898#6899#0" expanded="false" />
+            <element signature="e#7136#7137#0" expanded="false" />
+            <element signature="e#7165#7166#0" expanded="false" />
+            <element signature="e#7232#7233#0" expanded="false" />
+            <element signature="e#7273#7274#0" expanded="false" />
+            <element signature="e#7361#7362#0" expanded="false" />
+            <element signature="e#7413#7414#0" expanded="false" />
+            <element signature="e#7478#7479#0" expanded="false" />
+            <element signature="e#7519#7520#0" expanded="false" />
+            <element signature="e#7605#7606#0" expanded="false" />
+            <element signature="e#7655#7656#0" expanded="false" />
+            <element signature="e#7722#7723#0" expanded="false" />
+            <element signature="e#7765#7766#0" expanded="false" />
+            <element signature="e#7853#7854#0" expanded="false" />
+            <element signature="e#7907#7908#0" expanded="false" />
+            <element signature="e#7966#7967#0" expanded="false" />
+            <element signature="e#8011#8012#0" expanded="false" />
+            <element signature="e#8057#8058#0" expanded="false" />
+            <element signature="e#8101#8102#0" expanded="false" />
+            <element signature="e#8183#8184#0" expanded="false" />
+            <element signature="e#8237#8238#0" expanded="false" />
+            <element signature="e#8322#8323#0" expanded="false" />
+            <element signature="e#8379#8380#0" expanded="false" />
+            <element signature="e#8428#8429#0" expanded="false" />
+            <element signature="e#8471#8472#0" expanded="false" />
+            <element signature="e#8530#8531#0" expanded="false" />
+            <element signature="e#8575#8576#0" expanded="false" />
+            <element signature="e#8642#8643#0" expanded="false" />
+            <element signature="e#8695#8696#0" expanded="false" />
+            <element signature="e#8772#8773#0" expanded="false" />
+            <element signature="e#8826#8827#0" expanded="false" />
+            <element signature="e#8884#8885#0" expanded="false" />
+            <element signature="e#8937#8938#0" expanded="false" />
+            <element signature="e#8986#8987#0" expanded="false" />
+            <element signature="e#9029#9030#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/activity/GameActivityWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4062" max-vertical-offset="7497">
+        <state vertical-scroll-proportion="0.0">
           <caret line="303" column="13" selection-start-line="303" selection-start-column="13" selection-end-line="303" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#0#17133#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3199#3200#0" expanded="false" />
+            <element signature="e#3239#3240#0" expanded="false" />
+            <element signature="e#4391#4392#0" expanded="false" />
+            <element signature="e#4436#4437#0" expanded="false" />
+            <element signature="e#7369#7370#0" expanded="false" />
+            <element signature="e#7414#7415#0" expanded="false" />
+            <element signature="e#7473#7474#0" expanded="false" />
+            <element signature="e#7520#7521#0" expanded="false" />
+            <element signature="e#11031#11032#0" expanded="false" />
+            <element signature="e#11062#11063#0" expanded="false" />
+            <element signature="e#11125#11126#0" expanded="false" />
+            <element signature="e#11153#11154#0" expanded="false" />
+            <element signature="e#11216#11217#0" expanded="false" />
+            <element signature="e#11244#11245#0" expanded="false" />
+            <element signature="e#11313#11314#0" expanded="false" />
+            <element signature="e#11344#11345#0" expanded="false" />
+            <element signature="e#11423#11424#0" expanded="false" />
+            <element signature="e#11451#11452#0" expanded="false" />
+            <element signature="e#11510#11511#0" expanded="false" />
+            <element signature="e#11536#11537#0" expanded="false" />
+            <element signature="e#11583#11584#0" expanded="false" />
+            <element signature="e#11638#11639#0" expanded="false" />
+            <element signature="e#11685#11686#0" expanded="false" />
+            <element signature="e#11778#11779#0" expanded="false" />
+            <element signature="e#11827#11828#0" expanded="false" />
+            <element signature="e#11884#11885#0" expanded="false" />
+            <element signature="e#12710#12711#0" expanded="false" />
+            <element signature="e#12759#12760#0" expanded="false" />
+            <element signature="e#13180#13181#0" expanded="false" />
+            <element signature="e#13241#13242#0" expanded="false" />
+            <element signature="e#13466#13467#0" expanded="false" />
+            <element signature="e#13528#13529#0" expanded="false" />
+            <element signature="e#13748#13749#0" expanded="false" />
+            <element signature="e#13788#13789#0" expanded="false" />
+            <element signature="e#13834#13835#0" expanded="false" />
+            <element signature="e#13865#13866#0" expanded="false" />
+            <element signature="e#14307#14308#0" expanded="false" />
+            <element signature="e#14338#14339#0" expanded="false" />
+            <element signature="e#14397#14398#0" expanded="false" />
+            <element signature="e#14429#14430#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14536#14537#0" expanded="false" />
+            <element signature="e#14602#14603#0" expanded="false" />
+            <element signature="e#14650#14651#0" expanded="false" />
+            <element signature="e#14712#14713#0" expanded="false" />
+            <element signature="e#14758#14759#0" expanded="false" />
+            <element signature="e#14835#14836#0" expanded="false" />
+            <element signature="e#14876#14877#0" expanded="false" />
+            <element signature="e#14934#14935#0" expanded="false" />
+            <element signature="e#14977#14978#0" expanded="false" />
+            <element signature="e#15038#15039#0" expanded="false" />
+            <element signature="e#15088#15089#0" expanded="false" />
+            <element signature="e#15137#15138#0" expanded="false" />
+            <element signature="e#15172#15173#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatFrameBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="782">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#2507#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
+            <element signature="e#2022#2023#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/FloatTextureData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="658" max-vertical-offset="1411">
+        <state vertical-scroll-proportion="0.0">
           <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#3559#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1777#1778#0" expanded="false" />
+            <element signature="e#1822#1823#0" expanded="false" />
+            <element signature="e#1871#1872#0" expanded="false" />
+            <element signature="e#1904#1905#0" expanded="false" />
+            <element signature="e#3132#3133#0" expanded="false" />
+            <element signature="e#3160#3161#0" expanded="false" />
+            <element signature="e#3204#3205#0" expanded="false" />
+            <element signature="e#3233#3234#0" expanded="false" />
+            <element signature="e#3452#3453#0" expanded="false" />
+            <element signature="e#3480#3481#0" expanded="false" />
+            <element signature="e#3528#3529#0" expanded="false" />
+            <element signature="e#3555#3556#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3739" max-vertical-offset="15623">
+        <state vertical-scroll-proportion="0.0">
           <caret line="275" column="0" selection-start-line="275" selection-start-column="0" selection-end-line="275" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#35472#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6923#6924#0" expanded="false" />
+            <element signature="e#6966#6967#0" expanded="false" />
+            <element signature="e#8965#8966#0" expanded="false" />
+            <element signature="e#9039#9040#0" expanded="false" />
+            <element signature="e#22335#22336#0" expanded="false" />
+            <element signature="e#22379#22380#0" expanded="false" />
+            <element signature="e#24036#24037#0" expanded="false" />
+            <element signature="e#24072#24073#0" expanded="false" />
+            <element signature="e#24255#24256#0" expanded="false" />
+            <element signature="e#24293#24294#0" expanded="false" />
+            <element signature="e#24427#24428#0" expanded="false" />
+            <element signature="e#24463#24464#0" expanded="false" />
+            <element signature="e#24625#24626#0" expanded="false" />
+            <element signature="e#24674#24675#0" expanded="false" />
+            <element signature="e#24847#24848#0" expanded="false" />
+            <element signature="e#24899#24900#0" expanded="false" />
+            <element signature="e#25083#25084#0" expanded="false" />
+            <element signature="e#25139#25140#0" expanded="false" />
+            <element signature="e#25326#25327#0" expanded="false" />
+            <element signature="e#25385#25386#0" expanded="false" />
+            <element signature="e#27223#27224#0" expanded="false" />
+            <element signature="e#27259#27260#0" expanded="false" />
+            <element signature="e#28355#28356#0" expanded="false" />
+            <element signature="e#28389#28390#0" expanded="false" />
+            <element signature="e#28420#28421#0" expanded="false" />
+            <element signature="e#28448#28449#0" expanded="false" />
+            <element signature="e#28485#28486#0" expanded="false" />
+            <element signature="e#28516#28517#0" expanded="false" />
+            <element signature="e#28566#28567#0" expanded="false" />
+            <element signature="e#28606#28607#0" expanded="false" />
+            <element signature="e#28688#28689#0" expanded="false" />
+            <element signature="e#28735#28736#0" expanded="false" />
+            <element signature="e#28819#28820#0" expanded="false" />
+            <element signature="e#28867#28868#0" expanded="false" />
+            <element signature="e#28946#28947#0" expanded="false" />
+            <element signature="e#28989#28990#0" expanded="false" />
+            <element signature="e#29102#29103#0" expanded="false" />
+            <element signature="e#29129#29130#0" expanded="false" />
+            <element signature="e#32126#32127#0" expanded="false" />
+            <element signature="e#32159#32160#0" expanded="false" />
+            <element signature="e#32331#32332#0" expanded="false" />
+            <element signature="e#32383#32384#0" expanded="false" />
+            <element signature="e#35262#35263#0" expanded="false" />
+            <element signature="e#35295#35296#0" expanded="false" />
+            <element signature="e#35424#35425#0" expanded="false" />
+            <element signature="e#35468#35469#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/opengles/MipMapGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1853">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#5238#0" expanded="false" />
+            <element signature="e#1503#1504#0" expanded="false" />
+            <element signature="e#1560#1561#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/graphics/FrameBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1933" max-vertical-offset="5763">
+        <state vertical-scroll-proportion="0.0">
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32380953">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5010526" vertical-offset="0" max-vertical-offset="475">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/platform/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24806201">
+          <caret line="497" column="4" selection-start-line="497" selection-start-column="4" selection-end-line="497" selection-end-column="4" />
+          <folding>
+            <element signature="e#17338#17339#0" expanded="true" />
+            <element signature="e#17364#17365#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
