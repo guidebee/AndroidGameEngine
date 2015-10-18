@@ -70,17 +70,8 @@ public class FloatTextureData implements TextureData {
 
         // GLES and WebGL defines texture format by 3rd and 8th argument,
         // so to get a float texture one needs to supply GL_RGBA and GL_FLOAT there.
-        if (GameEngine.app.getType() == Application.ApplicationType.Android
-                || GameEngine.app.getType() == Application.ApplicationType.iOS
-                || GameEngine.app.getType() == Application.ApplicationType.WebGL) {
-            GameEngine.gl.glTexImage2D(target, 0, IGL20.GL_RGBA, width, height,
-                    0, IGL20.GL_RGBA, IGL20.GL_FLOAT, buffer);
-        } else {
-            // in desktop OpenGL the texture format is defined only by the third argument,
-            // hence we need to use GL_RGBA32F there (this constant is unavailable in GLES/WebGL)
-            GameEngine.gl.glTexImage2D(target, 0, GL_RGBA32F, width, height,
-                    0, IGL20.GL_RGBA, IGL20.GL_FLOAT, buffer);
-        }
+        GameEngine.gl.glTexImage2D(target, 0, IGL20.GL_RGBA, width, height,
+                0, IGL20.GL_RGBA, IGL20.GL_FLOAT, buffer);
     }
 
     @Override

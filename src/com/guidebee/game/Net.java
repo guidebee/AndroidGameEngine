@@ -18,7 +18,6 @@ package com.guidebee.game;
 
 //--------------------------------- IMPORTS ------------------------------------
 
-import com.guidebee.game.Application.ApplicationType;
 import com.guidebee.game.net.*;
 
 import java.io.InputStream;
@@ -434,24 +433,7 @@ public interface Net {
             return followRedirects;
         }
 
-        /**
-         * Sets whether 301 and 302 redirects are followed. By default true.
-         * Can't be changed in the GWT backend because this uses XmlHttpRequests which always redirect.
-         *
-         * @param followRedirects whether to follow redirects.
-         * @throws IllegalArgumentException if redirection is disabled on the GWT backend.
-         */
-        public void setFollowRedirects(boolean followRedirects)
-                throws IllegalArgumentException {
-            if (followRedirects == true
-                    || GameEngine.app.getType() != ApplicationType.WebGL) {
-                this.followRedirects = followRedirects;
-            } else {
-                throw
-                        new IllegalArgumentException(
-                                "Following redirects can't be disabled using the GWT/WebGL backend!");
-            }
-        }
+
 
     }
 }

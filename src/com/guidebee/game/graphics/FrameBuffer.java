@@ -144,17 +144,10 @@ public class FrameBuffer implements Disposable {
     private void build() {
         IGL20 gl = GameEngine.gl20;
 
-        // iOS uses a different framebuffer handle! (not necessarily 0)
+
         if (!defaultFramebufferHandleInitialized) {
             defaultFramebufferHandleInitialized = true;
-            if (GameEngine.app.getType() == Application.ApplicationType.iOS) {
-                IntBuffer intbuf = ByteBuffer.allocateDirect(16 * Integer.SIZE / 8)
-                        .order(ByteOrder.nativeOrder()).asIntBuffer();
-                gl.glGetIntegerv(IGL20.GL_FRAMEBUFFER_BINDING, intbuf);
-                defaultFramebufferHandle = intbuf.get(0);
-            } else {
-                defaultFramebufferHandle = 0;
-            }
+            defaultFramebufferHandle = 0;
         }
 
         setupTexture();

@@ -299,10 +299,7 @@ public class GameActivityWrapper implements BaseActivity {
         return net;
     }
 
-    @Override
-    public ApplicationType getType() {
-        return ApplicationType.Android;
-    }
+
 
     @Override
     public int getVersion() {

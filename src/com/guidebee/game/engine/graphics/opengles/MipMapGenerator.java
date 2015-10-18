@@ -17,7 +17,7 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.Application.ApplicationType;
+
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.Pixmap.Blending;
@@ -63,13 +63,7 @@ public class MipMapGenerator {
             return;
         }
 
-        if (GameEngine.app.getType() == ApplicationType.Android
-                || GameEngine.app.getType() == ApplicationType.WebGL
-                || GameEngine.app.getType() == ApplicationType.iOS) {
-            generateMipMapGLES20(target, pixmap);
-        } else {
-            generateMipMapDesktop(target, pixmap, textureWidth, textureHeight);
-        }
+        generateMipMapGLES20(target, pixmap);
     }
 
     private static void generateMipMapGLES20(int target, Pixmap pixmap) {

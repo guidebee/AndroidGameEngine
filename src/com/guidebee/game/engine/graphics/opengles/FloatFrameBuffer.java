@@ -17,7 +17,6 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.Application.ApplicationType;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.graphics.FrameBuffer;
 import com.guidebee.game.graphics.Texture;
@@ -51,12 +50,8 @@ public class FloatFrameBuffer extends FrameBuffer {
     protected void setupTexture() {
         FloatTextureData data = new FloatTextureData(width, height);
         colorTexture = new Texture(data);
-        if (GameEngine.app.getType() == ApplicationType.Desktop
-                || GameEngine.app.getType() == ApplicationType.Applet)
-            colorTexture.setFilter(TextureFilter.Linear, TextureFilter.Linear);
-        else
-            // no filtering for float textures in OpenGL ES
-            colorTexture.setFilter(TextureFilter.Nearest, TextureFilter.Nearest);
+        // no filtering for float textures in OpenGL ES
+        colorTexture.setFilter(TextureFilter.Nearest, TextureFilter.Nearest);
         colorTexture.setWrap(TextureWrap.ClampToEdge, TextureWrap.ClampToEdge);
     }
 }

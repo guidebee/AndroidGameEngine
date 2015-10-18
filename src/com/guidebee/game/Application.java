@@ -114,19 +114,6 @@ import com.guidebee.utils.Clipboard;
  */
 public interface Application {
 
-    /**
-     * Enumeration of possible {@link Application} types
-     *
-     * @author mzechner
-     */
-    public enum ApplicationType {
-        Android,
-        Desktop,
-        HeadlessDesktop,
-        Applet,
-        WebGL,
-        iOS
-    }
 
     /**
      * no logging
@@ -230,12 +217,6 @@ public interface Application {
      */
     public int getLogLevel();
 
-    /**
-     * return application type.
-     * @return what {@link ApplicationType} this application has, e.g.
-     * Android or Desktop
-     */
-    public ApplicationType getType();
 
     /**
      * Get the Android API level on Android.

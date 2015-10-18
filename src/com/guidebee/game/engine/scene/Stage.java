@@ -270,12 +270,6 @@ public class Stage extends InputAdapter implements Disposable {
             pointerOverActors[pointer] = fireEnterAndExit(overLast, pointerScreenX[pointer],
                     pointerScreenY[pointer], pointer);
         }
-        // Update over actor for the mouse on the desktop.
-        Application.ApplicationType type = GameEngine.app.getType();
-        if (type == Application.ApplicationType.Desktop
-                || type == Application.ApplicationType.Applet
-                || type == Application.ApplicationType.WebGL)
-            mouseOverActor = fireEnterAndExit(mouseOverActor, mouseScreenX, mouseScreenY, -1);
 
         root.act(delta);
     }
