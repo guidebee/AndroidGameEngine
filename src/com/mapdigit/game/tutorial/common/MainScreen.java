@@ -11,6 +11,6 @@ public class MainScreen extends ScreenAdapter{
 
     @Override
     public void render(float delta){
-        graphics.clearScreen(0, 0, 1.0f, 1);
+        graphics.clearScreen(0, 0, 0.2f, 1);
     }
 }
