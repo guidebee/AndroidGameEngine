@@ -17,11 +17,8 @@
 package com.guidebee.game;
 
 //--------------------------------- IMPORTS ------------------------------------
-
-import com.guidebee.game.engine.graphics.Mesh;
-import com.guidebee.game.engine.graphics.opengles.*;
-import com.guidebee.game.graphics.BitmapFont;
-import com.guidebee.game.graphics.FrameBuffer;
+import com.guidebee.game.engine.graphics.opengles.IGL20;
+import com.guidebee.game.engine.graphics.opengles.IGL30;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 
@@ -51,31 +48,31 @@ public interface Graphics {
      *
      * @return whether OpenGL ES 3.0 is available
      */
-    public boolean isGL30Available();
+    boolean isGL30Available();
 
     /**
      * Get  the IGL20 instance
      * @return the IGL20 instance
      */
-    public IGL20 getGL20();
+    IGL20 getGL20();
 
     /**
      * get the IGL30 instance or null if not supported
      * @return the IGL30 instance or null if not supported
      */
-    public IGL30 getGL30();
+    IGL30 getGL30();
 
     /**
      * get the width in pixels of the display surface
      * @return the width in pixels of the display surface
      */
-    public int getWidth();
+    int getWidth();
 
     /**
      * get the height in pixels of the display surface
      * @return the height in pixels of the display surface
      */
-    public int getHeight();
+    int getHeight();
 
     /**
      * get the time span between the current frame and the last
@@ -83,7 +80,7 @@ public interface Graphics {
      * @return the time span between the current frame and the last
      * frame in seconds. Might be smoothed over n frames.
      */
-    public float getDeltaTime();
+    float getDeltaTime();
 
     /**
      * get the time span between the current frame and the last
@@ -91,38 +88,38 @@ public interface Graphics {
      * @return the time span between the current frame and the last
      * frame in seconds, without smoothing.
      */
-    public float getRawDeltaTime();
+    float getRawDeltaTime();
 
     /**
      * get the average number of frames per second.
      * @return the average number of frames per second
      */
-    public int getFramesPerSecond();
+    int getFramesPerSecond();
 
 
     /**
      * get the pixels per inch on the x-axis.
      * @return the pixels per inch on the x-axis
      */
-    public float getPpiX();
+    float getPpiX();
 
     /**
      * get the pixels per inch on the y-axis
      * @return the pixels per inch on the y-axis
      */
-    public float getPpiY();
+    float getPpiY();
 
     /**
      * get the pixels per centimeter on the x-axis.
      * @return the pixels per centimeter on the x-axis
      */
-    public float getPpcX();
+    float getPpcX();
 
     /**
      * get the pixels per centimeter on the y-axis.
      * @return the pixels per centimeter on the y-axis.
      */
-    public float getPpcY();
+    float getPpcY();
 
     /**
      * This is a scaling factor for the Density Independent Pixel unit,
@@ -133,7 +130,7 @@ public interface Graphics {
      *
      * @return the logical density of the Display.
      */
-    public float getDensity();
+    float getDensity();
 
     /**
      * Whether the given backend supports a display mode change via
@@ -141,19 +138,19 @@ public interface Graphics {
      *
      * @return whether display mode changes are supported or not.
      */
-    public boolean supportsDisplayModeChange();
+    boolean supportsDisplayModeChange();
 
     /**
      * Get supported display mode.
      * @return the supported fullscreen {@link DisplayMode}(s).
      */
-    public DisplayMode[] getDisplayModes();
+    DisplayMode[] getDisplayModes();
 
     /**
      * get the display mode of the primary graphics adapter.
      * @return the display mode of the primary graphics adapter.
      */
-    public DisplayMode getDesktopDisplayMode();
+    DisplayMode getDesktopDisplayMode();
 
     /**
      * Sets the current {@link DisplayMode}. Returns false in case the operation
@@ -163,7 +160,7 @@ public interface Graphics {
      * @param displayMode the display mode.
      * @return whether the operation succeeded.
      */
-    public boolean setDisplayMode(DisplayMode displayMode);
+    boolean setDisplayMode(DisplayMode displayMode);
 
     /**
      * Tries to set the display mode width the given width and height in pixels.
@@ -176,14 +173,14 @@ public interface Graphics {
      * @param height     the height in pixels
      * @param fullscreen whether to use fullscreen rendering or not
      */
-    public boolean setDisplayMode(int width, int height, boolean fullscreen);
+    boolean setDisplayMode(int width, int height, boolean fullscreen);
 
     /**
      * Sets the title of the window. Ignored on Android.
      *
      * @param title the title.
      */
-    public void setTitle(String title);
+    void setTitle(String title);
 
     /**
      * Enable/Disable vsynching. This is a best-effort attempt which might
@@ -191,27 +188,27 @@ public interface Graphics {
      *
      * @param vsync vsync enabled or not.
      */
-    public void setVSync(boolean vsync);
+    void setVSync(boolean vsync);
 
     /**
      * Get buffer format.
      * @return the format of the color, depth and stencil buffer in a
      * {@link BufferFormat} instance
      */
-    public BufferFormat getBufferFormat();
+    BufferFormat getBufferFormat();
 
     /**
      * check  whether the extension is supported.
      * @param extension the extension name
      * @return whether the extension is supported
      */
-    public boolean supportsExtension(String extension);
+    boolean supportsExtension(String extension);
 
     /**
      * check whether rendering is continuous.
      * @return whether rendering is continuous.
      */
-    public boolean isContinuousRendering();
+    boolean isContinuousRendering();
 
     /**
      * Sets whether to render continuously. In case rendering is performed
@@ -231,24 +228,24 @@ public interface Graphics {
      *
      * @param isContinuous whether the rendering should be continuous or not.
      */
-    public void setContinuousRendering(boolean isContinuous);
+    void setContinuousRendering(boolean isContinuous);
 
     /**
      * Requests a new frame to be rendered if the rendering mode is non-continuous.
      * This method can be called from any thread.
      */
-    public void requestRendering();
+    void requestRendering();
 
     /**
      * Whether the app is fullscreen or not
      */
-    public boolean isFullscreen();
+    boolean isFullscreen();
 
 
     /**
      * Clear screen with given color
      */
-    public void clearScreen(float red, float green, float blue, float alpha);
+    void clearScreen(float red, float green, float blue, float alpha);
 
 
 
@@ -257,7 +254,7 @@ public interface Graphics {
      *
      * @author mzechner
      */
-    public class DisplayMode {
+    class DisplayMode {
         public final int width;
         public final int height;
         public final int refreshRate;
@@ -281,7 +278,7 @@ public interface Graphics {
      * Class describing the bits per pixel, depth buffer precision,
      * stencil precision and number of MSAA samples.
      */
-    public static class BufferFormat {
+    class BufferFormat {
         /* number of bits per color channel */
         public final int r, g, b, a;
         /* number of bits for depth and stencil buffer */
