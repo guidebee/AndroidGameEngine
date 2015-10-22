@@ -6,3 +6,4 @@ obj
 out
 proguard_logs
 project.properties
+.idea
