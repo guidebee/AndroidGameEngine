@@ -122,6 +122,7 @@ public class TextureRegion {
     }
 
     public void setRegion(float u, float v, float u2, float v2) {
+
         int texWidth = texture.getWidth(), texHeight = texture.getHeight();
         regionWidth = Math.round(Math.abs(u2 - u) * texWidth);
         regionHeight = Math.round(Math.abs(v2 - v) * texHeight);
@@ -141,6 +142,7 @@ public class TextureRegion {
         this.v = v;
         this.u2 = u2;
         this.v2 = v2;
+        flip(false,true);
     }
 
     /**

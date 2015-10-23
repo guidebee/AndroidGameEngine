@@ -2,6 +2,7 @@ package com.mapdigit.game.tutorial.basics;
 
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.graphics.Batch;
+import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.scene.Actor;
 import com.guidebee.utils.Disposable;
 
@@ -11,6 +12,12 @@ import com.guidebee.utils.Disposable;
 public class HelloWorldActor extends Actor implements Disposable {
 
     private Colors colors=new Colors();
+    private TextureRegion textureRegion;
+
+    public HelloWorldActor(){
+        textureRegion=new TextureRegion(colors.getTexture());
+
+    }
 
     @Override
     public void draw(Batch batch,float alpha){
@@ -19,7 +26,7 @@ public class HelloWorldActor extends Actor implements Disposable {
 
         for(int i=0;i<=screenWidth/200;i++){
             for(int j=0;j<=screenHeight/200;j++){
-                batch.draw(colors.getTexture(),i*200,j*200);
+                batch.draw(textureRegion,i*200,j*200);
             }
         }
 
@@ -28,6 +35,7 @@ public class HelloWorldActor extends Actor implements Disposable {
     @Override
     public void dispose() {
         colors.dispose();
+
     }
 }
 

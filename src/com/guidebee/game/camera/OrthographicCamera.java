@@ -38,6 +38,7 @@ public class OrthographicCamera extends Camera {
 
     public OrthographicCamera() {
         this.near = 0;
+        setToOrtho(true);
     }
 
     /**
@@ -55,6 +56,7 @@ public class OrthographicCamera extends Camera {
         this.viewportWidth = viewportWidth;
         this.viewportHeight = viewportHeight;
         this.near = 0;
+        setToOrtho(true);
         update();
     }
 
