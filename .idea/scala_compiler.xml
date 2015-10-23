@@ -1,7 +1,0 @@
-<project version="4">
-  <component name="ScalaCompilerConfiguration">
-    <plugins>
-      <plugin path="C:\ScalaHome\scala-2.10.2\misc\scala-devel\plugins\continuations.jar"/>
-    </plugins>
-  </component>
-</project>
