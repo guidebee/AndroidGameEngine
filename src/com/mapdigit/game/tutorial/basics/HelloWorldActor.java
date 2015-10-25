@@ -23,12 +23,12 @@ public class HelloWorldActor extends Actor implements Disposable {
     public void draw(Batch batch,float alpha){
         int screenWidth= GameEngine.graphics.getWidth();
         int screenHeight =GameEngine.graphics.getHeight();
-
-        for(int i=0;i<=screenWidth/200;i++){
-            for(int j=0;j<=screenHeight/200;j++){
+        int i=0;int j=0;
+        //for(int i=0;i<=screenWidth/200;i++){
+           // for(int j=0;j<=screenHeight/200;j++){
                 batch.draw(textureRegion,i*200,j*200);
-            }
-        }
+           // }
+       // }
 
     }
 

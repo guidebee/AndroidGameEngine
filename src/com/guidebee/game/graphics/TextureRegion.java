@@ -142,7 +142,6 @@ public class TextureRegion {
         this.v = v;
         this.u2 = u2;
         this.v2 = v2;
-        flip(false,true);
     }
 
     /**
