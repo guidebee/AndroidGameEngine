@@ -3,8 +3,6 @@ package com.mapdigit.game.tutorial.drop;
 import com.guidebee.game.audio.Music;
 import com.guidebee.game.camera.viewports.*;
 import com.guidebee.game.scene.Scene;
-import com.mapdigit.game.tutorial.basics.Colors;
-import com.mapdigit.game.tutorial.basics.HelloWorldActor;
 import com.mapdigit.game.tutorial.drop.actor.Bucket;
 import com.mapdigit.game.tutorial.drop.actor.RainDropGroup;
 
@@ -16,14 +14,13 @@ public class DropScene extends Scene {
     private Music rainMusic = assetManager.get("rain.mp3", Music.class);
     private Bucket bucket = new Bucket();
     private RainDropGroup rainDropGroup = new RainDropGroup();
-    private HelloWorldActor colors=new HelloWorldActor();
+
 
     public DropScene() {
         super(new ScalingViewport(800,480));
         rainMusic.setLooping(true);
         sceneStage.addActor(bucket);
         sceneStage.addActor(rainDropGroup);
-        sceneStage.addActor(colors);
         sceneStage.setCollisionListener(rainDropGroup);
 
     }
