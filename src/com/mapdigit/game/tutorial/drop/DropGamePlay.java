@@ -18,7 +18,7 @@ public class DropGamePlay extends GamePlay{
         assetManager.load("rain.mp3",Music.class);
         assetManager.finishLoading();
 
-        DropScreen screen=new DropScreen();
+        DropScene screen=new DropScene();
         setScreen(screen);
     }
 
