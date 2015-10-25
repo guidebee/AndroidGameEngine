@@ -23,6 +23,7 @@ import com.guidebee.game.Collidable;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.engine.graphics.opengles.ShapeRenderer;
 import com.guidebee.game.entity.EntityEngine;
+import com.guidebee.game.graphics.*;
 import com.guidebee.game.scene.actions.TweenAction;
 import com.guidebee.math.geometry.Circle;
 import com.guidebee.math.geometry.Polygon;
@@ -31,14 +32,9 @@ import com.guidebee.utils.collections.Array;
 import com.guidebee.game.entity.DataTrait;
 import com.guidebee.game.entity.Entity;
 import com.guidebee.game.entity.utils.ImmutableArray;
-import com.guidebee.game.graphics.Batch;
-import com.guidebee.game.graphics.Color;
-import com.guidebee.game.graphics.Sprite;
-import com.guidebee.game.graphics.Texture;
 import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.math.Vector2;
 import com.guidebee.game.scene.actions.Action;
-import com.guidebee.game.scene.datatrait.ActorDataTrait;
 
 /**
  * Internal Actor act as a bridge to engine.sence.Actor.
@@ -1111,6 +1107,10 @@ public class Actor implements Collidable {
 
     }
 
+    public void setTextureRegion(TextureRegion textureRegion){
+        setSprite(new Sprite(textureRegion));
+    }
+
     public void setTexture(Texture texture) {
         setSprite(new Sprite(texture));
     }
@@ -1237,5 +1237,50 @@ public class Actor implements Collidable {
        boundingCircle.setPosition(getCenterX(),getCenterY());
        boundingCircle.setRadius(Math.min(getWidth()/2,getHeight()/2));
        return boundingCircle;
+    }
+
+    /**
+     * Datatrait for actors.
+     */
+    public static class ActorDataTrait extends DataTrait {
+        /**
+         * Color of the sprite
+         */
+        public Color color;
+
+        public float centerX;
+
+        public float centerY;
+
+        public Rectangle boundingRect;
+
+        public float originX;
+
+        public float originY;
+
+        public float x;
+
+        public float y;
+
+        public float width;
+
+        public float height;
+
+        public float scaleX;
+
+        public float scaleY;
+
+        public float rotation;
+
+        public float alpha;
+
+        public Actor actor;
+
+        public int zIndex;
+
+        public boolean visible;
+
+        public String name;
+
     }
 }

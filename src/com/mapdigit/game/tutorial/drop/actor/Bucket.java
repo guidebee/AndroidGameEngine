@@ -3,13 +3,9 @@ package com.mapdigit.game.tutorial.drop.actor;
 import com.guidebee.game.Input;
 import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.scene.Actor;
-import com.guidebee.game.scene.actions.TweenAction;
-import com.guidebee.game.tween.Tween;
 import com.guidebee.math.Vector3;
 
-import static com.guidebee.game.GameEngine.assetManager;
-import static com.guidebee.game.GameEngine.graphics;
-import static com.guidebee.game.GameEngine.input;
+import static com.guidebee.game.GameEngine.*;
 
 public class Bucket extends Actor {
 
