@@ -122,7 +122,7 @@ public class Stage extends InputAdapter implements Disposable {
                     && contact.isTouching()) {
                 Collision collision = new Collision(contact);
                 if (collisionListener != null) {
-                    collisionListener.CollisionDetected(collision);
+                    collisionListener.collisionDetected(collision);
                 }
             }
 
@@ -912,7 +912,7 @@ public class Stage extends InputAdapter implements Disposable {
                     Collidable obj2 = collidables[j];
                     if (collisionQuery(obj1, obj2, collisionType)) {
                         Collision collision = new Collision(obj1, obj2,collisionType);
-                        collisionListener.CollisionDetected(collision);
+                        collisionListener.collisionDetected(collision);
                     }
                 }
             }

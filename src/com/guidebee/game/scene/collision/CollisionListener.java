@@ -27,7 +27,7 @@ public interface CollisionListener {
 
     /**
      * collision detected.
-     * @param collision
+     * @param collision collision object.
      */
-    public void CollisionDetected(Collision collision);
+    void collisionDetected(Collision collision);
 }
