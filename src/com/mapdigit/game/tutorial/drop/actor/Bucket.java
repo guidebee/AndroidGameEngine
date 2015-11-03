@@ -15,7 +15,6 @@ public class Bucket extends Actor {
         setTexture(assetManager.get("bucket.png",Texture.class));
         setPosition(800/2-64/2,20);
 
-
     }
 
     @Override
