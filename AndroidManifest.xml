@@ -8,7 +8,7 @@
     <application    android:label="" >
         <activity
                 android:name=".DropGameActivity"
-                android:label="Coordinate"
+                android:label="Drop"
                 android:screenOrientation="landscape"
                 android:configChanges="keyboard|keyboardHidden|orientation">
             <intent-filter>
