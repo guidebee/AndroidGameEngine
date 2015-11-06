@@ -1,13 +1,15 @@
 package com.mapdigit.game.tutorial.drop.actor;
 
+import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.scene.Actor;
-import com.mapdigit.game.tutorial.drop.drawing.Pear;
+
+import static com.guidebee.game.GameEngine.assetManager;
 
 public class RainDrop extends Actor {
-    static Pear pear=new Pear();
+
 
     public RainDrop(){
         super("RainDrop");
-        setTexture(pear.getTexture());
+        setTexture(assetManager.get("droplet.png", Texture.class));
     }
 }

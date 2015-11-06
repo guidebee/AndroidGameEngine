@@ -22,6 +22,7 @@ public class DropGamePlay extends GamePlay{
 
     private void loadAssets(){
         assetManager.load("droplet.png",Texture.class);
+        assetManager.load("mario2.png",Texture.class);
         assetManager.load("bucket.png",Texture.class);
         assetManager.load("drop.wav",Sound.class);
         assetManager.load("rain.mp3",Music.class);

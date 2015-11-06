@@ -28,10 +28,7 @@ public class RainDropGroup extends Group implements CollisionListener{
         lastDropTime= TimeUtils.nanoTime();
     }
 
-    private void collisionDetected(Actor actor){
-        dropSound.play();
-        removeActor(actor);
-    }
+
 
 
     @Override
@@ -57,10 +54,10 @@ public class RainDropGroup extends Group implements CollisionListener{
             Actor actor1=(Actor)collision.getObjectA();
             Actor actor2=(Actor)collision.getObjectB();
             if(actor1!=null && actor2!=null){
-                if(actor1.getName()=="Bucket" && actor2.getName()=="RainDrop"){
+                if(actor1.getName()=="Mario" && actor2.getName()=="RainDrop"){
                     actor2.getParent().removeActor(actor2);
                     dropSound.play();
-                }else if(actor2.getName()=="Bucket" && actor1.getName()=="RainDrop"){
+                }else if(actor2.getName()=="Mario" && actor1.getName()=="RainDrop"){
                     actor1.getParent().removeActor(actor1);
                     dropSound.play();
                 }

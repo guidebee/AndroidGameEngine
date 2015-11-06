@@ -1108,11 +1108,21 @@ public class Actor implements Collidable {
     }
 
     public void setTextureRegion(TextureRegion textureRegion){
-        setSprite(new Sprite(textureRegion));
+        if(this.sprite!=null){
+            sprite.setRegion(textureRegion);
+        }else {
+            setSprite(new Sprite(textureRegion));
+        }
     }
 
     public void setTexture(Texture texture) {
-        setSprite(new Sprite(texture));
+
+        if(this.sprite!=null){
+            sprite.setRegion(texture);
+        }else {
+            setSprite(new Sprite(texture));
+        }
+
     }
 
     public void setAlpha(float a) {
