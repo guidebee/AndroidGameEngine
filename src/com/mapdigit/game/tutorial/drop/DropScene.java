@@ -1,8 +1,18 @@
 package com.mapdigit.game.tutorial.drop;
 
+import com.guidebee.game.GameEngine;
+import com.guidebee.game.InputProcessor;
 import com.guidebee.game.audio.Music;
 import com.guidebee.game.camera.viewports.*;
+import com.guidebee.game.graphics.Texture;
+import com.guidebee.game.graphics.TextureAtlas;
+import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.scene.Scene;
+import com.guidebee.game.ui.GameController;
+import com.guidebee.game.ui.GameControllerListener;
+import com.guidebee.game.ui.Skin;
+import com.guidebee.game.ui.Touchpad;
+import com.guidebee.game.ui.drawable.TextureRegionDrawable;
 import com.mapdigit.game.tutorial.drop.actor.Bucket;
 import com.mapdigit.game.tutorial.drop.actor.Mario;
 import com.mapdigit.game.tutorial.drop.actor.RainDropGroup;
@@ -10,23 +20,48 @@ import com.mapdigit.game.tutorial.drop.actor.RainDropGroup;
 import static com.guidebee.game.GameEngine.assetManager;
 import static com.guidebee.game.GameEngine.graphics;
 
-public class DropScene extends Scene {
+public class DropScene extends Scene  {
 
     private Music rainMusic = assetManager.get("rain.mp3", Music.class);
     private Bucket bucket = new Bucket();
     private Mario mario = new Mario();
     private RainDropGroup rainDropGroup = new RainDropGroup();
+    private InputProcessor savedInputProcessor;
 
 
     public DropScene() {
         super(new ScalingViewport(800,480));
+        TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
+
+
+
+        GameController gameController
+                = new GameController(new TextureRegionDrawable(textureAtlas.findRegion("Back")),
+                new TextureRegionDrawable(textureAtlas.findRegion("Joystick")),
+                new TextureRegionDrawable(textureAtlas.findRegion("Button_08_Normal_Shoot")),
+                new TextureRegionDrawable(textureAtlas.findRegion("Button_08_Pressed_Shoot")),
+                new TextureRegionDrawable(textureAtlas.findRegion("Button_08_Normal_Virgin")),
+                new TextureRegionDrawable(textureAtlas.findRegion("Button_08_Pressed_Virgin"))
+        );
+        gameController.addGameControllerListener(mario);
+
+
+
         rainMusic.setLooping(true);
         sceneStage.addActor(mario);
         sceneStage.addActor(rainDropGroup);
         sceneStage.setCollisionListener(rainDropGroup);
+        sceneStage.setGameController(gameController);
+
 
     }
 
+
+
+    @Override
+    public void hide() {
+        GameEngine.input.setInputProcessor(savedInputProcessor);
+    }
 
     @Override
     public void render(float delta) {
@@ -47,6 +82,10 @@ public class DropScene extends Scene {
 
     @Override
     public void show() {
+        savedInputProcessor = GameEngine.input.getInputProcessor();
+        GameEngine.input.setInputProcessor(sceneStage);
         rainMusic.play();
     }
+
+
 }

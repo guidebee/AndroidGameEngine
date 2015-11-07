@@ -1,21 +1,19 @@
 package com.mapdigit.game.tutorial.drop.actor;
 
 import com.guidebee.game.GameEngine;
-import com.guidebee.game.Input;
 import com.guidebee.game.graphics.Animation;
-import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.graphics.TextureAtlas;
 import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.scene.Actor;
-import com.guidebee.math.Vector3;
+import com.guidebee.game.ui.GameControllerListener;
+import com.guidebee.game.ui.Touchpad;
 import com.guidebee.utils.collections.Array;
 
 import static com.guidebee.game.GameEngine.assetManager;
 import static com.guidebee.game.GameEngine.graphics;
-import static com.guidebee.game.GameEngine.input;
 
 
-public class Mario extends Actor {
+public class Mario extends Actor implements GameControllerListener {
 
     private final Animation forwardAnimation;
     private final Animation backwardAnimation;
@@ -27,6 +25,8 @@ public class Mario extends Actor {
     private final int SPRITE_WIDTH=47;
     private final int SPRITE_FRAME_SIZE=6;
     private float elapsedTime = 0;
+    private float tick=0.05f;
+    private Direction currentDirection=Direction.NONE;
 
     public Mario() {
         super("Mario");
@@ -70,11 +70,11 @@ public class Mario extends Actor {
 
         }
 
-        forwardAnimation=new Animation(0.1f,keyFramesForward);
-        backwardAnimation=new Animation(0.1f,keyFramesBackward);
-        rightAnimation=new Animation(0.1f,keyFramesRight);
-        leftAnimation=new Animation(0.1f,keyFramesLeft);
-        setTextureRegion(leftAnimation.getKeyFrame(0));
+        forwardAnimation=new Animation(tick,keyFramesForward);
+        backwardAnimation=new Animation(tick,keyFramesBackward);
+        rightAnimation=new Animation(tick,keyFramesRight);
+        leftAnimation=new Animation(tick,keyFramesLeft);
+        setTextureRegion(forwardAnimation.getKeyFrame(0));
         setPosition(800/2-64/2,20);
 
 
@@ -82,26 +82,49 @@ public class Mario extends Actor {
 
 
     @Override
+    public void KnobMoved(Touchpad touchpad, Direction direction) {
+
+        currentDirection=direction;
+        handleKeyPress();
+
+    }
+
+    @Override
+    public void ButtonPressed(GameButton button) {
+
+    }
+
+    private void handleKeyPress(){
+        switch(currentDirection){
+            case WEST:
+                setTextureRegion(leftAnimation.getKeyFrame(elapsedTime,true));
+                setX(getX() - 200 * graphics.getDeltaTime());
+                break;
+            case EAST:
+                setTextureRegion(rightAnimation.getKeyFrame(elapsedTime,true));
+                setX(getX() + 200*graphics.getDeltaTime());
+                break;
+            case NORTH:
+                setTextureRegion(forwardAnimation.getKeyFrame(elapsedTime,true));
+                setY(getY() + 200 * graphics.getDeltaTime());
+                break;
+            case SOUTH:
+                setTextureRegion(backwardAnimation.getKeyFrame(elapsedTime,true));
+                setY(getY() - 200 * graphics.getDeltaTime());
+                break;
+
+        }
+
+        if(getX()<0)  setX(0);
+        if(getY()<0)  setY(0);
+        if(getX() > 800- 64) setX(800-64);
+        if(getY() > 480- 64) setY(480 -64);
+    }
+
+    @Override
     public void act(float delta){
         elapsedTime += GameEngine.graphics.getDeltaTime();
-        setTextureRegion(forwardAnimation.getKeyFrame(elapsedTime, true));
-        if(input.isTouched()){
-            Vector3 touchPos=new Vector3();
-            touchPos.set(input.getX(),input.getY(),0);
-            getStage().getCamera().unproject(touchPos);
-            setX(touchPos.x-64/2);
-        }
-        if(input.isKeyPressed(Input.Keys.LEFT)){
+        handleKeyPress();
 
-            setTextureRegion(leftAnimation.getKeyFrame(elapsedTime,true));
-            setX(getX() - 200 * graphics.getDeltaTime());
-        }
-        if(input.isKeyPressed(Input.Keys.RIGHT)){
-
-            setTextureRegion(rightAnimation.getKeyFrame(elapsedTime,true));
-            setX(getX() + 200*graphics.getDeltaTime());
-        }
-        if(getX()<0)  setX(0);
-        if(getX() > 800- 64) setX(800-64);
     }
 }
