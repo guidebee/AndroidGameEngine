@@ -2,6 +2,7 @@ package com.mapdigit.game.tutorial.drop.actor;
 
 import com.guidebee.game.Input;
 import com.guidebee.game.graphics.Texture;
+import com.guidebee.game.graphics.TextureAtlas;
 import com.guidebee.game.scene.Actor;
 import com.guidebee.math.Vector3;
 
@@ -12,7 +13,8 @@ public class Bucket extends Actor {
 
     public Bucket(){
         super("Bucket");
-        setTexture(assetManager.get("bucket.png",Texture.class));
+        TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
+        setTextureRegion(textureAtlas.findRegion("bucket"));
         setPosition(800/2-64/2,20);
 
     }

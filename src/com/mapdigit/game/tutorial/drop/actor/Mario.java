@@ -4,6 +4,7 @@ import com.guidebee.game.GameEngine;
 import com.guidebee.game.Input;
 import com.guidebee.game.graphics.Animation;
 import com.guidebee.game.graphics.Texture;
+import com.guidebee.game.graphics.TextureAtlas;
 import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.scene.Actor;
 import com.guidebee.math.Vector3;
@@ -20,7 +21,7 @@ public class Mario extends Actor {
     private final Animation backwardAnimation;
     private final Animation leftAnimation;
     private final Animation rightAnimation;
-    private final Texture marioTexture;
+    private final TextureRegion marioTextureRegion;
 
     private final int SPRITE_HEIGHT=64;
     private final int SPRITE_WIDTH=47;
@@ -29,14 +30,15 @@ public class Mario extends Actor {
 
     public Mario() {
         super("Mario");
-        marioTexture=assetManager.get("mario2.png",Texture.class);
+        TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
+        marioTextureRegion=textureAtlas.findRegion("mario2");
         Array<TextureRegion> keyFramesForward=new Array<TextureRegion>();
         Array<TextureRegion> keyFramesRight=new Array<TextureRegion>();
         Array<TextureRegion> keyFramesBackward=new Array<TextureRegion>();
         Array<TextureRegion> keyFramesLeft=new Array<TextureRegion>();
         int i=0;
         for(int j=0;j<SPRITE_FRAME_SIZE;j++){
-            TextureRegion textureRegion=new TextureRegion(marioTexture,
+            TextureRegion textureRegion=new TextureRegion(marioTextureRegion,
                     j*SPRITE_WIDTH,
                     i*SPRITE_HEIGHT,
                     SPRITE_WIDTH,SPRITE_HEIGHT );
@@ -45,7 +47,7 @@ public class Mario extends Actor {
         }
         i++;
         for(int j=0;j<SPRITE_FRAME_SIZE;j++){
-            TextureRegion textureRegion=new TextureRegion(marioTexture,
+            TextureRegion textureRegion=new TextureRegion(marioTextureRegion,
                     j*SPRITE_WIDTH,i*SPRITE_HEIGHT,
                     SPRITE_WIDTH,SPRITE_HEIGHT );
             keyFramesRight.add(textureRegion);
@@ -53,7 +55,7 @@ public class Mario extends Actor {
         }
         i++;
         for(int j=0;j<SPRITE_FRAME_SIZE;j++){
-            TextureRegion textureRegion=new TextureRegion(marioTexture,
+            TextureRegion textureRegion=new TextureRegion(marioTextureRegion,
                     j*SPRITE_WIDTH,i*SPRITE_HEIGHT,
                     SPRITE_WIDTH,SPRITE_HEIGHT );
             keyFramesBackward.add(textureRegion);
@@ -61,7 +63,7 @@ public class Mario extends Actor {
         }
         i++;
         for(int j=0;j<SPRITE_FRAME_SIZE;j++){
-            TextureRegion textureRegion=new TextureRegion(marioTexture
+            TextureRegion textureRegion=new TextureRegion(marioTextureRegion
                     ,j*SPRITE_WIDTH,i*SPRITE_HEIGHT,
                     SPRITE_WIDTH,SPRITE_HEIGHT );
             keyFramesLeft.add(textureRegion);
@@ -82,7 +84,7 @@ public class Mario extends Actor {
     @Override
     public void act(float delta){
         elapsedTime += GameEngine.graphics.getDeltaTime();
-        setTextureRegion(forwardAnimation.getKeyFrame(elapsedTime,true));
+        setTextureRegion(forwardAnimation.getKeyFrame(elapsedTime, true));
         if(input.isTouched()){
             Vector3 touchPos=new Vector3();
             touchPos.set(input.getX(),input.getY(),0);
