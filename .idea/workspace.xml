@@ -43,23 +43,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="refactor --move some maps class to internal package">
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\ImageResolver.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/ImageResolver.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\MapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/MapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\AtlasTmxMapLoader.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/AtlasTmxMapLoader.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\TideMapLoader.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/TideMapLoader.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\TiledMapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/TiledMapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\TmxMapLoader.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/TmxMapLoader.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\renderers\BatchTiledMapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/BatchTiledMapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\renderers\HexagonalTiledMapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/HexagonalTiledMapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\renderers\IsometricStaggeredTiledMapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/IsometricStaggeredTiledMapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\renderers\IsometricTiledMapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/IsometricTiledMapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\renderers\OrthoCachedTiledMapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/OrthoCachedTiledMapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\renderers\OrthogonalTiledMapRenderer.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/OrthogonalTiledMapRenderer.java" />
-      <change type="MOVED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\maps\tiled\renderers\package.html" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Actor.ActorDataTrait.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scene.html" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\Application.ApplicationType.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\Graphics.GraphicsType.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.AssetManagerImageResolver.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.DirectImageResolver.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.TextureAtlasImageResolver.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\MapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\AtlasTmxMapLoader.AtlasTiledMapLoaderParameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\AtlasTmxMapLoader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TideMapLoader.Parameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TideMapLoader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TiledMapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TmxMapLoader.Parameters.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TmxMapLoader.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\BatchTiledMapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\HexagonalTiledMapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\IsometricStaggeredTiledMapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\IsometricTiledMapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\OrthoCachedTiledMapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\OrthogonalTiledMapRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\package-descr.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\ActorDataTrait.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\DataTraitMapper.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\package-descr.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\IntervalDirector.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\IteratingDirector.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\package-descr.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\scene\datatrait\package.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Action.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Action.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Actions.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Actions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Actor.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Actor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/ActorDataTrait.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/ActorDataTrait.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ActorGestureListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ActorGestureListener.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddAction.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddListenerAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddListenerAction.html" />
@@ -67,11 +86,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AfterAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AfterAction.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Align.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Align.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AlphaAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AlphaAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidGameEngine.iml" afterPath="$PROJECT_DIR$/AndroidGameEngine.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.PlayMode.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.PlayMode.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Application.ApplicationType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Application.ApplicationType.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Application.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Application.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationAdapter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationAdapter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationListener.html" />
@@ -85,9 +102,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Values.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ArraySelection.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ArraySelection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/engine/assets/AssetManager.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/engine/assets/AssetManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/AtlasTmxMapLoader.AtlasTiledMapLoaderParameters.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/AtlasTmxMapLoader.AtlasTiledMapLoaderParameters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/AtlasTmxMapLoader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/AtlasTmxMapLoader.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/AtomicQueue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/AtomicQueue.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Audio.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Audio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/AudioDevice.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/AudioDevice.html" />
@@ -102,7 +116,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/BaseJsonReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/BaseJsonReader.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/BaseTween.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/BaseTween.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Batch.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Batch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/BatchTiledMapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/BatchTiledMapRenderer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Bezier.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Bezier.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.Node.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.Node.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.html" />
@@ -169,7 +182,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataReader.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTrait.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTrait.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitMapper.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitMapper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/DataTraitMapper.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/DataTraitMapper.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitType.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/DelaunayTriangulator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/DelaunayTriangulator.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/DelayAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/DelayAction.html" />
@@ -244,13 +256,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.BufferFormat.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.BufferFormat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.DisplayMode.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.DisplayMode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.GraphicsType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.GraphicsType.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Graphics2D.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Graphics2D.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint2.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint3.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Group.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Group.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/HexagonalTiledMapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/HexagonalTiledMapRenderer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/HorizontalGroup.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/HorizontalGroup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpParametersUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpParametersUtils.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpStatus.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpStatus.html" />
@@ -266,10 +276,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Image.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Image.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.ImageButtonStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.ImageButtonStyle.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.AssetManagerImageResolver.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.AssetManagerImageResolver.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.DirectImageResolver.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.DirectImageResolver.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.TextureAtlasImageResolver.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.TextureAtlasImageResolver.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/ImageResolver.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.ImageTextButtonStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.ImageTextButtonStyle.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/ImmutableArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/ImmutableArray.html" />
@@ -325,12 +331,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.SplitTriangle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.SplitTriangle.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalDirector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/IntervalDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/IntervalDirector.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalIteratingDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalIteratingDirector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/IsometricStaggeredTiledMapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/IsometricStaggeredTiledMapRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/IsometricTiledMapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/IsometricTiledMapRenderer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IteratingDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IteratingDirector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/IteratingDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/IteratingDirector.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Joint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Joint.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.JointType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.JointType.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.html" />
@@ -372,13 +374,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.ManifoldType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.ManifoldType.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/Map.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/Map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/maps/Map.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/maps/Map.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayers.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObject.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObjects.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObjects.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapProperties.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapProperties.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapRenderer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/MassData.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/MassData.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/MathUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/MathUtils.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Matrix3.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Matrix3.html" />
@@ -426,8 +426,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.OrderedSetIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.OrderedSetIterator.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/OrthoCachedTiledMapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/OrthoCachedTiledMapRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/OrthogonalTiledMapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/OrthogonalTiledMapRenderer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/OrthographicCamera.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/OrthographicCamera.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ParallelAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ParallelAction.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffect.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffect.html" />
@@ -529,7 +527,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ScalingViewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ScalingViewport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.MapType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.MapType.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/ScissorStack.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/ScissorStack.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Screen.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Screen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ScreenAdapter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ScreenAdapter.html" />
@@ -575,7 +572,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/SpriteDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/SpriteDrawable.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Stack.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Stack.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Stage.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Stage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.OptimizedByteArrayOutputStream.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.OptimizedByteArrayOutputStream.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.html" />
@@ -612,12 +608,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/TextureMapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/TextureMapObject.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureRegion.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureRegion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TextureRegionDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TextureRegionDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TideMapLoader.Parameters.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TideMapLoader.Parameters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TideMapLoader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TideMapLoader.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TiledDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TiledDrawable.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/TiledLayer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/TiledLayer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapRenderer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.BlendMode.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.BlendMode.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileLayer.Cell.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileLayer.Cell.html" />
@@ -630,8 +623,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.Task.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.Task.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapHelper.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapHelper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapLoader.Parameters.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapLoader.Parameters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapLoader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapLoader.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchable.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TouchableAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TouchableAction.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchpad.TouchpadStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchpad.TouchpadStyle.html" />
@@ -678,6 +669,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.Element.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.Element.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlWriter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlWriter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildjavadoc.bat" afterPath="$PROJECT_DIR$/buildjavadoc.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/classes.html" afterPath="$PROJECT_DIR$/javadoc/reference/classes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/current.xml" afterPath="$PROJECT_DIR$/javadoc/reference/current.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/hierarchy.html" afterPath="$PROJECT_DIR$/javadoc/reference/hierarchy.html" />
@@ -700,7 +692,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-descr.html" />
@@ -709,8 +700,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-descr.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-descr.html" />
@@ -740,7 +729,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/renderers/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-summary.html" />
@@ -749,8 +737,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/datatrait/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/directors/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-summary.html" />
@@ -821,8 +807,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -835,13 +821,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1394">
               <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2674#2675#0" expanded="false" />
-                <element signature="e#2745#2746#0" expanded="false" />
-                <element signature="e#3025#3026#0" expanded="false" />
-                <element signature="e#3057#3058#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -856,12 +836,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageResolver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageResolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/maps/ImageResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46303502" vertical-offset="0" max-vertical-offset="1088">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="1088">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68380743" vertical-offset="19316" max-vertical-offset="20332">
+              <caret line="1279" column="0" selection-start-line="1279" selection-start-column="0" selection-end-line="1279" selection-end-column="0" />
+              <folding>
+                <element signature="e#16635#16636#0" expanded="true" />
+                <element signature="e#16719#16720#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -891,66 +884,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="13362" max-vertical-offset="15164">
               <caret line="884" column="28" selection-start-line="884" selection-start-column="28" selection-end-line="884" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#30533#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#6588#6589#0" expanded="false" />
-                <element signature="e#6637#6638#0" expanded="false" />
-                <element signature="e#7812#7813#0" expanded="false" />
-                <element signature="e#7869#7870#0" expanded="false" />
-                <element signature="e#7910#7911#0" expanded="false" />
-                <element signature="e#7950#7951#0" expanded="false" />
-                <element signature="e#9231#9232#0" expanded="false" />
-                <element signature="e#9290#9291#0" expanded="false" />
-                <element signature="e#9963#9964#0" expanded="false" />
-                <element signature="e#10001#10002#0" expanded="false" />
-                <element signature="e#10135#10136#0" expanded="false" />
-                <element signature="e#10178#10179#0" expanded="false" />
-                <element signature="e#10219#10220#0" expanded="false" />
-                <element signature="e#10247#10248#0" expanded="false" />
-                <element signature="e#12294#12295#0" expanded="false" />
-                <element signature="e#12368#12369#0" expanded="false" />
-                <element signature="e#17129#17130#0" expanded="false" />
-                <element signature="e#17176#17177#0" expanded="false" />
-                <element signature="e#17869#17870#0" expanded="false" />
-                <element signature="e#17919#17920#0" expanded="false" />
-                <element signature="e#18064#18065#0" expanded="false" />
-                <element signature="e#18117#18118#0" expanded="false" />
-                <element signature="e#18530#18531#0" expanded="false" />
-                <element signature="e#18580#18581#0" expanded="false" />
-                <element signature="e#19746#19747#0" expanded="false" />
-                <element signature="e#19774#19775#0" expanded="false" />
-                <element signature="e#19995#19996#0" expanded="false" />
-                <element signature="e#20035#20036#0" expanded="false" />
-                <element signature="e#20145#20146#0" expanded="false" />
-                <element signature="e#20187#20188#0" expanded="false" />
-                <element signature="e#20348#20349#0" expanded="false" />
-                <element signature="e#20406#20407#0" expanded="false" />
-                <element signature="e#20563#20564#0" expanded="false" />
-                <element signature="e#20630#20631#0" expanded="false" />
-                <element signature="e#21149#21150#0" expanded="false" />
-                <element signature="e#21214#21215#0" expanded="false" />
-                <element signature="e#21605#21606#0" expanded="false" />
-                <element signature="e#21652#21653#0" expanded="false" />
-                <element signature="e#21689#21690#0" expanded="false" />
-                <element signature="e#21739#21740#0" expanded="false" />
-                <element signature="e#21789#21790#0" expanded="false" />
-                <element signature="e#21840#21841#0" expanded="false" />
-                <element signature="e#21922#21923#0" expanded="false" />
-                <element signature="e#21969#21970#0" expanded="false" />
-                <element signature="e#22053#22054#0" expanded="false" />
-                <element signature="e#22101#22102#0" expanded="false" />
-                <element signature="e#22180#22181#0" expanded="false" />
-                <element signature="e#22228#22229#0" expanded="false" />
-                <element signature="e#25031#25032#0" expanded="false" />
-                <element signature="e#25083#25084#0" expanded="false" />
-                <element signature="e#25255#25256#0" expanded="false" />
-                <element signature="e#25318#25319#0" expanded="false" />
-                <element signature="e#25437#25438#0" expanded="false" />
-                <element signature="e#25488#25489#0" expanded="false" />
-                <element signature="e#25695#25696#0" expanded="false" />
-                <element signature="e#25760#25761#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -960,77 +894,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="15725">
               <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#35633#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#7084#7085#0" expanded="false" />
-                <element signature="e#7127#7128#0" expanded="false" />
-                <element signature="e#9126#9127#0" expanded="false" />
-                <element signature="e#9200#9201#0" expanded="false" />
-                <element signature="e#22496#22497#0" expanded="false" />
-                <element signature="e#22540#22541#0" expanded="false" />
-                <element signature="e#24197#24198#0" expanded="false" />
-                <element signature="e#24233#24234#0" expanded="false" />
-                <element signature="e#24416#24417#0" expanded="false" />
-                <element signature="e#24454#24455#0" expanded="false" />
-                <element signature="e#24588#24589#0" expanded="false" />
-                <element signature="e#24624#24625#0" expanded="false" />
-                <element signature="e#24786#24787#0" expanded="false" />
-                <element signature="e#24835#24836#0" expanded="false" />
-                <element signature="e#25008#25009#0" expanded="false" />
-                <element signature="e#25060#25061#0" expanded="false" />
-                <element signature="e#25244#25245#0" expanded="false" />
-                <element signature="e#25300#25301#0" expanded="false" />
-                <element signature="e#25487#25488#0" expanded="false" />
-                <element signature="e#25546#25547#0" expanded="false" />
-                <element signature="e#27384#27385#0" expanded="false" />
-                <element signature="e#27420#27421#0" expanded="false" />
-                <element signature="e#28516#28517#0" expanded="false" />
-                <element signature="e#28550#28551#0" expanded="false" />
-                <element signature="e#28581#28582#0" expanded="false" />
-                <element signature="e#28609#28610#0" expanded="false" />
-                <element signature="e#28646#28647#0" expanded="false" />
-                <element signature="e#28677#28678#0" expanded="false" />
-                <element signature="e#28727#28728#0" expanded="false" />
-                <element signature="e#28767#28768#0" expanded="false" />
-                <element signature="e#28849#28850#0" expanded="false" />
-                <element signature="e#28896#28897#0" expanded="false" />
-                <element signature="e#28980#28981#0" expanded="false" />
-                <element signature="e#29028#29029#0" expanded="false" />
-                <element signature="e#29107#29108#0" expanded="false" />
-                <element signature="e#29150#29151#0" expanded="false" />
-                <element signature="e#29263#29264#0" expanded="false" />
-                <element signature="e#29290#29291#0" expanded="false" />
-                <element signature="e#32287#32288#0" expanded="false" />
-                <element signature="e#32320#32321#0" expanded="false" />
-                <element signature="e#32492#32493#0" expanded="false" />
-                <element signature="e#32544#32545#0" expanded="false" />
-                <element signature="e#35423#35424#0" expanded="false" />
-                <element signature="e#35456#35457#0" expanded="false" />
-                <element signature="e#35585#35586#0" expanded="false" />
-                <element signature="e#35629#35630#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrthogonalTiledMapRenderer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/OrthogonalTiledMapRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="3043">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#8868#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1545#1546#0" expanded="false" />
-                <element signature="e#1571#1572#0" expanded="false" />
-                <element signature="e#1639#1640#0" expanded="false" />
-                <element signature="e#1672#1673#0" expanded="false" />
-                <element signature="e#1744#1745#0" expanded="false" />
-                <element signature="e#1781#1782#0" expanded="false" />
-                <element signature="e#1866#1867#0" expanded="false" />
-                <element signature="e#1910#1911#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1040,18 +904,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1190">
               <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#2178#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1452#1453#0" expanded="false" />
-                <element signature="e#1490#1491#0" expanded="false" />
-                <element signature="e#1586#1587#0" expanded="false" />
-                <element signature="e#1632#1633#0" expanded="false" />
-                <element signature="e#1761#1762#0" expanded="false" />
-                <element signature="e#1813#1814#0" expanded="false" />
-                <element signature="e#2139#2140#0" expanded="false" />
-                <element signature="e#2172#2173#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1061,11 +914,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="510">
               <caret line="26" column="46" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#528#529#0" expanded="false" />
-                <element signature="e#566#567#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1131,7 +980,6 @@
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/graphics/Sprite.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/graphics/TextureRegion.java" />
-        <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Bucket.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/engine/assets/AssetManager.java" />
@@ -1140,6 +988,7 @@
         <option value="$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
+        <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java" />
       </list>
     </option>
   </component>
@@ -1479,6 +1328,136 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="AndroidGameEngine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guidebee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guidebee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guidebee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guidebee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Actor.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1886,7 +1865,8 @@
       <workItem from="1446985446303" duration="1200000" />
       <workItem from="1447053970346" duration="7396000" />
       <workItem from="1447069726654" duration="86000" />
-      <workItem from="1447070034843" duration="1101000" />
+      <workItem from="1447070034843" duration="1361000" />
+      <workItem from="1447071544985" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="add android javadoc (doclava) support">
       <created>1413514803895</created>
@@ -1972,11 +1952,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447064119963</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="refactor --move some maps class to internal package">
+      <created>1447071261229</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1447071261229</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106686000" />
+    <option name="totallyTimeSpent" value="107430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1991,37 +1977,37 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5228162" sideWeight="0.2534722" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5017341" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27666315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29228857" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2421875" sideWeight="0.6643234" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31991526" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3855932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24391988" sideWeight="0.33567664" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5228162" sideWeight="0.2534722" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27666315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5017341" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34004238" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42372882" sideWeight="0.7465278" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42372882" sideWeight="0.7465278" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29228857" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24895833" sideWeight="0.47902098" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2421875" sideWeight="0.6643234" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31991526" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32794458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3855932" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2058,10 +2044,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java</url>
+          <line>522</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="androidbox2d">
@@ -2244,13 +2238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9095" max-vertical-offset="21012">
-          <caret line="612" column="24" selection-start-line="612" selection-start-column="24" selection-end-line="612" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5029586" vertical-offset="0" max-vertical-offset="676">
@@ -2357,18 +2344,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="3077">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#8868#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1545#1546#0" expanded="false" />
-            <element signature="e#1571#1572#0" expanded="false" />
-            <element signature="e#1639#1640#0" expanded="false" />
-            <element signature="e#1672#1673#0" expanded="false" />
-            <element signature="e#1744#1745#0" expanded="false" />
-            <element signature="e#1781#1782#0" expanded="false" />
-            <element signature="e#1866#1867#0" expanded="false" />
-            <element signature="e#1910#1911#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2392,18 +2368,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="610" max-vertical-offset="1190">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2178#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1490#1491#0" expanded="false" />
-            <element signature="e#1586#1587#0" expanded="false" />
-            <element signature="e#1632#1633#0" expanded="false" />
-            <element signature="e#1761#1762#0" expanded="false" />
-            <element signature="e#1813#1814#0" expanded="false" />
-            <element signature="e#2139#2140#0" expanded="false" />
-            <element signature="e#2172#2173#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2411,66 +2376,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="13396" max-vertical-offset="15198">
           <caret line="884" column="28" selection-start-line="884" selection-start-column="28" selection-end-line="884" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#30533#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6588#6589#0" expanded="false" />
-            <element signature="e#6637#6638#0" expanded="false" />
-            <element signature="e#7812#7813#0" expanded="false" />
-            <element signature="e#7869#7870#0" expanded="false" />
-            <element signature="e#7910#7911#0" expanded="false" />
-            <element signature="e#7950#7951#0" expanded="false" />
-            <element signature="e#9231#9232#0" expanded="false" />
-            <element signature="e#9290#9291#0" expanded="false" />
-            <element signature="e#9963#9964#0" expanded="false" />
-            <element signature="e#10001#10002#0" expanded="false" />
-            <element signature="e#10135#10136#0" expanded="false" />
-            <element signature="e#10178#10179#0" expanded="false" />
-            <element signature="e#10219#10220#0" expanded="false" />
-            <element signature="e#10247#10248#0" expanded="false" />
-            <element signature="e#12294#12295#0" expanded="false" />
-            <element signature="e#12368#12369#0" expanded="false" />
-            <element signature="e#17129#17130#0" expanded="false" />
-            <element signature="e#17176#17177#0" expanded="false" />
-            <element signature="e#17869#17870#0" expanded="false" />
-            <element signature="e#17919#17920#0" expanded="false" />
-            <element signature="e#18064#18065#0" expanded="false" />
-            <element signature="e#18117#18118#0" expanded="false" />
-            <element signature="e#18530#18531#0" expanded="false" />
-            <element signature="e#18580#18581#0" expanded="false" />
-            <element signature="e#19746#19747#0" expanded="false" />
-            <element signature="e#19774#19775#0" expanded="false" />
-            <element signature="e#19995#19996#0" expanded="false" />
-            <element signature="e#20035#20036#0" expanded="false" />
-            <element signature="e#20145#20146#0" expanded="false" />
-            <element signature="e#20187#20188#0" expanded="false" />
-            <element signature="e#20348#20349#0" expanded="false" />
-            <element signature="e#20406#20407#0" expanded="false" />
-            <element signature="e#20563#20564#0" expanded="false" />
-            <element signature="e#20630#20631#0" expanded="false" />
-            <element signature="e#21149#21150#0" expanded="false" />
-            <element signature="e#21214#21215#0" expanded="false" />
-            <element signature="e#21605#21606#0" expanded="false" />
-            <element signature="e#21652#21653#0" expanded="false" />
-            <element signature="e#21689#21690#0" expanded="false" />
-            <element signature="e#21739#21740#0" expanded="false" />
-            <element signature="e#21789#21790#0" expanded="false" />
-            <element signature="e#21840#21841#0" expanded="false" />
-            <element signature="e#21922#21923#0" expanded="false" />
-            <element signature="e#21969#21970#0" expanded="false" />
-            <element signature="e#22053#22054#0" expanded="false" />
-            <element signature="e#22101#22102#0" expanded="false" />
-            <element signature="e#22180#22181#0" expanded="false" />
-            <element signature="e#22228#22229#0" expanded="false" />
-            <element signature="e#25031#25032#0" expanded="false" />
-            <element signature="e#25083#25084#0" expanded="false" />
-            <element signature="e#25255#25256#0" expanded="false" />
-            <element signature="e#25318#25319#0" expanded="false" />
-            <element signature="e#25437#25438#0" expanded="false" />
-            <element signature="e#25488#25489#0" expanded="false" />
-            <element signature="e#25695#25696#0" expanded="false" />
-            <element signature="e#25760#25761#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2478,56 +2384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1715" max-vertical-offset="15725">
           <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#35633#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7084#7085#0" expanded="false" />
-            <element signature="e#7127#7128#0" expanded="false" />
-            <element signature="e#9126#9127#0" expanded="false" />
-            <element signature="e#9200#9201#0" expanded="false" />
-            <element signature="e#22496#22497#0" expanded="false" />
-            <element signature="e#22540#22541#0" expanded="false" />
-            <element signature="e#24197#24198#0" expanded="false" />
-            <element signature="e#24233#24234#0" expanded="false" />
-            <element signature="e#24416#24417#0" expanded="false" />
-            <element signature="e#24454#24455#0" expanded="false" />
-            <element signature="e#24588#24589#0" expanded="false" />
-            <element signature="e#24624#24625#0" expanded="false" />
-            <element signature="e#24786#24787#0" expanded="false" />
-            <element signature="e#24835#24836#0" expanded="false" />
-            <element signature="e#25008#25009#0" expanded="false" />
-            <element signature="e#25060#25061#0" expanded="false" />
-            <element signature="e#25244#25245#0" expanded="false" />
-            <element signature="e#25300#25301#0" expanded="false" />
-            <element signature="e#25487#25488#0" expanded="false" />
-            <element signature="e#25546#25547#0" expanded="false" />
-            <element signature="e#27384#27385#0" expanded="false" />
-            <element signature="e#27420#27421#0" expanded="false" />
-            <element signature="e#28516#28517#0" expanded="false" />
-            <element signature="e#28550#28551#0" expanded="false" />
-            <element signature="e#28581#28582#0" expanded="false" />
-            <element signature="e#28609#28610#0" expanded="false" />
-            <element signature="e#28646#28647#0" expanded="false" />
-            <element signature="e#28677#28678#0" expanded="false" />
-            <element signature="e#28727#28728#0" expanded="false" />
-            <element signature="e#28767#28768#0" expanded="false" />
-            <element signature="e#28849#28850#0" expanded="false" />
-            <element signature="e#28896#28897#0" expanded="false" />
-            <element signature="e#28980#28981#0" expanded="false" />
-            <element signature="e#29028#29029#0" expanded="false" />
-            <element signature="e#29107#29108#0" expanded="false" />
-            <element signature="e#29150#29151#0" expanded="false" />
-            <element signature="e#29263#29264#0" expanded="false" />
-            <element signature="e#29290#29291#0" expanded="false" />
-            <element signature="e#32287#32288#0" expanded="false" />
-            <element signature="e#32320#32321#0" expanded="false" />
-            <element signature="e#32492#32493#0" expanded="false" />
-            <element signature="e#32544#32545#0" expanded="false" />
-            <element signature="e#35423#35424#0" expanded="false" />
-            <element signature="e#35456#35457#0" expanded="false" />
-            <element signature="e#35585#35586#0" expanded="false" />
-            <element signature="e#35629#35630#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2535,11 +2392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="26" column="46" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#528#529#0" expanded="false" />
-            <element signature="e#566#567#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2547,13 +2400,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1394">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2674#2675#0" expanded="false" />
-            <element signature="e#2745#2746#0" expanded="false" />
-            <element signature="e#3025#3026#0" expanded="false" />
-            <element signature="e#3057#3058#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2574,9 +2421,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/maps/ImageResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46303502" vertical-offset="0" max-vertical-offset="1088">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="1088">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68380743" vertical-offset="19316" max-vertical-offset="20332">
+          <caret line="1279" column="0" selection-start-line="1279" selection-start-column="0" selection-end-line="1279" selection-end-column="0" />
+          <folding>
+            <element signature="e#16635#16636#0" expanded="true" />
+            <element signature="e#16719#16720#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

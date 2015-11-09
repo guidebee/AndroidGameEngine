@@ -9573,17 +9573,6 @@
 <parameter name="name" type="java.lang.String">
 </parameter>
 </method>
-<method name="getType"
- return="com.guidebee.game.Application.ApplicationType"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
 <method name="getVersion"
  return="int"
  abstract="true"
@@ -9711,39 +9700,6 @@
 >
 </field>
 </interface>
-<class name="Application.ApplicationType"
- extends="java.lang.Enum"
- abstract="false"
- static="true"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-<method name="valueOf"
- return="com.guidebee.game.Application.ApplicationType"
- abstract="false"
- native="false"
- synchronized="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-<method name="values"
- return="com.guidebee.game.Application.ApplicationType[]"
- abstract="false"
- native="false"
- synchronized="false"
- static="true"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-</class>
 <class name="ApplicationAdapter"
  extends="java.lang.Object"
  abstract="true"
@@ -10929,17 +10885,6 @@
  visibility="public"
 >
 </method>
-<method name="getType"
- return="com.guidebee.game.Graphics.GraphicsType"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
 <method name="getWidth"
  return="int"
  abstract="true"
@@ -11250,39 +11195,6 @@
  visibility="public"
 >
 </field>
-</class>
-<class name="Graphics.GraphicsType"
- extends="java.lang.Enum"
- abstract="false"
- static="true"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-<method name="valueOf"
- return="com.guidebee.game.Graphics.GraphicsType"
- abstract="false"
- native="false"
- synchronized="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-<method name="values"
- return="com.guidebee.game.Graphics.GraphicsType[]"
- abstract="false"
- native="false"
- synchronized="false"
- static="true"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
 </class>
 <interface name="Input"
  abstract="true"
@@ -14706,21 +14618,6 @@
 <parameter name="content" type="java.lang.String">
 </parameter>
 </method>
-<method name="setFollowRedirects"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="followRedirects" type="boolean">
-</parameter>
-<exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException">
-</exception>
-</method>
 <method name="setHeader"
  return="void"
  abstract="false"
@@ -15878,17 +15775,6 @@
  visibility="public"
 >
 </method>
-<method name="getType"
- return="com.guidebee.game.Application.ApplicationType"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
 <method name="getVersion"
  return="int"
  abstract="false"
@@ -16372,17 +16258,6 @@
 </method>
 <method name="getRunnables"
  return="com.guidebee.utils.collections.Array&lt;java.lang.Runnable&gt;"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="getType"
- return="com.guidebee.game.Application.ApplicationType"
  abstract="false"
  native="false"
  synchronized="false"
@@ -34871,129 +34746,6 @@
 </package>
 <package name="com.guidebee.game.maps"
 >
-<interface name="ImageResolver"
- abstract="true"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<method name="getImage"
- return="com.guidebee.game.graphics.TextureRegion"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-</interface>
-<class name="ImageResolver.AssetManagerImageResolver"
- extends="java.lang.Object"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.game.maps.ImageResolver">
-</implements>
-<constructor name="ImageResolver.AssetManagerImageResolver"
- type="com.guidebee.game.maps.ImageResolver.AssetManagerImageResolver"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="assetManager" type="com.guidebee.game.engine.assets.AssetManager">
-</parameter>
-</constructor>
-<method name="getImage"
- return="com.guidebee.game.graphics.TextureRegion"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-</class>
-<class name="ImageResolver.DirectImageResolver"
- extends="java.lang.Object"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.game.maps.ImageResolver">
-</implements>
-<constructor name="ImageResolver.DirectImageResolver"
- type="com.guidebee.game.maps.ImageResolver.DirectImageResolver"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="images" type="com.guidebee.utils.collections.ObjectMap&lt;java.lang.String, com.guidebee.game.graphics.Texture&gt;">
-</parameter>
-</constructor>
-<method name="getImage"
- return="com.guidebee.game.graphics.TextureRegion"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-</class>
-<class name="ImageResolver.TextureAtlasImageResolver"
- extends="java.lang.Object"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.game.maps.ImageResolver">
-</implements>
-<constructor name="ImageResolver.TextureAtlasImageResolver"
- type="com.guidebee.game.maps.ImageResolver.TextureAtlasImageResolver"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="atlas" type="com.guidebee.game.graphics.TextureAtlas">
-</parameter>
-</constructor>
-<method name="getImage"
- return="com.guidebee.game.graphics.TextureRegion"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-</class>
 <class name="Map"
  extends="java.lang.Object"
  abstract="false"
@@ -35700,72 +35452,6 @@
 </parameter>
 </method>
 </class>
-<interface name="MapRenderer"
- abstract="true"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<method name="render"
- return="void"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="render"
- return="void"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layers" type="int[]">
-</parameter>
-</method>
-<method name="setView"
- return="void"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="camera" type="com.guidebee.game.camera.OrthographicCamera">
-</parameter>
-</method>
-<method name="setView"
- return="void"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="projectionMatrix" type="com.guidebee.math.Matrix4">
-</parameter>
-<parameter name="viewboundsX" type="float">
-</parameter>
-<parameter name="viewboundsY" type="float">
-</parameter>
-<parameter name="viewboundsWidth" type="float">
-</parameter>
-<parameter name="viewboundsHeight" type="float">
-</parameter>
-</method>
-</interface>
 </package>
 <package name="com.guidebee.game.maps.objects"
 >
@@ -36507,349 +36193,6 @@
 </package>
 <package name="com.guidebee.game.maps.tiled"
 >
-<class name="AtlasTmxMapLoader"
- extends="com.guidebee.game.engine.assets.loaders.AsynchronousAssetLoader"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="AtlasTmxMapLoader"
- type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</constructor>
-<constructor name="AtlasTmxMapLoader"
- type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="resolver" type="com.guidebee.game.engine.assets.loaders.FileHandleResolver">
-</parameter>
-</constructor>
-<method name="getDependencies"
- return="com.guidebee.utils.collections.Array&lt;com.guidebee.game.engine.assets.AssetDescriptor&gt;"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="tmxFile" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasTiledMapLoaderParameters">
-</parameter>
-</method>
-<method name="getRelativeFileHandle"
- return="com.guidebee.game.files.FileHandle"
- abstract="false"
- native="false"
- synchronized="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="file" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="path" type="java.lang.String">
-</parameter>
-</method>
-<method name="load"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-</method>
-<method name="load"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasTiledMapLoaderParameters">
-</parameter>
-</method>
-<method name="loadAsync"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="manager" type="com.guidebee.game.engine.assets.AssetManager">
-</parameter>
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="tmxFile" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasTiledMapLoaderParameters">
-</parameter>
-</method>
-<method name="loadSync"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="manager" type="com.guidebee.game.engine.assets.AssetManager">
-</parameter>
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="file" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasTiledMapLoaderParameters">
-</parameter>
-</method>
-</class>
-<class name="AtlasTmxMapLoader.AtlasResolver.AssetManagerAtlasResolver"
- extends="java.lang.Object"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasResolver">
-</implements>
-<constructor name="AtlasTmxMapLoader.AtlasResolver.AssetManagerAtlasResolver"
- type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasResolver.AssetManagerAtlasResolver"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="assetManager" type="com.guidebee.game.engine.assets.AssetManager">
-</parameter>
-</constructor>
-<method name="getAtlas"
- return="com.guidebee.game.graphics.TextureAtlas"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-</class>
-<class name="AtlasTmxMapLoader.AtlasResolver.DirectAtlasResolver"
- extends="java.lang.Object"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasResolver">
-</implements>
-<constructor name="AtlasTmxMapLoader.AtlasResolver.DirectAtlasResolver"
- type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasResolver.DirectAtlasResolver"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="atlases" type="com.guidebee.utils.collections.ObjectMap&lt;java.lang.String, com.guidebee.game.graphics.TextureAtlas&gt;">
-</parameter>
-</constructor>
-<method name="getAtlas"
- return="com.guidebee.game.graphics.TextureAtlas"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="name" type="java.lang.String">
-</parameter>
-</method>
-</class>
-<class name="AtlasTmxMapLoader.AtlasTiledMapLoaderParameters"
- extends="com.guidebee.game.engine.assets.AssetLoaderParameters"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="AtlasTmxMapLoader.AtlasTiledMapLoaderParameters"
- type="com.guidebee.game.maps.tiled.AtlasTmxMapLoader.AtlasTiledMapLoaderParameters"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</constructor>
-<field name="convertObjectToTileSpace"
- type="boolean"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="forceTextureFilters"
- type="boolean"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="textureMagFilter"
- type="com.guidebee.game.graphics.Texture.TextureFilter"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="textureMinFilter"
- type="com.guidebee.game.graphics.Texture.TextureFilter"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-</class>
-<class name="TideMapLoader"
- extends="com.guidebee.game.engine.assets.loaders.SynchronousAssetLoader"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="TideMapLoader"
- type="com.guidebee.game.maps.tiled.TideMapLoader"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</constructor>
-<constructor name="TideMapLoader"
- type="com.guidebee.game.maps.tiled.TideMapLoader"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="resolver" type="com.guidebee.game.engine.assets.loaders.FileHandleResolver">
-</parameter>
-</constructor>
-<method name="getDependencies"
- return="com.guidebee.utils.collections.Array&lt;com.guidebee.game.engine.assets.AssetDescriptor&gt;"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="tmxFile" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.TideMapLoader.Parameters">
-</parameter>
-</method>
-<method name="load"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-</method>
-<method name="load"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="assetManager" type="com.guidebee.game.engine.assets.AssetManager">
-</parameter>
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="tideFile" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.TideMapLoader.Parameters">
-</parameter>
-</method>
-</class>
-<class name="TideMapLoader.Parameters"
- extends="com.guidebee.game.engine.assets.AssetLoaderParameters"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="TideMapLoader.Parameters"
- type="com.guidebee.game.maps.tiled.TideMapLoader.Parameters"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</constructor>
-</class>
 <class name="TiledMap"
  extends="com.guidebee.game.maps.Map"
  abstract="false"
@@ -36891,42 +36234,6 @@
 </parameter>
 </method>
 </class>
-<interface name="TiledMapRenderer"
- abstract="true"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.game.maps.MapRenderer">
-</implements>
-<method name="renderObject"
- return="void"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="object" type="com.guidebee.game.maps.MapObject">
-</parameter>
-</method>
-<method name="renderTileLayer"
- return="void"
- abstract="true"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layer" type="com.guidebee.game.maps.tiled.TiledMapTileLayer">
-</parameter>
-</method>
-</interface>
 <interface name="TiledMapTile"
  abstract="true"
  static="false"
@@ -37657,913 +36964,6 @@
  visibility="public"
 >
 <parameter name="b" type="byte">
-</parameter>
-</method>
-</class>
-<class name="TmxMapLoader"
- extends="com.guidebee.game.engine.assets.loaders.AsynchronousAssetLoader"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="TmxMapLoader"
- type="com.guidebee.game.maps.tiled.TmxMapLoader"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</constructor>
-<constructor name="TmxMapLoader"
- type="com.guidebee.game.maps.tiled.TmxMapLoader"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="resolver" type="com.guidebee.game.engine.assets.loaders.FileHandleResolver">
-</parameter>
-</constructor>
-<method name="getDependencies"
- return="com.guidebee.utils.collections.Array&lt;com.guidebee.game.engine.assets.AssetDescriptor&gt;"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="tmxFile" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.TmxMapLoader.Parameters">
-</parameter>
-</method>
-<method name="load"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-</method>
-<method name="load"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="parameters" type="com.guidebee.game.maps.tiled.TmxMapLoader.Parameters">
-</parameter>
-</method>
-<method name="loadAsync"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="manager" type="com.guidebee.game.engine.assets.AssetManager">
-</parameter>
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="tmxFile" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.TmxMapLoader.Parameters">
-</parameter>
-</method>
-<method name="loadSync"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="manager" type="com.guidebee.game.engine.assets.AssetManager">
-</parameter>
-<parameter name="fileName" type="java.lang.String">
-</parameter>
-<parameter name="file" type="com.guidebee.game.files.FileHandle">
-</parameter>
-<parameter name="parameter" type="com.guidebee.game.maps.tiled.TmxMapLoader.Parameters">
-</parameter>
-</method>
-</class>
-<class name="TmxMapLoader.Parameters"
- extends="com.guidebee.game.engine.assets.AssetLoaderParameters"
- abstract="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="TmxMapLoader.Parameters"
- type="com.guidebee.game.maps.tiled.TmxMapLoader.Parameters"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</constructor>
-<field name="convertObjectToTileSpace"
- type="boolean"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="generateMipMaps"
- type="boolean"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="textureMagFilter"
- type="com.guidebee.game.graphics.Texture.TextureFilter"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="textureMinFilter"
- type="com.guidebee.game.graphics.Texture.TextureFilter"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-</class>
-</package>
-<package name="com.guidebee.game.maps.tiled.renderers"
->
-<class name="BatchTiledMapRenderer"
- extends="java.lang.Object"
- abstract="true"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.utils.Disposable">
-</implements>
-<implements name="com.guidebee.game.maps.tiled.TiledMapRenderer">
-</implements>
-<constructor name="BatchTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-</constructor>
-<constructor name="BatchTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-</constructor>
-<constructor name="BatchTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<constructor name="BatchTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<method name="dispose"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="getMap"
- return="com.guidebee.game.maps.tiled.TiledMap"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="getSpriteBatch"
- return="com.guidebee.game.graphics.Batch"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="getUnitScale"
- return="float"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="getViewBounds"
- return="com.guidebee.math.geometry.Rectangle"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="render"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="render"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layers" type="int[]">
-</parameter>
-</method>
-<method name="setMap"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-</method>
-<method name="setView"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="camera" type="com.guidebee.game.camera.OrthographicCamera">
-</parameter>
-</method>
-<method name="setView"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="projection" type="com.guidebee.math.Matrix4">
-</parameter>
-<parameter name="x" type="float">
-</parameter>
-<parameter name="y" type="float">
-</parameter>
-<parameter name="width" type="float">
-</parameter>
-<parameter name="height" type="float">
-</parameter>
-</method>
-</class>
-<class name="HexagonalTiledMapRenderer"
- extends="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="HexagonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.HexagonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-</constructor>
-<constructor name="HexagonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.HexagonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-</constructor>
-<constructor name="HexagonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.HexagonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<constructor name="HexagonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.HexagonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<method name="renderObject"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="object" type="com.guidebee.game.maps.MapObject">
-</parameter>
-</method>
-<method name="renderTileLayer"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layer" type="com.guidebee.game.maps.tiled.TiledMapTileLayer">
-</parameter>
-</method>
-</class>
-<class name="IsometricStaggeredTiledMapRenderer"
- extends="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="IsometricStaggeredTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricStaggeredTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-</constructor>
-<constructor name="IsometricStaggeredTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricStaggeredTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<constructor name="IsometricStaggeredTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricStaggeredTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-</constructor>
-<constructor name="IsometricStaggeredTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricStaggeredTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<method name="renderObject"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="object" type="com.guidebee.game.maps.MapObject">
-</parameter>
-</method>
-<method name="renderTileLayer"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layer" type="com.guidebee.game.maps.tiled.TiledMapTileLayer">
-</parameter>
-</method>
-</class>
-<class name="IsometricTiledMapRenderer"
- extends="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="IsometricTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-</constructor>
-<constructor name="IsometricTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<constructor name="IsometricTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-</constructor>
-<constructor name="IsometricTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.IsometricTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<method name="renderObject"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="object" type="com.guidebee.game.maps.MapObject">
-</parameter>
-</method>
-<method name="renderTileLayer"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layer" type="com.guidebee.game.maps.tiled.TiledMapTileLayer">
-</parameter>
-</method>
-</class>
-<class name="OrthoCachedTiledMapRenderer"
- extends="java.lang.Object"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<implements name="com.guidebee.utils.Disposable">
-</implements>
-<implements name="com.guidebee.game.maps.tiled.TiledMapRenderer">
-</implements>
-<constructor name="OrthoCachedTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.OrthoCachedTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-</constructor>
-<constructor name="OrthoCachedTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.OrthoCachedTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-</constructor>
-<constructor name="OrthoCachedTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.OrthoCachedTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-<parameter name="cacheSize" type="int">
-</parameter>
-</constructor>
-<method name="dispose"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="getSpriteCache"
- return="com.guidebee.game.graphics.SpriteCache"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="invalidateCache"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="isCached"
- return="boolean"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="render"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="render"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layers" type="int[]">
-</parameter>
-</method>
-<method name="renderObject"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="object" type="com.guidebee.game.maps.MapObject">
-</parameter>
-</method>
-<method name="renderTileLayer"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layer" type="com.guidebee.game.maps.tiled.TiledMapTileLayer">
-</parameter>
-</method>
-<method name="setBlending"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="blending" type="boolean">
-</parameter>
-</method>
-<method name="setMaxTileSize"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="maxPixelWidth" type="float">
-</parameter>
-<parameter name="maxPixelHeight" type="float">
-</parameter>
-</method>
-<method name="setOverCache"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="overCache" type="float">
-</parameter>
-</method>
-<method name="setView"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="camera" type="com.guidebee.game.camera.OrthographicCamera">
-</parameter>
-</method>
-<method name="setView"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="projection" type="com.guidebee.math.Matrix4">
-</parameter>
-<parameter name="x" type="float">
-</parameter>
-<parameter name="y" type="float">
-</parameter>
-<parameter name="width" type="float">
-</parameter>
-<parameter name="height" type="float">
-</parameter>
-</method>
-</class>
-<class name="OrthogonalTiledMapRenderer"
- extends="com.guidebee.game.maps.tiled.renderers.BatchTiledMapRenderer"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="OrthogonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.OrthogonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-</constructor>
-<constructor name="OrthogonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.OrthogonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<constructor name="OrthogonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.OrthogonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-</constructor>
-<constructor name="OrthogonalTiledMapRenderer"
- type="com.guidebee.game.maps.tiled.renderers.OrthogonalTiledMapRenderer"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="map" type="com.guidebee.game.maps.tiled.TiledMap">
-</parameter>
-<parameter name="unitScale" type="float">
-</parameter>
-<parameter name="batch" type="com.guidebee.game.graphics.Batch">
-</parameter>
-</constructor>
-<method name="renderObject"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="object" type="com.guidebee.game.maps.MapObject">
-</parameter>
-</method>
-<method name="renderTileLayer"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="layer" type="com.guidebee.game.maps.tiled.TiledMapTileLayer">
 </parameter>
 </method>
 </class>
@@ -48131,6 +46531,19 @@
 <parameter name="texture" type="com.guidebee.game.graphics.Texture">
 </parameter>
 </method>
+<method name="setTextureRegion"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="textureRegion" type="com.guidebee.game.graphics.TextureRegion">
+</parameter>
+</method>
 <method name="setUserObject"
  return="void"
  abstract="false"
@@ -48274,6 +46687,203 @@
 </method>
 <field name="entity"
  type="com.guidebee.game.entity.Entity"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="Actor.ActorDataTrait"
+ extends="com.guidebee.game.entity.DataTrait"
+ abstract="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="Actor.ActorDataTrait"
+ type="com.guidebee.game.scene.Actor.ActorDataTrait"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<field name="actor"
+ type="com.guidebee.game.scene.Actor"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="alpha"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="boundingRect"
+ type="com.guidebee.math.geometry.Rectangle"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="centerX"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="centerY"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="color"
+ type="com.guidebee.game.graphics.Color"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="height"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="name"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="originX"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="originY"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="rotation"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="scaleX"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="scaleY"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="visible"
+ type="boolean"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="width"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="x"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="y"
+ type="float"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="zIndex"
+ type="int"
  transient="false"
  volatile="false"
  static="false"
@@ -48442,6 +47052,56 @@
 >
 <parameter name="transform" type="boolean">
 </parameter>
+</method>
+</class>
+<class name="Scene"
+ extends="com.guidebee.game.ScreenAdapter"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="Scene"
+ type="com.guidebee.game.scene.Scene"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<constructor name="Scene"
+ type="com.guidebee.game.scene.Scene"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="viewPort" type="com.guidebee.game.camera.viewports.Viewport">
+</parameter>
+</constructor>
+<constructor name="Scene"
+ type="com.guidebee.game.scene.Scene"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="viewport" type="com.guidebee.game.camera.viewports.Viewport">
+</parameter>
+<parameter name="batch" type="com.guidebee.game.graphics.Batch">
+</parameter>
+</constructor>
+<method name="getStage"
+ return="com.guidebee.game.scene.Stage"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
 </method>
 </class>
 <class name="Scenery"
@@ -53235,7 +51895,7 @@
  deprecated="not deprecated"
  visibility="public"
 >
-<method name="CollisionDetected"
+<method name="collisionDetected"
  return="void"
  abstract="true"
  native="false"
@@ -53249,319 +51909,6 @@
 </parameter>
 </method>
 </interface>
-</package>
-<package name="com.guidebee.game.scene.datatrait"
->
-<class name="ActorDataTrait"
- extends="com.guidebee.game.entity.DataTrait"
- abstract="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="ActorDataTrait"
- type="com.guidebee.game.scene.datatrait.ActorDataTrait"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</constructor>
-<field name="actor"
- type="com.guidebee.game.scene.Actor"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="alpha"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="boundingRect"
- type="com.guidebee.math.geometry.Rectangle"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="centerX"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="centerY"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="color"
- type="com.guidebee.game.graphics.Color"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="height"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="name"
- type="java.lang.String"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="originX"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="originY"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="rotation"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="scaleX"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="scaleY"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="visible"
- type="boolean"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="width"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="x"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="y"
- type="float"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="zIndex"
- type="int"
- transient="false"
- volatile="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-</class>
-<class name="DataTraitMapper"
- extends="java.lang.Object"
- abstract="false"
- static="false"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-<method name="get"
- return="T"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="actor" type="com.guidebee.game.scene.Actor">
-</parameter>
-</method>
-<method name="getFor"
- return="com.guidebee.game.scene.datatrait.DataTraitMapper&lt;T&gt;"
- abstract="false"
- native="false"
- synchronized="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="dataTraitClass" type="java.lang.Class&lt;T&gt;">
-</parameter>
-</method>
-<method name="has"
- return="boolean"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="actor" type="com.guidebee.game.scene.Actor">
-</parameter>
-</method>
-</class>
-</package>
-<package name="com.guidebee.game.scene.directors"
->
-<class name="IntervalDirector"
- extends="com.guidebee.game.entity.directors.IntervalDirector"
- abstract="true"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="IntervalDirector"
- type="com.guidebee.game.scene.directors.IntervalDirector"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="interval" type="float">
-</parameter>
-</constructor>
-<constructor name="IntervalDirector"
- type="com.guidebee.game.scene.directors.IntervalDirector"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="interval" type="float">
-</parameter>
-<parameter name="priority" type="int">
-</parameter>
-</constructor>
-</class>
-<class name="IteratingDirector"
- extends="com.guidebee.game.entity.directors.IteratingDirector"
- abstract="true"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<constructor name="IteratingDirector"
- type="com.guidebee.game.scene.directors.IteratingDirector"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="role" type="com.guidebee.game.entity.Role">
-</parameter>
-</constructor>
-<constructor name="IteratingDirector"
- type="com.guidebee.game.scene.directors.IteratingDirector"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="role" type="com.guidebee.game.entity.Role">
-</parameter>
-<parameter name="priority" type="int">
-</parameter>
-</constructor>
-</class>
 </package>
 <package name="com.guidebee.game.tween"
 >

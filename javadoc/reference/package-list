@@ -15,7 +15,6 @@ com.guidebee.game.input
 com.guidebee.game.maps
 com.guidebee.game.maps.objects
 com.guidebee.game.maps.tiled
-com.guidebee.game.maps.tiled.renderers
 com.guidebee.game.maps.tiled.tiles
 com.guidebee.game.microedition
 com.guidebee.game.net
@@ -24,8 +23,6 @@ com.guidebee.game.physics.joints
 com.guidebee.game.scene
 com.guidebee.game.scene.actions
 com.guidebee.game.scene.collision
-com.guidebee.game.scene.datatrait
-com.guidebee.game.scene.directors
 com.guidebee.game.tween
 com.guidebee.game.tween.equations
 com.guidebee.game.tween.paths
