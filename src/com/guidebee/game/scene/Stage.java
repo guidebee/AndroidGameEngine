@@ -321,10 +321,14 @@ public class Stage extends InputAdapter implements Disposable {
     public void setScenery(Scenery scenery) {
         this.scenery = scenery;
         if (scenery.mapType == Scenery.MapType.OrthogonalTiled) {
-            scenery.tiledMapRenderer = new OrthogonalTiledMapRenderer(scenery.tiledMap, getBatch());
+
+            scenery.tiledMapRenderer = new OrthogonalTiledMapRenderer(scenery.tiledMap,getBatch());
+
+            scenery.tiledMapRenderer.setView((OrthographicCamera)getCamera());
         } else if (scenery.mapType == Scenery.MapType.IsometricTiled) {
             scenery.tiledMapRenderer = new IsometricTiledMapRenderer(scenery.tiledMap, getBatch());
         }
+
 
     }
 
@@ -875,13 +879,18 @@ public class Stage extends InputAdapter implements Disposable {
     }
 
     public void draw() {
-        if (scenery != null) {
-            scenery.renderForegroundLayers();
-        }
-        internalStage.draw();
+
+
+
+        internalStage.resetCamera();
         if (scenery != null) {
             scenery.renderBackgroundLayers();
         }
+        internalStage.draw();
+        if (scenery != null) {
+            scenery.renderForegroundLayers();
+        }
+
         internalStageHUD.draw();
     }
 

@@ -121,7 +121,7 @@ public class Scenery implements Disposable {
      */
     public void renderBackgroundLayers() {
         if (tiledMapRenderer != null) {
-            if (backGroundLayers == null) {
+            if (backGroundLayers != null) {
                 tiledMapRenderer.render(backGroundLayers);
 
             } else {

@@ -148,10 +148,16 @@ public class Stage extends InputAdapter implements Disposable {
 
     }
 
-    public void draw() {
+    public void resetCamera(){
         Camera camera = viewport.getCamera();
         camera.update();
+        batch.setProjectionMatrix(camera.combined);
+    }
 
+    public void draw() {
+
+        Camera camera = viewport.getCamera();
+        camera.update();
         if (!root.isVisible()) return;
 
         Batch batch = this.batch;

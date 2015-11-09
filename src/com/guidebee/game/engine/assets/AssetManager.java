@@ -23,6 +23,9 @@ import com.guidebee.game.audio.Music;
 import com.guidebee.game.audio.Sound;
 import com.guidebee.game.engine.assets.loaders.*;
 import com.guidebee.game.engine.assets.loaders.resolvers.InternalFileHandleResolver;
+import com.guidebee.game.maps.tiled.TideMapLoader;
+import com.guidebee.game.maps.tiled.TiledMap;
+import com.guidebee.game.maps.tiled.TmxMapLoader;
 import com.guidebee.game.ui.Skin;
 import com.guidebee.game.engine.utils.async.AsyncExecutor;
 import com.guidebee.game.engine.utils.async.ThreadUtils;
@@ -87,6 +90,7 @@ public class AssetManager implements Disposable {
         setLoader(ParticleEffect.class, new ParticleEffectLoader(resolver));
         setLoader(PolygonRegion.class, new PolygonRegionLoader(resolver));
         setLoader(I18NBundle.class, new I18NBundleLoader(resolver));
+        setLoader(TiledMap.class,new TmxMapLoader(resolver));
         executor = new AsyncExecutor(1);
     }
 

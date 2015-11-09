@@ -7,7 +7,9 @@ import com.guidebee.game.camera.viewports.*;
 import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.graphics.TextureAtlas;
 import com.guidebee.game.graphics.TextureRegion;
+import com.guidebee.game.maps.tiled.TiledMap;
 import com.guidebee.game.scene.Scene;
+import com.guidebee.game.scene.Scenery;
 import com.guidebee.game.ui.GameController;
 import com.guidebee.game.ui.GameControllerListener;
 import com.guidebee.game.ui.Skin;
@@ -27,6 +29,9 @@ public class DropScene extends Scene  {
     private Mario mario = new Mario();
     private RainDropGroup rainDropGroup = new RainDropGroup();
     private InputProcessor savedInputProcessor;
+    private TiledMap background= assetManager.get("tiledmap/forest.tmx", TiledMap.class);
+
+    private Scenery scenery=new Scenery(background);
 
 
     public DropScene() {
@@ -48,8 +53,12 @@ public class DropScene extends Scene  {
 
 
         rainMusic.setLooping(true);
+        scenery.setBackGroundLayers(new int[]{0,1,2});
+        scenery.setForeGroundLayers(new int[]{3,4});
+
         sceneStage.addActor(mario);
         sceneStage.addActor(rainDropGroup);
+        sceneStage.setScenery(scenery);
         sceneStage.setCollisionListener(rainDropGroup);
         sceneStage.setGameController(gameController);
 
