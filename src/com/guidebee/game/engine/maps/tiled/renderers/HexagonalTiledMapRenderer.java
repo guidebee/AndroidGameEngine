@@ -14,7 +14,7 @@
  * limitations under the License.
  ******************************************************************************/
 //--------------------------------- PACKAGE ------------------------------------
-package com.guidebee.game.maps.tiled.renderers;
+package com.guidebee.game.engine.maps.tiled.renderers;
 
 //--------------------------------- IMPORTS ------------------------------------
 

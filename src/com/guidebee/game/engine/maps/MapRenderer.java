@@ -14,7 +14,7 @@
  * limitations under the License.
  ******************************************************************************/
 //--------------------------------- PACKAGE ------------------------------------
-package com.guidebee.game.maps;
+package com.guidebee.game.engine.maps;
 
 //--------------------------------- IMPORTS ------------------------------------
 
@@ -24,7 +24,7 @@ import com.guidebee.math.Matrix4;
 //[------------------------------ MAIN CLASS ----------------------------------]
 
 /**
- * Models a common way of rendering {@link Map} objects
+ * Models a common way of rendering {@link com.guidebee.game.maps.Map} objects
  */
 public interface MapRenderer {
     /**

@@ -35,7 +35,7 @@ import com.guidebee.utils.Disposable;
  * e.g. {@link com.guidebee.game.maps.objects.CircleMapObject},
  * {@link com.guidebee.game.maps.objects.TextureMapObject}, and so on.</p>
  * <p>
- * A map can be rendered by a {@link MapRenderer}. A MapRenderer
+ * A map can be rendered by a {@link com.guidebee.game.engine.maps.MapRenderer}. A MapRenderer
  * implementation may chose to only render specific MapObject or
  * MapLayer types.</p>
  * <p>

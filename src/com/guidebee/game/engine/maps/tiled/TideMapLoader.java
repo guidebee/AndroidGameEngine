@@ -14,7 +14,7 @@
  * limitations under the License.
  ******************************************************************************/
 //--------------------------------- PACKAGE ------------------------------------
-package com.guidebee.game.maps.tiled;
+package com.guidebee.game.engine.maps.tiled;
 
 //--------------------------------- IMPORTS ------------------------------------
 
@@ -28,10 +28,11 @@ import com.guidebee.game.engine.assets.loaders.resolvers.InternalFileHandleResol
 import com.guidebee.game.files.FileHandle;
 import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.graphics.TextureRegion;
-import com.guidebee.game.maps.ImageResolver;
-import com.guidebee.game.maps.ImageResolver.AssetManagerImageResolver;
-import com.guidebee.game.maps.ImageResolver.DirectImageResolver;
+import com.guidebee.game.engine.maps.ImageResolver;
+import com.guidebee.game.engine.maps.ImageResolver.AssetManagerImageResolver;
+import com.guidebee.game.engine.maps.ImageResolver.DirectImageResolver;
 import com.guidebee.game.maps.MapProperties;
+import com.guidebee.game.maps.tiled.*;
 import com.guidebee.game.maps.tiled.TiledMapTileLayer.Cell;
 import com.guidebee.game.maps.tiled.tiles.AnimatedTiledMapTile;
 import com.guidebee.game.maps.tiled.tiles.StaticTiledMapTile;

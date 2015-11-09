@@ -14,7 +14,7 @@
  * limitations under the License.
  ******************************************************************************/
 //--------------------------------- PACKAGE ------------------------------------
-package com.guidebee.game.maps.tiled.renderers;
+package com.guidebee.game.engine.maps.tiled.renderers;
 
 //--------------------------------- IMPORTS ------------------------------------
 
@@ -26,7 +26,7 @@ import com.guidebee.game.maps.MapLayer;
 import com.guidebee.game.maps.MapLayers;
 import com.guidebee.game.maps.MapObject;
 import com.guidebee.game.maps.tiled.TiledMap;
-import com.guidebee.game.maps.tiled.TiledMapRenderer;
+import com.guidebee.game.engine.maps.tiled.TiledMapRenderer;
 import com.guidebee.game.maps.tiled.TiledMapTile;
 import com.guidebee.game.maps.tiled.TiledMapTileLayer;
 import com.guidebee.math.Matrix4;
