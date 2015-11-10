@@ -15,13 +15,9 @@ public class RainDrop extends Actor  {
     private static Texture rainDropTexture;
 
     static{
-        if(rainDropTexture==null){
-            SVGImage svgImage = GameEngine.assetManager.get("raindrop.svg", SVGImage.class);
-            Pixmap pixmap=svgImage.getPixmap(0.25f);
-            rainDropTexture=new Texture(pixmap);
-            pixmap.dispose();
-        }
+        reloadTexture();
     }
+
 
     public RainDrop(){
         super("RainDrop");
@@ -34,7 +30,7 @@ public class RainDrop extends Actor  {
     public static void reloadTexture(){
         if(rainDropTexture==null){
             SVGImage svgImage = GameEngine.assetManager.get("raindrop.svg", SVGImage.class);
-            Pixmap pixmap=svgImage.getPixmap(0.5f);
+            Pixmap pixmap=svgImage.getPixmap(0.25f);
             rainDropTexture=new Texture(pixmap);
             pixmap.dispose();
         }

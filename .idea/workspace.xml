@@ -42,713 +42,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.mapdigit.game.tutorial.drop" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="refactor --move some maps class to internal package">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Actor.ActorDataTrait.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scene.html" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\Application.ApplicationType.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\Graphics.GraphicsType.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.AssetManagerImageResolver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.DirectImageResolver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.TextureAtlasImageResolver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\ImageResolver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\MapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\AtlasTmxMapLoader.AtlasTiledMapLoaderParameters.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\AtlasTmxMapLoader.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TideMapLoader.Parameters.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TideMapLoader.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TiledMapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TmxMapLoader.Parameters.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\TmxMapLoader.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\BatchTiledMapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\HexagonalTiledMapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\IsometricStaggeredTiledMapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\IsometricTiledMapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\OrthoCachedTiledMapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\OrthogonalTiledMapRenderer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\package-descr.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\maps\tiled\renderers\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\ActorDataTrait.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\DataTraitMapper.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\package-descr.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\datatrait\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\IntervalDirector.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\IteratingDirector.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\package-descr.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\javadoc\reference\com\guidebee\game\scene\directors\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\src\com\guidebee\game\scene\datatrait\package.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Action.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Action.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Actions.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/Actions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Actor.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Actor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ActorGestureListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ActorGestureListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddListenerAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AddListenerAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/AffineTransform.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/AffineTransform.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AfterAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AfterAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Align.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Align.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AlphaAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/AlphaAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.PlayMode.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.PlayMode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Application.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Application.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationAdapter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationAdapter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ApplicationListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Arc.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Arc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Area.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Area.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Array.ArrayIterable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Array.ArrayIterable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Array.ArrayIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Array.ArrayIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Array.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Array.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ArrayMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ArraySelection.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ArraySelection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/AtomicQueue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/AtomicQueue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Audio.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Audio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/AudioDevice.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/AudioDevice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/AudioRecorder.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/AudioRecorder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/BSpline.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/BSpline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Back.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Back.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/Bag.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/Bag.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Base64Coder.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Base64Coder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/BaseActivity.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/BaseActivity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/BaseDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/BaseDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/BaseGameActivity.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/BaseGameActivity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/BaseJsonReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/BaseJsonReader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/BaseTween.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/BaseTween.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Batch.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Batch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Bezier.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Bezier.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.Node.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.Node.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BinaryHeap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFont.BitmapFontData.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFont.BitmapFontData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFont.Glyph.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFont.Glyph.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFont.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFont.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFontCache.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/BitmapFontCache.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Bits.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Bits.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Body.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Body.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/BodyDef.BodyType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/BodyDef.BodyType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/BodyDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/BodyDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BooleanArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BooleanArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Bounce.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Bounce.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/BoundingBox.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/BoundingBox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Box2DDebugRenderer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Box2DDebugRenderer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Bresenham2.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Bresenham2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Brush.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Brush.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BufferUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/BufferUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Button.ButtonStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Button.ButtonStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Button.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Button.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ButtonGroup.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ButtonGroup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ByteArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ByteArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/Camera.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/Camera.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/CatmullRom.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/CatmullRom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/CatmullRomSpline.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/CatmullRomSpline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Cell.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Cell.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ChainShape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ChainShape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChangeListener.ChangeEvent.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChangeListener.ChangeEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChangeListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChangeListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/CharArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/CharArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/CheckBox.CheckBoxStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/CheckBox.CheckBoxStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/CheckBox.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/CheckBox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChildWindow.WindowStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChildWindow.WindowStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChildWindow.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ChildWindow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Circ.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Circ.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Circle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Circle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/CircleMapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/CircleMapObject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/CircleShape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/CircleShape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ClickListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ClickListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Clipboard.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Clipboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Collidable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Collidable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/Collision.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/Collision.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/CollisionListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/CollisionListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Color.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Color.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Color.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Color.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ColorAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ColorAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Colors.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Colors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Configuration.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Configuration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Contact.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ContactFilter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ContactFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ContactImpulse.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ContactImpulse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ContactListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ContactListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Container.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Container.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/ConvexHull.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/ConvexHull.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/CountdownEventAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/CountdownEventAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Cubic.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Cubic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/CubicCurve.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/CubicCurve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Cullable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Cullable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/CumulativeDistribution.CumulativeValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/CumulativeDistribution.CumulativeValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/CumulativeDistribution.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/CumulativeDistribution.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/DataBuffer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/DataBuffer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataInput.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataInput.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataOutput.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataOutput.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/DataReader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTrait.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTrait.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitMapper.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitMapper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/DataTraitType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/DelaunayTriangulator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/DelaunayTriangulator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/DelayAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/DelayAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/DelayedRemovalArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/DelayedRemovalArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/DelegateAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/DelegateAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/DestructionListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/DestructionListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Dialog.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Dimension.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Dimension.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/Director.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/Director.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Disableable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Disableable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Disposable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Disposable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/DistanceJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/DistanceJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/DistanceJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/DistanceJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.Payload.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.Payload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.Source.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.Source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.Target.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.Target.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragAndDrop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragScrollListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/DragScrollListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/Drawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/Drawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/EarClippingTriangulator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/EarClippingTriangulator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/EdgeShape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/EdgeShape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Elastic.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Elastic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Ellipse.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Ellipse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Ellipse.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Ellipse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/EllipseMapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/EllipseMapObject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/Entity.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/Entity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/EntityEngine.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/EntityEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/EntityListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/EntityListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Event.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Event.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/EventAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/EventAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/EventListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/EventListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Expo.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Expo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ExtendViewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ExtendViewport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/FileHandle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/FileHandle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/FileHandleStream.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/FileHandleStream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Files.FileType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Files.FileType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Files.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Files.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/FillViewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/FillViewport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Filter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Filter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/FitViewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/FitViewport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Fixture.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Fixture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/FixtureDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/FixtureDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/FlatteningPathIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/FlatteningPathIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/FloatAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/FloatAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/FloatArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/FloatArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/FloatCounter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/FloatCounter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/FocusListener.FocusEvent.Type.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/FocusListener.FocusEvent.Type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/FocusListener.FocusEvent.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/FocusListener.FocusEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/FocusListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/FocusListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Font.HAlignment.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Font.HAlignment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Font.TextBounds.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Font.TextBounds.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Font.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Font.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/FrameBuffer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/FrameBuffer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/FrictionJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/FrictionJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/FrictionJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/FrictionJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Frustum.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Frustum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/GameActivity.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/GameActivity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/GameActivityWrapper.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/GameActivityWrapper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameController.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameController.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameControllerListener.Direction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameControllerListener.Direction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameControllerListener.GameButton.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameControllerListener.GameButton.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameControllerListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/GameControllerListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/GameEngine.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/GameEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/GameEngineRuntimeException.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/GameEngineRuntimeException.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/GamePlay.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/GamePlay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/GearJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/GearJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/GearJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/GearJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GeometryUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GeometryUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.GestureAdapter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.GestureAdapter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.GestureListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.GestureListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/GestureDetector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.BufferFormat.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.BufferFormat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.DisplayMode.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.DisplayMode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Graphics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Graphics2D.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Graphics2D.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint2.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint3.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/GridPoint3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Group.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Group.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/HorizontalGroup.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/HorizontalGroup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpParametersUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpParametersUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpStatus.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/HttpStatus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/I18NBundle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/I18NBundle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/IPathIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/IPathIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/IShape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/IShape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IdentityMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/IllegalPathStateException.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/IllegalPathStateException.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Image.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Image.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.ImageButtonStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.ImageButtonStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageButton.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.ImageTextButtonStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.ImageTextButtonStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ImageTextButton.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/ImmutableArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/ImmutableArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Buttons.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Buttons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Orientation.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Orientation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Peripheral.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.Peripheral.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.TextInputListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.TextInputListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Input.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputAdapter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputAdapter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/InputEvent.Type.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/InputEvent.Type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/InputEvent.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/InputEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/InputListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/InputListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputMultiplexer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputMultiplexer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputProcessor.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputProcessor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputProcessorQueue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/InputProcessorQueue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/IntAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/IntAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntFloatMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntIntMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntSet.IntSetIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntSet.IntSetIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntSet.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/IntSet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Bounce.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Bounce.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.BounceIn.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.BounceIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.BounceOut.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.BounceOut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Elastic.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Elastic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ElasticIn.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ElasticIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ElasticOut.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ElasticOut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Exp.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Exp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ExpIn.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ExpIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ExpOut.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.ExpOut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Pow.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Pow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.PowIn.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.PowIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.PowOut.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.PowOut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Swing.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.Swing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.SwingIn.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.SwingIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.SwingOut.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.SwingOut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Interpolation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.MinimumTranslationVector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.MinimumTranslationVector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.SplitTriangle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.SplitTriangle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Intersector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalDirector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalIteratingDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IntervalIteratingDirector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IteratingDirector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/IteratingDirector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Joint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Joint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.JointType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.JointType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointEdge.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/JointEdge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.ReadOnlySerializer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.ReadOnlySerializer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.Serializable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.Serializable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.Serializer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.Serializer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Json.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonReader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.JsonIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.JsonIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.PrettyPrintSettings.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.PrettyPrintSettings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.ValueType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.ValueType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonWriter.OutputType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonWriter.OutputType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonWriter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/JsonWriter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Label.LabelStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Label.LabelStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Label.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Label.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/Layer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/Layer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/LayerManager.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/LayerManager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Layout.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/LayoutAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/LayoutAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/LifecycleListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/LifecycleListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Line.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Line.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Linear.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Linear.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/Linear.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/Linear.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/LinearGradientBrush.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/LinearGradientBrush.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/List.ListStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/List.ListStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/List.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/List.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/Listener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/Listener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/LittleEndianInputStream.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/LittleEndianInputStream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Logger.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Logger.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/LongMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.ManifoldPoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.ManifoldPoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.ManifoldType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.ManifoldType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Manifold.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/Map.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/Map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayers.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapLayers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObjects.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapObjects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapProperties.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/MapProperties.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/MassData.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/MassData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/MathUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/MathUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Matrix3.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Matrix3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Matrix4.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Matrix4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MotorJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MotorJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MotorJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MotorJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MouseJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MouseJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MouseJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/MouseJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/MoveByAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/MoveByAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/MoveToAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/MoveToAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/Music.OnCompletionListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/Music.OnCompletionListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/Music.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/Music.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/MutableFloat.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/MutableFloat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/MutableInteger.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/MutableInteger.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpMethods.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpMethods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpRequest.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpRequest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpResponse.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpResponse.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpResponseListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.HttpResponseListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.Protocol.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.Protocol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Net.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/NinePatch.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/NinePatch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/NinePatchDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/NinePatchDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/NoninvertibleTransformException.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/NoninvertibleTransformException.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/NumberUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/NumberUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectFloatMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectIntMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Entries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Entries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Entry.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Entry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Keys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Keys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Values.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.Values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectSet.ObjectSetIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectSet.ObjectSetIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectSet.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ObjectSet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.OrderedMapEntries.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.OrderedMapEntries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.OrderedMapKeys.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.OrderedMapKeys.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.OrderedMapValues.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.OrderedMapValues.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.OrderedSetIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.OrderedSetIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/OrderedSet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/OrthographicCamera.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/OrthographicCamera.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ParallelAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ParallelAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffect.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffectPool.PooledEffect.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffectPool.PooledEffect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffectPool.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEffectPool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.GradientColorValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.GradientColorValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.NumericValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.NumericValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.Particle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.Particle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.ParticleValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.ParticleValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.RangedNumericValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.RangedNumericValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.ScaledNumericValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.ScaledNumericValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.SpawnEllipseSide.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.SpawnEllipseSide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.SpawnShape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.SpawnShape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.SpawnShapeValue.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.SpawnShapeValue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/ParticleEmitter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ParticleEmitterBox2D.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/ParticleEmitterBox2D.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Path.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Path.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Path.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Path.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PauseableThread.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PauseableThread.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Pen.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/Pen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PerformanceCounter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PerformanceCounter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PerformanceCounters.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PerformanceCounters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/PerspectiveCamera.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/PerspectiveCamera.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.Blending.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.Blending.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.Filter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.Filter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.Format.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.Format.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Pixmap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PixmapPacker.Page.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PixmapPacker.Page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PixmapPacker.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PixmapPacker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Plane.PlaneSide.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Plane.PlaneSide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Plane.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Plane.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Point.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Point.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Polygon.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Polygon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Polygon.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Polygon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/PolygonMapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/PolygonMapObject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonRegion.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonRegion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonRegionLoader.PolygonRegionParameters.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonRegionLoader.PolygonRegionParameters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonRegionLoader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonRegionLoader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/PolygonShape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/PolygonShape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonSprite.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonSprite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonSpriteBatch.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/PolygonSpriteBatch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Polyline.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Polyline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Polyline.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Polyline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/PolylineMapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/PolylineMapObject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Pool.Poolable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Pool.Poolable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Pool.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Pool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/PooledEntityEngine.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/PooledEntityEngine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/PooledLinkedList.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/PooledLinkedList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Pools.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Pools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Predicate.PredicateIterable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Predicate.PredicateIterable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Predicate.PredicateIterator.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Predicate.PredicateIterator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Predicate.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Predicate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Preferences.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Preferences.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PrismaticJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PrismaticJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PrismaticJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PrismaticJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ProgressBar.ProgressBarStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ProgressBar.ProgressBarStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ProgressBar.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ProgressBar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PropertiesUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/PropertiesUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PulleyJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PulleyJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PulleyJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/PulleyJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Quad.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Quad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/QuadCurve.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/QuadCurve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Quart.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Quart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Quaternion.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Quaternion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/QueryCallback.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/QueryCallback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/QuickSelect.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/QuickSelect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Quint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Quint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/RadialGradientBrush.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/RadialGradientBrush.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/RandomXS128.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/RandomXS128.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/Ray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/Ray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/RayCastCallback.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/RayCastCallback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Rectangle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/Rectangle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Rectangle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/Rectangle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/RectangleMapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/RectangleMapObject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/RectangularShape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/RectangularShape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/ReflectionPool.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/ReflectionPool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RelativeTemporalAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RelativeTemporalAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/RemoteInput.RemoteInputListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/RemoteInput.RemoteInputListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/RemoteInput.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/RemoteInput.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/RemoteSender.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/RemoteSender.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RemoveAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RemoveAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RemoveActorAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RemoveActorAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RemoveListenerAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RemoveListenerAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RepeatAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RepeatAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ResourceManager.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ResourceManager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RevoluteJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RevoluteJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RevoluteJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RevoluteJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/Role.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/Role.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RopeJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RopeJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RopeJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/RopeJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RotateByAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RotateByAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RotateToAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RotateToAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/RoundRectangle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/RoundRectangle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RunnableAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/RunnableAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/SVGImage.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/SVGImage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ScaleByAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ScaleByAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ScaleToAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/ScaleToAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Scaling.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Scaling.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ScalingViewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ScalingViewport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.MapType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.MapType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Scenery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/ScissorStack.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/ScissorStack.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Screen.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/Screen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ScreenAdapter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ScreenAdapter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/ScreenUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/ScreenUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ScreenViewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/ScreenViewport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ScrollPane.ScrollPaneStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ScrollPane.ScrollPaneStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ScrollPane.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/ScrollPane.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/Segment.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/Segment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Select.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Select.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SelectBox.SelectBoxStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SelectBox.SelectBoxStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SelectBox.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SelectBox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Selection.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Selection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/SequenceAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/SequenceAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/SerializationException.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/SerializationException.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/ServerSocket.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/ServerSocket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/ServerSocketHints.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/ServerSocketHints.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Shape.Type.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Shape.Type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Shape.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Shape.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ShortArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/ShortArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/Signal.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/Signal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Sine.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/Sine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/SizeByAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/SizeByAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/SizeToAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/SizeToAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Skin.TintedDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Skin.TintedDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Skin.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Skin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Slider.SliderStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Slider.SliderStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Slider.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Slider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/SnapshotArray.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/SnapshotArray.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/Socket.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/Socket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/SocketHints.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/SocketHints.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/SolidBrush.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/SolidBrush.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Sort.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/Sort.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/SortedIntList.Node.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/SortedIntList.Node.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/SortedIntList.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/SortedIntList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/Sound.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/Sound.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/Sphere.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/Sphere.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SplitPane.SplitPaneStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SplitPane.SplitPaneStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SplitPane.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/SplitPane.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Sprite.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Sprite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/Sprite.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/Sprite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/SpriteBatch.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/SpriteBatch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/SpriteCache.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/SpriteCache.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/SpriteDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/SpriteDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Stack.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Stack.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Stage.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/Stage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.OptimizedByteArrayOutputStream.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.OptimizedByteArrayOutputStream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StreamUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/StretchViewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/StretchViewport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StringBuilder.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/StringBuilder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Table.Debug.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Table.Debug.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Table.DebugRect.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Table.DebugRect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Table.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TemporalAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TemporalAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextArea.TextAreaListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextArea.TextAreaListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextArea.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextArea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextButton.TextButtonStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextButton.TextButtonStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextButton.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextButton.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.DefaultOnscreenKeyboard.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.DefaultOnscreenKeyboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.OnscreenKeyboard.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.OnscreenKeyboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldClickListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldClickListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldFilter.DigitsOnlyFilter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldFilter.DigitsOnlyFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldFilter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldListener.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldListener.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.TextFieldStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/TextField.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Texture.TextureFilter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Texture.TextureFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Texture.TextureWrap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Texture.TextureWrap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Texture.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/Texture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.AtlasRegion.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.AtlasRegion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.AtlasSprite.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.AtlasSprite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.TextureAtlasData.Page.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.TextureAtlasData.Page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.TextureAtlasData.Region.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.TextureAtlasData.Region.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.TextureAtlasData.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.TextureAtlasData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureAtlas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/TextureBrush.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/TextureBrush.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureData.TextureDataType.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureData.TextureDataType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureData.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/TextureMapObject.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/TextureMapObject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureRegion.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/TextureRegion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TextureRegionDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TextureRegionDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TiledDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TiledDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/TiledLayer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/TiledLayer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMap.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.BlendMode.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.BlendMode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileLayer.Cell.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileLayer.Cell.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileLayer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileLayer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileSet.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileSet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileSets.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TiledMapTileSets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TimeScaleAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TimeScaleAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/TimeUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/TimeUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/Timeline.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/Timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.Task.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.Task.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/Timer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapHelper.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/TmxMapHelper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TouchableAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TouchableAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchpad.TouchpadStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchpad.TouchpadStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchpad.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Touchpad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Transform.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Transform.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TransformDrawable.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/TransformDrawable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Tree.Node.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Tree.Node.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Tree.TreeStyle.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Tree.TreeStyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Tree.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/Tween.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/Tween.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenAccessor.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenAccessor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TweenAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/TweenAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenCallback.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenCallback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenEquation.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenEquation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenEquations.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenEquations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenManager.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenManager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenPath.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenPath.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenPaths.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenPaths.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenUtils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/TweenUtils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/UBJsonReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/UBJsonReader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/UBJsonWriter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/UBJsonWriter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Utils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Utils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Utils.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Utils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Value.Fixed.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Value.Fixed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Value.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Value.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Vector.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Vector.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Vector2.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Vector2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Vector3.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/Vector3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/VectorFont.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/VectorFont.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Version.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/Version.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/VerticalGroup.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/VerticalGroup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/Viewport.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/Viewport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/VisibleAction.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/VisibleAction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WeldJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WeldJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WeldJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WeldJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WheelJoint.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WheelJoint.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WheelJointDef.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/WheelJointDef.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Widget.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Widget.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/WidgetGroup.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/WidgetGroup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Window.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/Window.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/WindowedMean.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/WindowedMean.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/World.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/World.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/WorldManifold.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/WorldManifold.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.Element.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.Element.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlReader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlWriter.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/XmlWriter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildjavadoc.bat" afterPath="$PROJECT_DIR$/buildjavadoc.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/classes.html" afterPath="$PROJECT_DIR$/javadoc/reference/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/current.xml" afterPath="$PROJECT_DIR$/javadoc/reference/current.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/hierarchy.html" afterPath="$PROJECT_DIR$/javadoc/reference/hierarchy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/lists.js" afterPath="$PROJECT_DIR$/javadoc/reference/lists.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/assets/navtree_data.js" afterPath="$PROJECT_DIR$/javadoc/assets/navtree_data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/package-descr.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/package-descr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/package-list" afterPath="$PROJECT_DIR$/javadoc/reference/package-list" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/drawing/geometry/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/activity/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/audio/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/camera/viewports/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/directors/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/signals/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/entity/utils/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/files/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/graphics/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/input/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/objects/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/maps/tiled/tiles/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/microedition/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/net/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/physics/joints/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/actions/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/scene/collision/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/equations/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/paths/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/tween/primitives/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/game/ui/drawable/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/collision/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/math/geometry/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/reference/com/guidebee/utils/collections/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/reference/packages.html" afterPath="$PROJECT_DIR$/javadoc/reference/packages.html" />
+    <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f2163357-2680-4fbe-98a0-1512f06b8f87" name="New changelist" comment="" />
@@ -807,8 +103,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -816,11 +112,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DropScene.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DropScene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1394">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37159532" vertical-offset="795" max-vertical-offset="1496">
+              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+              <folding>
+                <element signature="e#2729#2730#0" expanded="true" />
+                <element signature="e#2800#2801#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ScreenAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1132" max-vertical-offset="2176">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainDrop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
+              <caret line="43" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainDropGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1156">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -846,10 +185,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Actor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68380743" vertical-offset="19316" max-vertical-offset="20332">
+            <state vertical-scroll-proportion="0.0" vertical-offset="19316" max-vertical-offset="20332">
               <caret line="1279" column="0" selection-start-line="1279" selection-start-column="0" selection-end-line="1279" selection-end-column="0" />
               <folding>
                 <element signature="e#16635#16636#0" expanded="true" />
@@ -863,47 +202,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="4641">
-              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BatchTiledMapRenderer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/maps/tiled/renderers/BatchTiledMapRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="2261">
-              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="13362" max-vertical-offset="15164">
-              <caret line="884" column="28" selection-start-line="884" selection-start-column="28" selection-end-line="884" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1887" max-vertical-offset="15725">
-              <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1190">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -912,8 +211,8 @@
       <file leaf-file-name="DropGamePlay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="510">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -976,19 +275,19 @@
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/coords/CoordinateScene.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/drawing/Pear.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/graphics/Sprite.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/graphics/TextureRegion.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Bucket.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/engine/assets/AssetManager.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/engine/scene/Stage.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
       </list>
     </option>
   </component>
@@ -1347,6 +646,66 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1424,40 +783,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="scene" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidGameEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidGameEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guidebee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scene" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Actor.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1479,7 +804,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
@@ -1866,7 +1191,8 @@
       <workItem from="1447053970346" duration="7396000" />
       <workItem from="1447069726654" duration="86000" />
       <workItem from="1447070034843" duration="1361000" />
-      <workItem from="1447071544985" duration="484000" />
+      <workItem from="1447071544985" duration="3965000" />
+      <workItem from="1447114825012" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="add android javadoc (doclava) support">
       <created>1413514803895</created>
@@ -1958,11 +1284,23 @@
       <option name="project" value="LOCAL" />
       <updated>1447071261229</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new javadoc">
+      <created>1447072163274</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1447072163274</updated>
+    </task>
+    <task id="LOCAL-00017" summary="SVGImage demo">
+      <created>1447116784513</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1447116784513</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107430000" />
+    <option name="totallyTimeSpent" value="115509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1974,7 +1312,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1986,7 +1324,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24391988" sideWeight="0.33567664" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5228162" sideWeight="0.2534722" order="7" side_tool="true" content_ui="tabs" />
@@ -1994,7 +1332,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27666315" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5017341" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34004238" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42372882" sideWeight="0.7465278" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42372882" sideWeight="0.7465278" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29228857" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24895833" sideWeight="0.47902098" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2023,6 +1361,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
@@ -2040,7 +1380,9 @@
     <MESSAGE value="on screen game controller" />
     <MESSAGE value="sceneary and tiledmap" />
     <MESSAGE value="refactor --move some maps class to internal package" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor --move some maps class to internal package" />
+    <MESSAGE value="new javadoc" />
+    <MESSAGE value="SVGImage demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="SVGImage demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2075,13 +1417,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/engine/graphics/GLTexture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.092006035" vertical-offset="0" max-vertical-offset="0">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/basics/HelloWorldActor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="0">
@@ -2261,13 +1596,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/raindrop.atlas">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6310461" vertical-offset="102" max-vertical-offset="1241">
           <caret line="39" column="3" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="8" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ui/Skin.java">
@@ -2288,27 +1623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="782">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8994083" vertical-offset="1568" max-vertical-offset="2312">
-          <caret line="128" column="5" selection-start-line="83" selection-start-column="4" selection-end-line="128" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2514793" vertical-offset="0" max-vertical-offset="676">
-          <caret line="13" column="61" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93195266" vertical-offset="186" max-vertical-offset="1105">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -2344,7 +1658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="3077">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2352,15 +1665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1392" max-vertical-offset="2261">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4641">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2384,22 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1715" max-vertical-offset="15725">
           <caret line="153" column="51" selection-start-line="153" selection-start-column="51" selection-end-line="153" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1394">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2429,11 +1717,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68380743" vertical-offset="19316" max-vertical-offset="20332">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19316" max-vertical-offset="20332">
           <caret line="1279" column="0" selection-start-line="1279" selection-start-column="0" selection-end-line="1279" selection-end-column="0" />
           <folding>
             <element signature="e#16635#16636#0" expanded="true" />
             <element signature="e#16719#16720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="4641">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1132" max-vertical-offset="2176">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1156">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
+          <caret line="43" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ScreenAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37159532" vertical-offset="795" max-vertical-offset="1496">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="e#2729#2730#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2490,7 +1837,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AndroidGameEngine</last-edited>
+          <last-edited>Android|AndroidGameEngine</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
