@@ -14,7 +14,8 @@ public class Fly extends Sprite {
         setName("Fly");
         setBounds(getX(), getY(), getWidth(), getHeight());
         setPosition(128 / 2, 200);
-        setFrameSequence(new int[]{0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 1, 1, 1});
+        setFrameSequence(new int[]{0, 1, 2, 1, 0, 1, 2,
+                1, 0, 1, 2, 1, 1, 1, 1, 1, 1});
 
     }
 

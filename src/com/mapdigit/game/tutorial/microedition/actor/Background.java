@@ -12,16 +12,30 @@ import static com.guidebee.game.GameEngine.*;
 public class Background extends TiledLayer {
 
     private int[] cells = new int[]{
-            0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 1, 4, 4, 3, 0, 0, 0, 0, 1, 2, 2, 0, 1, 4, 4, 3, 0, 0, 0, 0, 1, 2, 2, 2,
-            1, 4, 4, 4, 4, 3, 0, 0, 1, 4, 4, 4, 1, 4, 4, 4, 4, 3, 0, 0, 1, 4, 4, 4, 4};
+            0, 0, 1, 3, 0,
+            0, 0, 0, 0, 0,
+            0, 0, 0, 0, 1,
+            3, 0, 0, 0, 0,
+            0, 0, 0, 0, 0,
+            0, 1, 4, 4, 3,
+            0, 0, 0, 0, 1,
+            2, 2, 0, 1, 4,
+            4, 3, 0, 0, 0,
+            0, 1, 2, 2, 2,
+            1, 4, 4, 4, 4,
+            3, 0, 0, 1, 4,
+            4, 4, 1, 4, 4,
+            4, 4, 3, 0, 0,
+            1, 4, 4, 4, 4};
 
     private final int animatedIndex;
 
     private int animatedCount = 0;
 
     public Background() {
-        super(25, 4, new TextureRegion(assetManager.get("tiles.png", Texture.class)), 32, 32);
+        super(25, 4, new TextureRegion(
+                assetManager.get("tiles.png", Texture.class)),
+                32, 32);
         setPosition(0, 0);
         for (int index = 0; index < cells.length; index++) {
             int c = index % 25;
