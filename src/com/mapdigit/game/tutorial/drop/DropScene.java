@@ -1,25 +1,17 @@
 package com.mapdigit.game.tutorial.drop;
 
-import android.util.Log;
-import com.guidebee.game.Collidable;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.InputProcessor;
 import com.guidebee.game.audio.Music;
-import com.guidebee.game.camera.viewports.*;
-import com.guidebee.game.graphics.Texture;
+import com.guidebee.game.camera.viewports.ScalingViewport;
 import com.guidebee.game.graphics.TextureAtlas;
-import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.maps.MapLayer;
 import com.guidebee.game.maps.MapObject;
 import com.guidebee.game.maps.tiled.TiledMap;
 import com.guidebee.game.scene.Scene;
 import com.guidebee.game.scene.Scenery;
 import com.guidebee.game.ui.GameController;
-import com.guidebee.game.ui.GameControllerListener;
-import com.guidebee.game.ui.Skin;
-import com.guidebee.game.ui.Touchpad;
 import com.guidebee.game.ui.drawable.TextureRegionDrawable;
-import com.guidebee.utils.collections.Array;
 import com.mapdigit.game.tutorial.drop.actor.Bucket;
 import com.mapdigit.game.tutorial.drop.actor.Mario;
 import com.mapdigit.game.tutorial.drop.actor.RainDrop;
