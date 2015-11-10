@@ -101,10 +101,12 @@ public class Mario extends Actor implements GameControllerListener {
                 setX(getX() - 200 * graphics.getDeltaTime());
                 break;
             case EAST:
+
                 setTextureRegion(rightAnimation.getKeyFrame(elapsedTime,true));
                 setX(getX() + 200*graphics.getDeltaTime());
                 break;
             case NORTH:
+
                 setTextureRegion(forwardAnimation.getKeyFrame(elapsedTime,true));
                 setY(getY() + 200 * graphics.getDeltaTime());
                 break;

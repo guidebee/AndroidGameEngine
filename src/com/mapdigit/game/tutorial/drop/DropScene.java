@@ -17,6 +17,7 @@ import com.guidebee.game.ui.Touchpad;
 import com.guidebee.game.ui.drawable.TextureRegionDrawable;
 import com.mapdigit.game.tutorial.drop.actor.Bucket;
 import com.mapdigit.game.tutorial.drop.actor.Mario;
+import com.mapdigit.game.tutorial.drop.actor.RainDrop;
 import com.mapdigit.game.tutorial.drop.actor.RainDropGroup;
 
 import static com.guidebee.game.GameEngine.assetManager;
@@ -87,6 +88,7 @@ public class DropScene extends Scene  {
     @Override
     public void pause() {
         rainMusic.stop();
+
     }
 
     @Override
@@ -94,6 +96,7 @@ public class DropScene extends Scene  {
         savedInputProcessor = GameEngine.input.getInputProcessor();
         GameEngine.input.setInputProcessor(sceneStage);
         rainMusic.play();
+
     }
 
 

@@ -42,6 +42,7 @@ public class RainDropGroup extends Group implements CollisionListener{
             float y = rainDrop.getY() - 200 * graphics.getDeltaTime();
             rainDrop.setY(y);
             if(y+64 <0){
+
                 removeActor(rainDrop);
             }
 
@@ -55,9 +56,11 @@ public class RainDropGroup extends Group implements CollisionListener{
             Actor actor2=(Actor)collision.getObjectB();
             if(actor1!=null && actor2!=null){
                 if(actor1.getName()=="Mario" && actor2.getName()=="RainDrop"){
+
                     actor2.getParent().removeActor(actor2);
                     dropSound.play();
                 }else if(actor2.getName()=="Mario" && actor1.getName()=="RainDrop"){
+
                     actor1.getParent().removeActor(actor1);
                     dropSound.play();
                 }
