@@ -12,36 +12,14 @@ import static com.guidebee.game.GameEngine.assetManager;
 
 public class RainDrop extends Actor  {
 
-    private static Texture rainDropTexture;
-
-    static{
-        reloadTexture();
-    }
 
 
     public RainDrop(){
         super("RainDrop");
-        if(rainDropTexture!=null) {
-            setTexture(rainDropTexture);
-        }
+        setTexture(assetManager.get("coin.png",Texture.class));
 
     }
 
-    public static void reloadTexture(){
-        if(rainDropTexture==null){
-            SVGImage svgImage = GameEngine.assetManager.get("raindrop.svg", SVGImage.class);
-            Pixmap pixmap=svgImage.getPixmap(0.25f);
-            rainDropTexture=new Texture(pixmap);
-            pixmap.dispose();
-        }
-    }
-
-    public static void unloadTexture(){
-        if(rainDropTexture!=null){
-            rainDropTexture.dispose();
-            rainDropTexture=null;
-        }
-    }
 
 
 }

@@ -91,7 +91,7 @@ public class DropScene extends Scene  {
     @Override
     public void pause() {
         rainMusic.stop();
-        RainDrop.unloadTexture();
+
     }
 
     @Override
@@ -99,7 +99,7 @@ public class DropScene extends Scene  {
         savedInputProcessor = GameEngine.input.getInputProcessor();
         GameEngine.input.setInputProcessor(sceneStage);
         rainMusic.play();
-        RainDrop.reloadTexture();
+
     }
 
 

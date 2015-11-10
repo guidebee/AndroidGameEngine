@@ -3,6 +3,7 @@
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
+        <option name="UPDATE_PROPERTY_FILES" value="false" />
         <option name="ENABLE_PRE_DEXING" value="false" />
       </configuration>
     </facet>
