@@ -22,6 +22,7 @@ import com.guidebee.game.Collidable;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.maps.MapLayer;
 import com.guidebee.game.maps.MapLayers;
+import com.guidebee.game.maps.MapObject;
 import com.guidebee.game.maps.tiled.TiledMap;
 import com.guidebee.game.engine.maps.tiled.TiledMapRenderer;
 import com.guidebee.game.maps.tiled.TiledMapTile;
@@ -155,8 +156,8 @@ public class Scenery implements Disposable {
             for (MapLayer mapLayer : mapLayers) {
                 if (mapLayer instanceof TiledMapTileLayer) {
                     TiledMapTileLayer tiledMapTileLayer = (TiledMapTileLayer) mapLayer;
-                    int tilesX = Math.round(tiledMapTileLayer.getWidth() / tiledMapTileLayer.getTileWidth());
-                    int tilesY = Math.round(tiledMapTileLayer.getHeight() / tiledMapTileLayer.getTileHeight());
+                    int tilesX =tiledMapTileLayer.getWidth();
+                    int tilesY = tiledMapTileLayer.getHeight();
                     for (int i = 0; i < tilesX; i++) {
                         for (int j = 0; j < tilesY; j++) {
                             TiledMapTileLayer.Cell cell = tiledMapTileLayer.getCell(i, j);
@@ -173,6 +174,13 @@ public class Scenery implements Disposable {
                     }
 
 
+                }else if(mapLayer instanceof MapLayer){
+                    for(MapObject mapObject: mapLayer.getObjects()){
+                        if(mapObject.isEnabled()){
+                            collidables.add(mapObject);
+                        }
+
+                    }
                 }
             }
         }

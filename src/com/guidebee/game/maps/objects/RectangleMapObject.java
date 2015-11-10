@@ -59,25 +59,9 @@ public class RectangleMapObject extends MapObject {
     public RectangleMapObject(float x, float y, float width, float height) {
         super();
         rectangle = new Rectangle(x, y, width, height);
+        setBoundingRect(rectangle);
     }
 
-    @Override
-    public boolean isEnabled() {
-        return false;
-    }
 
-    @Override
-    public Rectangle getBoundingAABB() {
-        return null;
-    }
 
-    @Override
-    public Polygon getBoundingPolygon() {
-        return null;
-    }
-
-    @Override
-    public Circle getBoundingCircle() {
-        return null;
-    }
 }

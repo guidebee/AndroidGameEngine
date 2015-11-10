@@ -19,6 +19,9 @@ package com.guidebee.game.maps;
 //--------------------------------- IMPORTS ------------------------------------
 import com.guidebee.game.Collidable;
 import com.guidebee.game.graphics.Color;
+import com.guidebee.math.geometry.Circle;
+import com.guidebee.math.geometry.Polygon;
+import com.guidebee.math.geometry.Rectangle;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**
@@ -30,6 +33,27 @@ public abstract class MapObject implements Collidable {
     private boolean visible = true;
     private MapProperties properties = new MapProperties();
     private Color color = Color.WHITE.cpy();
+    private boolean collisionEnabled = false;
+
+    private Rectangle boundingRect;
+
+    private Polygon boundingPolygon = new Polygon();
+
+    private Circle boundingCircle = new Circle();
+
+
+    /**
+     * is collision enabled or not for this object.
+     * @return
+     */
+    public void setEnabled(boolean enabled){
+        collisionEnabled=enabled;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return collisionEnabled;
+    }
 
     /**
      * @return object's name
@@ -92,5 +116,44 @@ public abstract class MapObject implements Collidable {
      */
     public MapProperties getProperties() {
         return properties;
+    }
+
+
+    public void setBoundingRect(Rectangle rect) {
+        boundingRect = rect;
+
+    }
+
+    @Override
+    public Rectangle getBoundingAABB() {
+
+        return boundingRect;
+    }
+
+    @Override
+    public Polygon getBoundingPolygon() {
+
+        if (boundingRect != null) {
+            float[] vertices = new float[]{boundingRect.x, boundingRect.y,
+                    boundingRect.x + boundingRect.width, boundingRect.y,
+                    boundingRect.x + boundingRect.width,
+                    boundingRect.y + boundingRect.height, boundingRect.y,
+                    boundingRect.y + boundingRect.height};
+            boundingPolygon.setVertices(vertices);
+            return boundingPolygon;
+        }
+        return null;
+    }
+
+    @Override
+    public Circle getBoundingCircle() {
+        if (boundingRect != null) {
+            boundingCircle.setPosition(boundingRect.x + boundingRect.width / 2,
+                    boundingRect.y + boundingRect.height / 2);
+            boundingCircle.setRadius(Math.min(boundingRect.width / 2, boundingRect.height / 2));
+            return boundingCircle;
+
+        }
+        return null;
     }
 }

@@ -52,7 +52,7 @@ public class AnimatedTiledMapTile implements TiledMapTile {
     private long loopDuration;
     private static final long initialTimeOffset = TimeUtils.millis();
 
-    private boolean collisionEnabled = true;
+    private boolean collisionEnabled = false;
 
     private Object userObject;
 

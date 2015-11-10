@@ -52,7 +52,7 @@ public class StaticTiledMapTile implements TiledMapTile {
 
     private Circle boundingCircle = new Circle();
 
-    private boolean collisionEnabled = true;
+    private boolean collisionEnabled = false;
 
     @Override
     public int getId() {

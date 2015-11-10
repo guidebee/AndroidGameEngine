@@ -1,10 +1,14 @@
 package com.mapdigit.game.tutorial.drop.actor;
 
+import android.util.Log;
+import com.guidebee.game.Collidable;
 import com.guidebee.game.audio.Sound;
+import com.guidebee.game.maps.objects.RectangleMapObject;
 import com.guidebee.game.scene.Actor;
 import com.guidebee.game.scene.Group;
 import com.guidebee.game.scene.collision.Collision;
 import com.guidebee.game.scene.collision.CollisionListener;
+import com.guidebee.game.ui.GameControllerListener;
 import com.guidebee.math.MathUtils;
 import com.guidebee.utils.TimeUtils;
 
@@ -51,20 +55,30 @@ public class RainDropGroup extends Group implements CollisionListener{
 
     @Override
     public void collisionDetected(Collision collision) {
+
         if(collision!=null){
-            Actor actor1=(Actor)collision.getObjectA();
-            Actor actor2=(Actor)collision.getObjectB();
-            if(actor1!=null && actor2!=null){
-                if(actor1.getName()=="Mario" && actor2.getName()=="RainDrop"){
+            Collidable objectA=collision.getObjectA();
+            Collidable objectB=collision.getObjectB();
+            if(objectA instanceof Mario){
+                if(objectB instanceof RectangleMapObject) { //tree trunk
+                    ((Mario)objectA).stopMoving();
 
-                    actor2.getParent().removeActor(actor2);
+                }else if(objectB instanceof RainDrop){
+                    ((Actor)objectB).getParent().removeActor((Actor) objectB);
                     dropSound.play();
-                }else if(actor2.getName()=="Mario" && actor1.getName()=="RainDrop"){
-
-                    actor1.getParent().removeActor(actor1);
+                }
+            }else if(objectA instanceof RainDrop){
+                if(objectB instanceof Mario){
+                    ((Actor)objectA).getParent().removeActor((Actor) objectA);
+                    dropSound.play();
+                }
+            }else if(objectA instanceof RectangleMapObject){
+                if(objectB instanceof Mario){
+                    ((Mario)objectA).stopMoving();
                     dropSound.play();
                 }
             }
+
         }
 
 

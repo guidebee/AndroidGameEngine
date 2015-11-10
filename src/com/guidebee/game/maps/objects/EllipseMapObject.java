@@ -62,23 +62,5 @@ public class EllipseMapObject extends MapObject {
         ellipse = new Ellipse(x, y, width, height);
     }
 
-    @Override
-    public boolean isEnabled() {
-        return false;
-    }
 
-    @Override
-    public Rectangle getBoundingAABB() {
-        return null;
-    }
-
-    @Override
-    public Polygon getBoundingPolygon() {
-        return null;
-    }
-
-    @Override
-    public Circle getBoundingCircle() {
-        return null;
-    }
 }

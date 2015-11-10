@@ -28,6 +28,9 @@ public class Mario extends Actor implements GameControllerListener {
     private float tick=0.05f;
     private Direction currentDirection=Direction.NONE;
 
+    private float oldX;
+    private float oldY;
+
     public Mario() {
         super("Mario");
         TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
@@ -94,7 +97,17 @@ public class Mario extends Actor implements GameControllerListener {
 
     }
 
+
+    public void stopMoving(){
+        currentDirection=Direction.NONE;
+        setX(oldX);
+        setY(oldY);
+    }
+
+
     private void handleKeyPress(){
+        oldX=getX();
+        oldY=getY();
         switch(currentDirection){
             case WEST:
                 setTextureRegion(leftAnimation.getKeyFrame(elapsedTime,true));

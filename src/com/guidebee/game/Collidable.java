@@ -56,6 +56,7 @@ public interface Collidable {
      */
     public boolean isEnabled();
 
+
     /**
      * get bounding AABB rectangle
      * @return bounding rectangle(AABB)

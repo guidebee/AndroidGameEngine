@@ -169,23 +169,6 @@ public class TextureMapObject extends MapObject {
         this.textureRegion = textureRegion;
     }
 
-    @Override
-    public boolean isEnabled() {
-        return false;
-    }
 
-    @Override
-    public Rectangle getBoundingAABB() {
-        return null;
-    }
 
-    @Override
-    public Polygon getBoundingPolygon() {
-        return null;
-    }
-
-    @Override
-    public Circle getBoundingCircle() {
-        return null;
-    }
 }
