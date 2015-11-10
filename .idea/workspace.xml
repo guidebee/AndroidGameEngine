@@ -43,13 +43,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/CircleMapObject.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/CircleMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/Collidable.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/Collidable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/EllipseMapObject.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/EllipseMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/PolygonMapObject.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/PolygonMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/PolylineMapObject.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/PolylineMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f2163357-2680-4fbe-98a0-1512f06b8f87" name="New changelist" comment="" />
@@ -117,31 +113,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RectangleMapObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/objects/RectangleMapObject.java">
+      <file leaf-file-name="DropScene.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="867">
-              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1564">
+              <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapLayers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/MapLayers.java">
+      <file leaf-file-name="Mario.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1530">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.2800659" vertical-offset="1836" max-vertical-offset="2720">
+              <caret line="130" column="39" selection-start-line="130" selection-start-column="39" selection-end-line="130" selection-end-column="39" />
+              <folding>
+                <element signature="e#3325#3326#0" expanded="true" />
+                <element signature="e#3363#3364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainDrop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="43" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/MapObject.java">
+      <file leaf-file-name="RainDropGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="583" max-vertical-offset="1190">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collision.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/collision/Collision.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1394">
+              <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -150,31 +169,28 @@
       <file leaf-file-name="Collidable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Collidable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="1224">
-              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="1224">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaticTiledMapTile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.java">
+      <file leaf-file-name="Stage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.366667" vertical-offset="1802" max-vertical-offset="2720">
-              <caret line="169" column="5" selection-start-line="166" selection-start-column="4" selection-end-line="169" selection-end-column="5" />
-              <folding>
-                <element signature="e#4205#4206#0" expanded="true" />
-                <element signature="e#4248#4249#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="3725" max-vertical-offset="15113">
+              <caret line="288" column="41" selection-start-line="288" selection-start-column="41" selection-end-line="288" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnimatedTiledMapTile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnimatedTiledMapTile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78088963" vertical-offset="2314" max-vertical-offset="3604">
-              <caret line="212" column="5" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding>
                 <element signature="e#6667#6668#0" expanded="true" />
                 <element signature="e#6710#6711#0" expanded="true" />
@@ -183,44 +199,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolylineMapObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/objects/PolylineMapObject.java">
+      <file leaf-file-name="TiledMapTile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/TiledMapTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="918">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-              <folding>
-                <element signature="e#2041#2042#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CircleMapObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/objects/CircleMapObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="833">
-              <caret line="60" column="29" selection-start-line="59" selection-start-column="8" selection-end-line="60" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1564">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EllipseMapObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/objects/EllipseMapObject.java">
+      <file leaf-file-name="DropGamePlay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="867">
-              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PolygonMapObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/objects/PolygonMapObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="884">
-              <caret line="55" column="56" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -292,10 +285,7 @@
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/MapObject.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/TextureMapObject.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/RectangleMapObject.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/CircleMapObject.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/EllipseMapObject.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/objects/PolygonMapObject.java" />
@@ -303,6 +293,9 @@
         <option value="$PROJECT_DIR$/src/com/guidebee/game/Collidable.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
       </list>
     </option>
   </component>
@@ -1305,7 +1298,7 @@
       <workItem from="1447069726654" duration="86000" />
       <workItem from="1447070034843" duration="1361000" />
       <workItem from="1447071544985" duration="3965000" />
-      <workItem from="1447114825012" duration="11625000" />
+      <workItem from="1447114825012" duration="15256000" />
     </task>
     <task id="LOCAL-00001" summary="add android javadoc (doclava) support">
       <created>1413514803895</created>
@@ -1421,11 +1414,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447127293426</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Collision detection">
+      <created>1447133526937</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1447133526937</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122536000" />
+    <option name="totallyTimeSpent" value="126167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1562,11 +1561,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/coords.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/basics/HelloWorldGamePlay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1784,22 +1778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35339168" vertical-offset="0" max-vertical-offset="914">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6509847" vertical-offset="0" max-vertical-offset="914">
-          <caret line="43" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/ScreenAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5021882" vertical-offset="0" max-vertical-offset="914">
@@ -1816,50 +1794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/TiledMapTile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scenery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2038" max-vertical-offset="4760">
           <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1547">
-          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3725" max-vertical-offset="15113">
-          <caret line="272" column="19" selection-start-line="272" selection-start-column="19" selection-end-line="272" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2397">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1326">
-          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1931,14 +1869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Collidable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="1224">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/StaticTiledMapTile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.366667" vertical-offset="1802" max-vertical-offset="2720">
@@ -1952,11 +1882,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/tiles/AnimatedTiledMapTile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78088963" vertical-offset="2314" max-vertical-offset="3604">
-          <caret line="212" column="5" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding>
             <element signature="e#6667#6668#0" expanded="true" />
             <element signature="e#6710#6711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/maps/tiled/TiledMapTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1564">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/collision/Collision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1394">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/Collidable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="1224">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3725" max-vertical-offset="15113">
+          <caret line="288" column="41" selection-start-line="288" selection-start-column="41" selection-end-line="288" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="583" max-vertical-offset="1190">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="43" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1564">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2800659" vertical-offset="1836" max-vertical-offset="2720">
+          <caret line="130" column="39" selection-start-line="130" selection-start-column="39" selection-end-line="130" selection-end-column="39" />
+          <folding>
+            <element signature="e#3325#3326#0" expanded="true" />
+            <element signature="e#3363#3364#0" expanded="true" />
           </folding>
         </state>
       </provider>

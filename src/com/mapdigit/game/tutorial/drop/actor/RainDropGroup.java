@@ -60,21 +60,13 @@ public class RainDropGroup extends Group implements CollisionListener{
             Collidable objectA=collision.getObjectA();
             Collidable objectB=collision.getObjectB();
             if(objectA instanceof Mario){
-                if(objectB instanceof RectangleMapObject) { //tree trunk
-                    ((Mario)objectA).stopMoving();
-
-                }else if(objectB instanceof RainDrop){
+                 if(objectB instanceof RainDrop){
                     ((Actor)objectB).getParent().removeActor((Actor) objectB);
                     dropSound.play();
                 }
             }else if(objectA instanceof RainDrop){
                 if(objectB instanceof Mario){
                     ((Actor)objectA).getParent().removeActor((Actor) objectA);
-                    dropSound.play();
-                }
-            }else if(objectA instanceof RectangleMapObject){
-                if(objectB instanceof Mario){
-                    ((Mario)objectA).stopMoving();
                     dropSound.play();
                 }
             }

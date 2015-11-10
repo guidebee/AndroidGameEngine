@@ -62,6 +62,7 @@ public class DropScene extends Scene  {
 
 
 
+        mario.setTreeArea(treeCollisionArea);
         rainMusic.setLooping(true);
         scenery.setBackGroundLayers(new int[]{0,1,2});
         scenery.setForeGroundLayers(new int[]{3,4});

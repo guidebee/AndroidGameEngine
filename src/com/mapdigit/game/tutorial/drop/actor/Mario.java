@@ -1,10 +1,12 @@
 package com.mapdigit.game.tutorial.drop.actor;
 
+import com.guidebee.game.Collidable;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.graphics.Animation;
 import com.guidebee.game.graphics.TextureAtlas;
 import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.scene.Actor;
+import com.guidebee.game.scene.Stage;
 import com.guidebee.game.ui.GameControllerListener;
 import com.guidebee.game.ui.Touchpad;
 import com.guidebee.utils.collections.Array;
@@ -30,6 +32,8 @@ public class Mario extends Actor implements GameControllerListener {
 
     private float oldX;
     private float oldY;
+
+    private Collidable treeArea=null;
 
     public Mario() {
         super("Mario");
@@ -84,6 +88,10 @@ public class Mario extends Actor implements GameControllerListener {
     }
 
 
+    public void setTreeArea(Collidable treeArea){
+        this.treeArea=treeArea;
+    }
+
     @Override
     public void KnobMoved(Touchpad touchpad, Direction direction) {
 
@@ -98,6 +106,13 @@ public class Mario extends Actor implements GameControllerListener {
     }
 
 
+    private boolean isCollideWithTree(){
+        if(treeArea!=null){
+            return Stage.collisionQuery(this,treeArea);
+        }
+        return false;
+    }
+
     public void stopMoving(){
         currentDirection=Direction.NONE;
         setX(oldX);
@@ -106,34 +121,40 @@ public class Mario extends Actor implements GameControllerListener {
 
 
     private void handleKeyPress(){
-        oldX=getX();
-        oldY=getY();
-        switch(currentDirection){
-            case WEST:
-                setTextureRegion(leftAnimation.getKeyFrame(elapsedTime,true));
-                setX(getX() - 200 * graphics.getDeltaTime());
-                break;
-            case EAST:
 
-                setTextureRegion(rightAnimation.getKeyFrame(elapsedTime,true));
-                setX(getX() + 200*graphics.getDeltaTime());
-                break;
-            case NORTH:
+        if(!isCollideWithTree()) {
+            oldX=getX();
+            oldY=getY();
+            switch (currentDirection) {
+                case WEST:
+                    setTextureRegion(leftAnimation.getKeyFrame(elapsedTime, true));
+                    setX(getX() - 200 * graphics.getDeltaTime());
+                    break;
+                case EAST:
 
-                setTextureRegion(forwardAnimation.getKeyFrame(elapsedTime,true));
-                setY(getY() + 200 * graphics.getDeltaTime());
-                break;
-            case SOUTH:
-                setTextureRegion(backwardAnimation.getKeyFrame(elapsedTime,true));
-                setY(getY() - 200 * graphics.getDeltaTime());
-                break;
+                    setTextureRegion(rightAnimation.getKeyFrame(elapsedTime, true));
+                    setX(getX() + 200 * graphics.getDeltaTime());
+                    break;
+                case NORTH:
 
+                    setTextureRegion(forwardAnimation.getKeyFrame(elapsedTime, true));
+                    setY(getY() + 200 * graphics.getDeltaTime());
+                    break;
+                case SOUTH:
+                    setTextureRegion(backwardAnimation.getKeyFrame(elapsedTime, true));
+                    setY(getY() - 200 * graphics.getDeltaTime());
+                    break;
+
+            }
+
+            if (getX() < 0) setX(0);
+            if (getY() < 0) setY(0);
+            if (getX() > 800 - 64) setX(800 - 64);
+            if (getY() > 480 - 64) setY(480 - 64);
+        }else{
+
+            stopMoving();
         }
-
-        if(getX()<0)  setX(0);
-        if(getY()<0)  setY(0);
-        if(getX() > 800- 64) setX(800-64);
-        if(getY() > 480- 64) setY(480 -64);
     }
 
     @Override
