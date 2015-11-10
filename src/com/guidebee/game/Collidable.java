@@ -56,6 +56,12 @@ public interface Collidable {
      */
     public boolean isEnabled();
 
+    /**
+     * Get the colliable object's name
+     * @return
+     */
+    public String getName();
+
 
     /**
      * get bounding AABB rectangle

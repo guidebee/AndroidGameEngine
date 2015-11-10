@@ -60,6 +60,8 @@ public class EllipseMapObject extends MapObject {
     public EllipseMapObject(float x, float y, float width, float height) {
         super();
         ellipse = new Ellipse(x, y, width, height);
+        Rectangle rect=new Rectangle(x,y,width,height);
+        setBoundingRect(rect);
     }
 
 

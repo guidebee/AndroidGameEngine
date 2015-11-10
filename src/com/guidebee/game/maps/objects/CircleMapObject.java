@@ -57,6 +57,8 @@ public class CircleMapObject extends MapObject {
     public CircleMapObject(float x, float y, float radius) {
         super();
         circle = new Circle(x, y, radius);
+        Rectangle rect=new Rectangle(x-radius/2f,y-radius/2.0f,radius,radius);
+        setBoundingRect(rect);
     }
 
 

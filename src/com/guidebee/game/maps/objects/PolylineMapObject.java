@@ -68,6 +68,10 @@ public class PolylineMapObject extends MapObject {
         this.polyline = polyline;
     }
 
+    @Override
+    public boolean isEnabled() {
+        return false;
+    }
 
 
 }

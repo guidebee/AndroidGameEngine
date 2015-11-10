@@ -53,6 +53,7 @@ public class PolygonMapObject extends MapObject {
      */
     public PolygonMapObject(Polygon polygon) {
         this.polygon = polygon;
+        setBoundingRect(polygon.getBoundingRectangle());
     }
 
 

@@ -207,6 +207,11 @@ public class AnimatedTiledMapTile implements TiledMapTile {
         return collisionEnabled;
     }
 
+    @Override
+    public String getName() {
+        return getClass().getName();
+    }
+
 
     @Override
     public void setBoundingRect(Rectangle rect) {

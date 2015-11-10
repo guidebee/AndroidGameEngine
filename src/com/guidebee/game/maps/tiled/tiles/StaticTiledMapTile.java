@@ -165,6 +165,11 @@ public class StaticTiledMapTile implements TiledMapTile {
     }
 
     @Override
+    public String getName() {
+        return getClass().getName();
+    }
+
+    @Override
     public Rectangle getBoundingAABB() {
 
         return boundingRect;
