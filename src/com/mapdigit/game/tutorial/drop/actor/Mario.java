@@ -83,6 +83,9 @@ public class Mario extends Actor implements GameControllerListener {
         leftAnimation=new Animation(tick,keyFramesLeft);
         setTextureRegion(forwardAnimation.getKeyFrame(0));
         setPosition(800/2-64/2,20);
+        initBody();
+        getBody().setGravityScale(0);
+        setSelfControl(true);
 
 
     }
