@@ -7,8 +7,6 @@ import com.guidebee.math.MathUtils;
 import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.utils.TimeUtils;
 
-import static com.guidebee.game.GameEngine.graphics;
-
 public class RainDropGroup extends Group {
 
     private long lastDropTime =0;
@@ -22,7 +20,7 @@ public class RainDropGroup extends Group {
 
         rainDrop.setPosition(MathUtils.random(0,800-64),480);
         Rectangle dropRect=new Rectangle(0,0,32,32);
-        rainDrop.initBody(BodyDef.BodyType.DynamicBody, Shape.Type.Circle, dropRect,1.0f,0,0f);
+        rainDrop.initBody(BodyDef.BodyType.DynamicBody, Shape.Type.Circle, dropRect,1.0f,0,0.1f);
         addActor(rainDrop);
         lastDropTime= TimeUtils.nanoTime();
     }
@@ -38,8 +36,8 @@ public class RainDropGroup extends Group {
 
         RainDrop [] rainDrops=getChildren().toArray(RainDrop.class);
         for(RainDrop rainDrop: rainDrops){
-            float y = rainDrop.getY() - 200 * graphics.getDeltaTime();
-            rainDrop.setY(y);
+            float y = rainDrop.getY();
+
             if(y+64 <0){
 
                 removeActor(rainDrop);

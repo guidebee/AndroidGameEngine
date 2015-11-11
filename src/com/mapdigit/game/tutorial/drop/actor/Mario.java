@@ -33,7 +33,7 @@ public class Mario extends Actor implements GameControllerListener {
     private float oldX;
     private float oldY;
 
-    private Collidable treeArea=null;
+    private Array<Collidable> restrictedAreas =null;
 
     public Mario() {
         super("Mario");
@@ -83,16 +83,16 @@ public class Mario extends Actor implements GameControllerListener {
         leftAnimation=new Animation(tick,keyFramesLeft);
         setTextureRegion(forwardAnimation.getKeyFrame(0));
         setPosition(800/2-64/2,20);
-        initBody();
-        getBody().setGravityScale(0);
-        setSelfControl(true);
+        //initBody();
+        //getBody().setGravityScale(0);
+        //setSelfControl(true);
 
 
     }
 
 
-    public void setTreeArea(Collidable treeArea){
-        this.treeArea=treeArea;
+    public void setRestrictedAreas(Array<Collidable> treeArea){
+        this.restrictedAreas =treeArea;
     }
 
     @Override
@@ -110,10 +110,15 @@ public class Mario extends Actor implements GameControllerListener {
 
 
     private boolean isCollideWithTree(){
-        if(treeArea!=null){
-            return Stage.collisionQuery(this,treeArea);
+        boolean collided=false;
+        if(restrictedAreas !=null){
+
+            for(Collidable collidable:restrictedAreas){
+                collided |= Stage.collisionQuery(this, collidable);
+            }
+
         }
-        return false;
+        return collided;
     }
 
     public void stopMoving(){
@@ -150,10 +155,22 @@ public class Mario extends Actor implements GameControllerListener {
 
             }
 
-            if (getX() < 0) setX(0);
-            if (getY() < 0) setY(0);
-            if (getX() > 800 - 64) setX(800 - 64);
-            if (getY() > 480 - 64) setY(480 - 64);
+            if (getX() < 0) {
+                setX(0);
+                currentDirection=Direction.NONE;
+            }
+            if (getY() < 0) {
+                setY(0);
+                currentDirection=Direction.NONE;
+            }
+            if (getX() > 800 - 64) {
+                setX(800 - 64);
+                currentDirection=Direction.NONE;
+            }
+            if (getY() > 480 - 64) {
+                setY(480 - 64);
+                currentDirection=Direction.NONE;
+            }
         }else{
 
             stopMoving();

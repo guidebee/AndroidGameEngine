@@ -15,9 +15,10 @@ import com.guidebee.game.scene.Scenery;
 import com.guidebee.game.ui.GameController;
 import com.guidebee.game.ui.drawable.TextureRegionDrawable;
 import com.guidebee.math.Matrix4;
-import com.mapdigit.game.tutorial.drop.actor.Bucket;
+
+import com.guidebee.utils.collections.Array;
 import com.mapdigit.game.tutorial.drop.actor.Mario;
-import com.mapdigit.game.tutorial.drop.actor.Platform;
+import com.mapdigit.game.tutorial.drop.actor.StaticArea;
 import com.mapdigit.game.tutorial.drop.actor.RainDropGroup;
 import com.mapdigit.game.tutorial.drop.director.CollisionDirector;
 
@@ -30,6 +31,7 @@ public class DropScene extends Scene  {
 
     private final Mario mario ;
     private final RainDropGroup rainDropGroup ;
+
     private InputProcessor savedInputProcessor;
     private TiledMap background= assetManager.get("tiledmap/forest.tmx", TiledMap.class);
 
@@ -43,6 +45,7 @@ public class DropScene extends Scene  {
         sceneStage.initWorld();
         mario = new Mario();
         rainDropGroup = new RainDropGroup();
+
         TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
 
 
@@ -61,24 +64,31 @@ public class DropScene extends Scene  {
         MapObject treeCollisionArea=mapLayer.getObjects().get("TreeCollisionArea");
         treeCollisionArea.setEnabled(true);
 
+        MapObject boxCollisionArea=mapLayer.getObjects().get("BoxCollisionArea");
+        boxCollisionArea.setEnabled(true);
+
 
         sceneStage.initWorld();
-        mario.setTreeArea(treeCollisionArea);
+        Array<Collidable> restrictedAreas=new Array<Collidable>();
+        restrictedAreas.add(treeCollisionArea);
+        restrictedAreas.add(boxCollisionArea);
+        mario.setRestrictedAreas(restrictedAreas);
         rainMusic.setLooping(true);
         scenery.setBackGroundLayers(new int[]{0,1,2});
         scenery.setForeGroundLayers(new int[]{3,4});
 
         sceneStage.addActor(mario);
         sceneStage.addActor(rainDropGroup);
+
         sceneStage.setScenery(scenery);
 
-        sceneStage.setCollisionListener(new CollisionDirector(), Collidable.BOX2D_CONTACT);
+        sceneStage.setCollisionListener(new CollisionDirector());
         debugMatrix=new Matrix4(sceneStage.getCamera().combined);
         debugMatrix.scale(GameEngine.pixelToBox2DUnit, GameEngine.pixelToBox2DUnit, 0);
-        Platform platform = new Platform();
+        StaticArea platform = new StaticArea();
 
 
-        platform.initEdgeBody(0f, 0f, 800f, 0f, 1.0f, 0f, 1f);
+
         sceneStage.addActor(platform);
         sceneStage.setGameController(gameController);
         debugRenderer = new Box2DDebugRenderer();
@@ -97,7 +107,7 @@ public class DropScene extends Scene  {
     public void render(float delta) {
         graphics.clearScreen(0, 0, 0.2f, 1);
         super.render(delta);
-        debugRenderer.render(GameEngine.world, debugMatrix);
+        //debugRenderer.render(GameEngine.world, debugMatrix);
     }
 
     @Override

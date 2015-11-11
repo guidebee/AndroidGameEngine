@@ -282,9 +282,9 @@ public class Actor implements Collidable {
 
     public void setSelfControl(Boolean control){
         this.selfControl=control;
-        if(body!=null){
-            body.setType(BodyDef.BodyType.KinematicBody);
-        }
+        //if(body!=null){
+         //   body.setType(BodyDef.BodyType.KinematicBody);
+        //}
     }
 
     /**
