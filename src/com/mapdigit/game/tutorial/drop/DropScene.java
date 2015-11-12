@@ -4,7 +4,7 @@ import com.guidebee.game.Collidable;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.InputProcessor;
 import com.guidebee.game.audio.Music;
-import com.guidebee.game.camera.viewports.ScalingViewport;
+import com.guidebee.game.camera.viewports.*;
 import com.guidebee.game.graphics.TextureAtlas;
 import com.guidebee.game.maps.MapLayer;
 import com.guidebee.game.maps.MapObject;
@@ -45,8 +45,10 @@ public class DropScene extends Scene  {
 
 
     public DropScene() {
-        super(new ScalingViewport(ViewPortConfiguration.WIDTH,
-                ViewPortConfiguration.HEIGHT));
+        //super(new ScalingViewport(ViewPortConfiguration.WIDTH,
+         //       ViewPortConfiguration.HEIGHT));
+        super(new ExtendViewport(ViewPortConfiguration.WIDTH,
+                      ViewPortConfiguration.HEIGHT));
 
         rainMusic = assetManager.get("rain.mp3", Music.class);
         background= assetManager.get("tiledmap/forest.tmx", TiledMap.class);

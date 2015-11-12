@@ -46,14 +46,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.mapdigit.game.tutorial.drop" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="box2D demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/camera/ViewPortConfiguration.java" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\src\com\mapdigit\game\tutorial\drop\actor\Bucket.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\AndroidGameEngine\src\com\mapdigit\game\tutorial\drop\drawing\Pear.java" afterPath="" />
+    <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/hud/Score.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/hud/Score.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java" afterPath="$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f2163357-2680-4fbe-98a0-1512f06b8f87" name="New changelist" comment="" />
@@ -121,14 +116,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DropScene.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DropScene.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
-              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.4857143" vertical-offset="408" max-vertical-offset="2550">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4238#4239#0" expanded="true" />
+                <element signature="e#4273#4274#0" expanded="true" />
+                <element signature="e#4344#4345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scene.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1343">
+              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#1813#1814#0" expanded="true" />
+                <element signature="e#2234#2235#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,10 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewPortConfiguration.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewPortConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/camera/ViewPortConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17142858" vertical-offset="0" max-vertical-offset="595">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
@@ -184,16 +196,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DropGamePlay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -256,7 +258,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGameActivity.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScreen.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/coords/CoordniateActor.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/coords/CoordinateActor.java" />
@@ -301,12 +302,13 @@
         <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Stage.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/ui/GameController.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/director/CollisionDirector.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/hud/Score.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/camera/CameraConfiguration.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/camera/ViewPortConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
       </list>
     </option>
   </component>
@@ -1390,7 +1392,7 @@
       <workItem from="1447164087713" duration="130000" />
       <workItem from="1447227077509" duration="18000" />
       <workItem from="1447227144273" duration="8707000" />
-      <workItem from="1447291584915" duration="11806000" />
+      <workItem from="1447291584915" duration="17134000" />
     </task>
     <task id="LOCAL-00001" summary="add android javadoc (doclava) support">
       <created>1413514803895</created>
@@ -1542,11 +1544,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447307743962</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="clean code a bit">
+      <created>1447312915851</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1447312915851</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156810000" />
+    <option name="totallyTimeSpent" value="162138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1635,7 +1643,8 @@
     <MESSAGE value="minor change and change back to the raindrop game" />
     <MESSAGE value="box2D demo" />
     <MESSAGE value="UI component and HUD component" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI component and HUD component" />
+    <MESSAGE value="clean code a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code a bit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1693,13 +1702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1392" max-vertical-offset="2261">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="610" max-vertical-offset="1190">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1968,17 +1970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
-          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4238#4239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropGamePlay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
@@ -2001,14 +1992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/EdgePlatform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2051,9 +2034,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/camera/ViewPortConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17142858" vertical-offset="0" max-vertical-offset="595">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/EdgePlatform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1343">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4857143" vertical-offset="408" max-vertical-offset="2550">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4273#4274#0" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

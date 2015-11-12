@@ -86,5 +86,10 @@ public class Scene extends ScreenAdapter{
         return sceneStage;
     }
 
+    @Override
+    public void resize(int width, int height){
+        sceneStage.getViewport().update(width,height,false);
+    }
+
 
 }
