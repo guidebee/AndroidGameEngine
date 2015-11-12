@@ -5,9 +5,9 @@ import com.guidebee.game.graphics.TextureAtlas;
 import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.ui.HorizontalGroup;
 import com.guidebee.game.ui.Image;
-import com.guidebee.game.ui.Label;
 import com.guidebee.game.ui.Table;
 import com.guidebee.game.ui.drawable.TextureRegionDrawable;
+import com.mapdigit.game.tutorial.drop.camera.ViewPortConfiguration;
 
 import static com.guidebee.game.GameEngine.assetManager;
 
@@ -25,12 +25,15 @@ public class Score extends Table{
 
 
     public Score(){
-        TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
+        TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",
+                TextureAtlas.class);
         goldCoin=new Image(assetManager.get("coin.png", Texture.class));
         TextureRegion numbers=textureAtlas.findRegion("numbers");
         numberDrawables=new TextureRegionDrawable[11];
         for(int i=0;i<10;i++){
-            numberDrawables[i] =new TextureRegionDrawable(new TextureRegion(numbers,i*14,0,14,14));
+            numberDrawables[i]
+                    =new TextureRegionDrawable(
+                    new TextureRegion(numbers,i*14,0,14,14));
         }
         thousands=new Image(numberDrawables[0]);
         hundreds =new Image(numberDrawables[0]);
@@ -46,7 +49,8 @@ public class Score extends Table{
         add(tens);
         add(units);
         setSize(200, 40);
-        setPosition(600, 430);
+        setPosition(ViewPortConfiguration.WIDTH-200,
+                ViewPortConfiguration.HEIGHT-50);
     }
 
 

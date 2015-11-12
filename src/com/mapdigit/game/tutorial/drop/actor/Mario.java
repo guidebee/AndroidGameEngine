@@ -10,6 +10,7 @@ import com.guidebee.game.scene.Stage;
 import com.guidebee.game.ui.GameControllerListener;
 import com.guidebee.game.ui.Touchpad;
 import com.guidebee.utils.collections.Array;
+import com.mapdigit.game.tutorial.drop.camera.ViewPortConfiguration;
 
 import static com.guidebee.game.GameEngine.assetManager;
 import static com.guidebee.game.GameEngine.graphics;
@@ -82,11 +83,7 @@ public class Mario extends Actor implements GameControllerListener {
         rightAnimation=new Animation(tick,keyFramesRight);
         leftAnimation=new Animation(tick,keyFramesLeft);
         setTextureRegion(forwardAnimation.getKeyFrame(0));
-        setPosition(800/2-64/2,20);
-        //initBody();
-        //getBody().setGravityScale(0);
-        //setSelfControl(true);
-
+        setPosition(ViewPortConfiguration.WIDTH/2-64/2,20);
 
     }
 
@@ -163,12 +160,12 @@ public class Mario extends Actor implements GameControllerListener {
                 setY(0);
                 currentDirection=Direction.NONE;
             }
-            if (getX() > 800 - 64) {
-                setX(800 - 64);
+            if (getX() > ViewPortConfiguration.WIDTH - 64) {
+                setX(ViewPortConfiguration.WIDTH - 64);
                 currentDirection=Direction.NONE;
             }
-            if (getY() > 480 - 64) {
-                setY(480 - 64);
+            if (getY() > ViewPortConfiguration.HEIGHT - 64) {
+                setY(ViewPortConfiguration.HEIGHT - 64);
                 currentDirection=Direction.NONE;
             }
         }else{

@@ -20,6 +20,7 @@ import com.guidebee.utils.collections.Array;
 import com.mapdigit.game.tutorial.drop.actor.Mario;
 import com.mapdigit.game.tutorial.drop.actor.StaticArea;
 import com.mapdigit.game.tutorial.drop.actor.RainDropGroup;
+import com.mapdigit.game.tutorial.drop.camera.ViewPortConfiguration;
 import com.mapdigit.game.tutorial.drop.director.CollisionDirector;
 import com.mapdigit.game.tutorial.drop.hud.Score;
 
@@ -28,32 +29,34 @@ import static com.guidebee.game.GameEngine.graphics;
 
 public class DropScene extends Scene  {
 
-    private Music rainMusic = assetManager.get("rain.mp3", Music.class);
+    private final Music rainMusic;
+    private final TiledMap background;
 
     private final Mario mario ;
     private final RainDropGroup rainDropGroup ;
-
     private final Score score;
 
-    private InputProcessor savedInputProcessor;
-    private TiledMap background= assetManager.get("tiledmap/forest.tmx", TiledMap.class);
+    private final Scenery scenery;
 
-    private Scenery scenery=new Scenery(background);
+    private InputProcessor savedInputProcessor;
+
     private final Matrix4 debugMatrix;
     private final Box2DDebugRenderer debugRenderer;
 
 
     public DropScene() {
-        super(new ScalingViewport(800,480));
+        super(new ScalingViewport(ViewPortConfiguration.WIDTH,
+                ViewPortConfiguration.HEIGHT));
+
+        rainMusic = assetManager.get("rain.mp3", Music.class);
+        background= assetManager.get("tiledmap/forest.tmx", TiledMap.class);
+        scenery=new Scenery(background);
         sceneStage.initWorld();
         mario = new Mario();
         rainDropGroup = new RainDropGroup();
         score =new Score();
 
         TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
-
-
-
         GameController gameController
                 = new GameController(new TextureRegionDrawable(textureAtlas.findRegion("Back")),
                 new TextureRegionDrawable(textureAtlas.findRegion("Joystick")),
