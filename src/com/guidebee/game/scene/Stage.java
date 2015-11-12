@@ -108,7 +108,6 @@ public class Stage extends InputAdapter implements Disposable {
 
 
     private final Stack stack =new Stack();
-    private final Table table = new Table();
     private final Table tableGameControl = new Table();
 
     private class ContactMonitor implements ContactListener {
@@ -215,17 +214,14 @@ public class Stage extends InputAdapter implements Disposable {
      */
     public Stage(Viewport viewport, Batch batch) {
         internalStage = new InternalStage(viewport, batch,this);
-        internalStageHUD = new InternalStage(new ScalingViewport(Scaling.stretch, viewport.getScreenWidth(),
-                viewport.getScreenHeight(), new OrthographicCamera()), batch,null);
+        internalStageHUD = new InternalStage(viewport, batch,null);
         entityEngine = new EntityEngine();
         internalStage.setUserObject(this);
         entityEngine.setUserObject(this);
         stack.setFillParent(true);
         internalStageHUD.addActor(stack);
         tableGameControl.setFillParent(true);
-        table.setFillParent(true);
         stack.add(tableGameControl);
-        stack.add(table);
         tableGameControl.toFront();
 
     }
@@ -303,7 +299,7 @@ public class Stage extends InputAdapter implements Disposable {
      * @param widget
      */
     public void addHUDComponent(Widget widget){
-        table.addActor(widget);
+        internalStageHUD.addActor(widget);
     }
 
     /**
@@ -311,12 +307,9 @@ public class Stage extends InputAdapter implements Disposable {
      * @param widgetGroup
      */
     public void addHUDComponent(WidgetGroup widgetGroup){
-        table.addActor(widgetGroup);
+        internalStageHUD.addActor(widgetGroup);
     }
 
-    public Table getRootHUDContainer(){
-        return table;
-    }
 
     public void setScenery(Scenery scenery) {
         this.scenery = scenery;

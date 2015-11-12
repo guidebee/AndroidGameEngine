@@ -122,7 +122,7 @@ public class GameController extends WidgetGroup {
     @Override
     public void layout() {
         float height = touchpad.getHeight();
-        float width = GameEngine.graphics.getWidth();
+        float width = getParent().getWidth();
         shootButton.setX(width - 2 * shootButton.getWidth());
         shootButton.setY(height / 2 - shootButton.getHeight() / 2);
         powerButton.setX(width - powerButton.getWidth());

@@ -65,3 +65,10 @@ mario2
   orig: 512, 256
   offset: 4, 0
   index: -1
+numbers
+  rotate: false
+  xy: 2, 495
+  size: 140, 14
+  orig: 140, 14
+  offset: 0, 0
+  index: -1

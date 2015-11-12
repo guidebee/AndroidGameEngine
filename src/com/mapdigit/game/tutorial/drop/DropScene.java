@@ -21,6 +21,7 @@ import com.mapdigit.game.tutorial.drop.actor.Mario;
 import com.mapdigit.game.tutorial.drop.actor.StaticArea;
 import com.mapdigit.game.tutorial.drop.actor.RainDropGroup;
 import com.mapdigit.game.tutorial.drop.director.CollisionDirector;
+import com.mapdigit.game.tutorial.drop.hud.Score;
 
 import static com.guidebee.game.GameEngine.assetManager;
 import static com.guidebee.game.GameEngine.graphics;
@@ -31,6 +32,8 @@ public class DropScene extends Scene  {
 
     private final Mario mario ;
     private final RainDropGroup rainDropGroup ;
+
+    private final Score score;
 
     private InputProcessor savedInputProcessor;
     private TiledMap background= assetManager.get("tiledmap/forest.tmx", TiledMap.class);
@@ -45,6 +48,7 @@ public class DropScene extends Scene  {
         sceneStage.initWorld();
         mario = new Mario();
         rainDropGroup = new RainDropGroup();
+        score =new Score();
 
         TextureAtlas textureAtlas=assetManager.get("raindrop.atlas",TextureAtlas.class);
 
@@ -81,8 +85,9 @@ public class DropScene extends Scene  {
         sceneStage.addActor(rainDropGroup);
 
         sceneStage.setScenery(scenery);
+        sceneStage.addHUDComponent(score);
 
-        sceneStage.setCollisionListener(new CollisionDirector());
+        sceneStage.setCollisionListener(new CollisionDirector(score));
         debugMatrix=new Matrix4(sceneStage.getCamera().combined);
         debugMatrix.scale(GameEngine.pixelToBox2DUnit, GameEngine.pixelToBox2DUnit, 0);
         StaticArea platform = new StaticArea();
