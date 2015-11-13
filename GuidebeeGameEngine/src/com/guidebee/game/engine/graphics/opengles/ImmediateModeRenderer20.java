@@ -17,10 +17,11 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.graphics.Color;
+
 import com.guidebee.game.engine.graphics.Mesh;
 import com.guidebee.game.engine.graphics.VertexAttribute;
 import com.guidebee.game.engine.graphics.VertexAttributes.Usage;
+import com.guidebee.game.graphics.Color;
 import com.guidebee.math.Matrix4;
 import com.guidebee.utils.collections.Array;
 

@@ -17,12 +17,13 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngine;
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.files.FileHandle;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.Pixmap.Format;
 import com.guidebee.game.graphics.TextureData;
-import com.guidebee.game.GameEngineRuntimeException;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 public class ETC1TextureData implements TextureData {

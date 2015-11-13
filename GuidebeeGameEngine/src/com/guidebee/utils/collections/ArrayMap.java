@@ -17,10 +17,11 @@
 package com.guidebee.utils.collections;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngineRuntimeException;
-import com.guidebee.utils.StringBuilder;
-import com.guidebee.math.MathUtils;
 import com.guidebee.game.engine.utils.reflect.ArrayReflection;
+import com.guidebee.math.MathUtils;
+import com.guidebee.utils.StringBuilder;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

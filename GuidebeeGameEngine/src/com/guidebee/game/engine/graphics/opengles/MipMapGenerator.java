@@ -19,10 +19,10 @@ package com.guidebee.game.engine.graphics.opengles;
 //--------------------------------- IMPORTS ------------------------------------
 
 import com.guidebee.game.GameEngine;
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.Pixmap.Blending;
 import com.guidebee.game.graphics.Texture;
-import com.guidebee.game.GameEngineRuntimeException;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 public class MipMapGenerator {

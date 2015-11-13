@@ -17,9 +17,10 @@
 package com.guidebee.game.scene.actions;
 
 //--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.engine.scene.Actor;
 import com.guidebee.game.ui.Layout;
-import com.guidebee.game.GameEngineRuntimeException;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**

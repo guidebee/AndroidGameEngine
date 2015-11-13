@@ -17,12 +17,12 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.Application;
+
 import com.guidebee.game.GameEngine;
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.TextureData;
 import com.guidebee.utils.collections.BufferUtils;
-import com.guidebee.game.GameEngineRuntimeException;
 
 import java.nio.FloatBuffer;
 

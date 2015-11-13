@@ -17,12 +17,13 @@
 package com.guidebee.game.scene;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.camera.Camera;
 import com.guidebee.game.engine.graphics.opengles.IGL20;
 import com.guidebee.math.Matrix4;
-import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.math.Vector3;
+import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.utils.collections.Array;
 
 //[------------------------------ MAIN CLASS ----------------------------------]

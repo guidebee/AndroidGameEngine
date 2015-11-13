@@ -16,14 +16,7 @@
 
 package com.guidebee.utils;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
-import java.io.Closeable;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.StringWriter;
+import java.io.*;
 
 /** Provides utility methods to copy streams */
 public final class StreamUtils {

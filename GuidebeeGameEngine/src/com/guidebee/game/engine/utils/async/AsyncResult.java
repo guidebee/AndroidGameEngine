@@ -17,11 +17,13 @@
 package com.guidebee.game.engine.utils.async;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngineRuntimeException;
 
-//[------------------------------ MAIN CLASS ----------------------------------]
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
+
+//[------------------------------ MAIN CLASS ----------------------------------]
 
 /**
  * Returned by {@link AsyncExecutor#submit(AsyncTask)}, allows to poll for the

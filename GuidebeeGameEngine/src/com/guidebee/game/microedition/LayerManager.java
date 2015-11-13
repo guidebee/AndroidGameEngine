@@ -22,7 +22,6 @@ import com.guidebee.game.camera.Camera;
 import com.guidebee.game.camera.viewports.Viewport;
 import com.guidebee.game.graphics.Batch;
 import com.guidebee.game.scene.Stage;
-import com.guidebee.math.Matrix4;
 import com.guidebee.math.Vector3;
 
 //[------------------------------ MAIN CLASS ----------------------------------]

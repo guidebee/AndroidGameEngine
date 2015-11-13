@@ -18,8 +18,8 @@ package com.guidebee.game.engine.maps.tiled;
 
 //--------------------------------- IMPORTS ------------------------------------
 
-import com.guidebee.game.maps.MapObject;
 import com.guidebee.game.engine.maps.MapRenderer;
+import com.guidebee.game.maps.MapObject;
 import com.guidebee.game.maps.tiled.TiledMapTileLayer;
 
 //[------------------------------ MAIN CLASS ----------------------------------]

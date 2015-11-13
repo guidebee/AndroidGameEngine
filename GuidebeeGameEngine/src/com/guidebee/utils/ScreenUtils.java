@@ -16,8 +16,6 @@
 
 package com.guidebee.utils;
 
-import java.nio.ByteBuffer;
-
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.engine.graphics.opengles.IGL20;
 import com.guidebee.game.graphics.Pixmap;
@@ -25,6 +23,8 @@ import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.math.MathUtils;
 import com.guidebee.utils.collections.BufferUtils;
+
+import java.nio.ByteBuffer;
 
 /** Class with static helper methods that provide access to the default OpenGL FrameBuffer. These methods can be used to get the
  * entire screen content or a portion thereof.

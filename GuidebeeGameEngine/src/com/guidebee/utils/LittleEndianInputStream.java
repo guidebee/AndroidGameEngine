@@ -17,10 +17,7 @@
 package com.guidebee.utils;
 
 import java.io.DataInput;
-import java.io.DataInputStream;
-import java.io.FilterInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
 /** Taken from http://www.javafaq.nu/java-example-code-1079.html
  * @author mzechner */

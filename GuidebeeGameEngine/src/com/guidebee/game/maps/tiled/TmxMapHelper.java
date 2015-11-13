@@ -17,8 +17,9 @@
 package com.guidebee.game.maps.tiled;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.utils.Base64Coder;
+
 import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.utils.Base64Coder;
 import com.guidebee.utils.StreamUtils;
 import com.guidebee.utils.XmlReader.Element;
 

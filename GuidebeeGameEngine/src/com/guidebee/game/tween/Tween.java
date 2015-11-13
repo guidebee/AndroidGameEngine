@@ -19,7 +19,6 @@ package com.guidebee.game.tween;
 
 //--------------------------------- IMPORTS ------------------------------------
 
-import com.guidebee.game.scene.Actor;
 import com.guidebee.game.tween.equations.Quad;
 
 import java.util.HashMap;

@@ -17,12 +17,14 @@
 package com.guidebee.game.engine.utils.compression.lzma;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.engine.utils.compression.ICodeProgress;
 import com.guidebee.game.engine.utils.compression.lz.BinTree;
 import com.guidebee.game.engine.utils.compression.rangecoder.BitTreeEncoder;
 
-//[------------------------------ MAIN CLASS ----------------------------------]
 import java.io.IOException;
+
+//[------------------------------ MAIN CLASS ----------------------------------]
 
 public class Encoder {
     public static final int EMatchFinderTypeBT2 = 0;

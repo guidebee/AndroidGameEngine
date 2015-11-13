@@ -17,8 +17,9 @@
 package com.guidebee.game.engine.net;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.Net;
+
 import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.game.Net;
 import com.guidebee.game.net.ServerSocket;
 import com.guidebee.game.net.ServerSocketHints;
 import com.guidebee.game.net.Socket;

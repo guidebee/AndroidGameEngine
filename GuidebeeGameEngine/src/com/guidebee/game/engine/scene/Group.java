@@ -17,16 +17,17 @@
 package com.guidebee.game.engine.scene;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.graphics.Batch;
+
 import com.guidebee.game.engine.graphics.opengles.ShapeRenderer;
+import com.guidebee.game.graphics.Batch;
+import com.guidebee.game.ui.Cullable;
 import com.guidebee.game.ui.Touchable;
 import com.guidebee.math.Matrix3;
 import com.guidebee.math.Matrix4;
-import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.math.Vector2;
+import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.utils.collections.Array;
 import com.guidebee.utils.collections.SnapshotArray;
-import com.guidebee.game.ui.Cullable;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**

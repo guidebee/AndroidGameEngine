@@ -17,9 +17,10 @@
 package com.guidebee.game.scene.actions;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.engine.scene.Actor;
-import com.guidebee.utils.collections.Array;
 import com.guidebee.utils.Pool;
+import com.guidebee.utils.collections.Array;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**

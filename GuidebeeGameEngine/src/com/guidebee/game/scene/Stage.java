@@ -19,11 +19,15 @@ package com.guidebee.game.scene;
 //--------------------------------- IMPORTS ------------------------------------
 
 import com.guidebee.drawing.geometry.Area;
-import com.guidebee.game.*;
+import com.guidebee.game.Collidable;
+import com.guidebee.game.GameEngine;
+import com.guidebee.game.InputAdapter;
 import com.guidebee.game.camera.Camera;
 import com.guidebee.game.camera.OrthographicCamera;
 import com.guidebee.game.camera.viewports.ScalingViewport;
 import com.guidebee.game.camera.viewports.Viewport;
+import com.guidebee.game.engine.maps.tiled.renderers.IsometricTiledMapRenderer;
+import com.guidebee.game.engine.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.guidebee.game.entity.Entity;
 import com.guidebee.game.entity.EntityEngine;
 import com.guidebee.game.entity.Role;
@@ -32,18 +36,16 @@ import com.guidebee.game.entity.utils.ImmutableArray;
 import com.guidebee.game.graphics.Batch;
 import com.guidebee.game.graphics.Color;
 import com.guidebee.game.graphics.SpriteBatch;
-import com.guidebee.game.engine.maps.tiled.renderers.IsometricTiledMapRenderer;
-import com.guidebee.game.engine.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.guidebee.game.physics.*;
 import com.guidebee.game.scene.actions.Action;
 import com.guidebee.game.scene.collision.Collision;
 import com.guidebee.game.scene.collision.CollisionListener;
 import com.guidebee.game.ui.*;
+import com.guidebee.math.Matrix4;
+import com.guidebee.math.Vector2;
+import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.utils.Disposable;
 import com.guidebee.utils.Scaling;
-import com.guidebee.math.Matrix4;
-import com.guidebee.math.geometry.Rectangle;
-import com.guidebee.math.Vector2;
 import com.guidebee.utils.collections.Array;
 import com.guidebee.utils.collections.SnapshotArray;
 

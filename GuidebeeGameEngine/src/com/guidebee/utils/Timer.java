@@ -18,8 +18,8 @@ package com.guidebee.utils;
 
 import com.guidebee.game.Application;
 import com.guidebee.game.GameEngine;
-import com.guidebee.game.LifecycleListener;
 import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.game.LifecycleListener;
 import com.guidebee.utils.collections.Array;
 
 /** Executes tasks in the future on the main loop thread.

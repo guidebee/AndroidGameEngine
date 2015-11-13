@@ -17,34 +17,34 @@
 package com.guidebee.game.engine.scene;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.Application;
+
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.InputAdapter;
 import com.guidebee.game.camera.Camera;
 import com.guidebee.game.camera.OrthographicCamera;
+import com.guidebee.game.camera.viewports.ScalingViewport;
+import com.guidebee.game.camera.viewports.Viewport;
 import com.guidebee.game.engine.graphics.opengles.IGL20;
 import com.guidebee.game.engine.graphics.opengles.ShapeRenderer;
+import com.guidebee.game.graphics.Batch;
+import com.guidebee.game.graphics.Color;
+import com.guidebee.game.graphics.SpriteBatch;
+import com.guidebee.game.scene.actions.Action;
 import com.guidebee.game.ui.EventListener;
+import com.guidebee.game.ui.FocusListener;
 import com.guidebee.game.ui.InputEvent;
+import com.guidebee.game.ui.InputEvent.Type;
+import com.guidebee.game.ui.Table;
+import com.guidebee.game.ui.Table.Debug;
+import com.guidebee.math.Matrix4;
+import com.guidebee.math.Vector2;
+import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.utils.Disposable;
 import com.guidebee.utils.Pool;
 import com.guidebee.utils.Pools;
 import com.guidebee.utils.Scaling;
 import com.guidebee.utils.collections.Array;
 import com.guidebee.utils.collections.SnapshotArray;
-import com.guidebee.math.Matrix4;
-import com.guidebee.math.geometry.Rectangle;
-import com.guidebee.math.Vector2;
-import com.guidebee.game.scene.actions.Action;
-import com.guidebee.game.ui.InputEvent.Type;
-import com.guidebee.game.ui.Table;
-import com.guidebee.game.ui.Table.Debug;
-import com.guidebee.game.ui.FocusListener;
-import com.guidebee.game.camera.viewports.ScalingViewport;
-import com.guidebee.game.camera.viewports.Viewport;
-import com.guidebee.game.graphics.Batch;
-import com.guidebee.game.graphics.Color;
-import com.guidebee.game.graphics.SpriteBatch;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**

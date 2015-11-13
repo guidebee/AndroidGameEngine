@@ -17,17 +17,18 @@
 package com.guidebee.game.engine.assets;
 
 //--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.engine.assets.loaders.AssetLoader;
 import com.guidebee.game.engine.assets.loaders.AsynchronousAssetLoader;
 import com.guidebee.game.engine.assets.loaders.SynchronousAssetLoader;
-import com.guidebee.game.files.FileHandle;
-import com.guidebee.utils.collections.Array;
-import com.guidebee.game.GameEngineRuntimeException;
-import com.guidebee.utils.Logger;
-import com.guidebee.utils.TimeUtils;
 import com.guidebee.game.engine.utils.async.AsyncExecutor;
 import com.guidebee.game.engine.utils.async.AsyncResult;
 import com.guidebee.game.engine.utils.async.AsyncTask;
+import com.guidebee.game.files.FileHandle;
+import com.guidebee.utils.Logger;
+import com.guidebee.utils.TimeUtils;
+import com.guidebee.utils.collections.Array;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**

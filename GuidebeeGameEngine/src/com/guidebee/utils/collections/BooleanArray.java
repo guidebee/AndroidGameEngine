@@ -17,8 +17,10 @@
 package com.guidebee.utils.collections;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.utils.StringBuilder;
+
 import com.guidebee.math.MathUtils;
+import com.guidebee.utils.StringBuilder;
+
 import java.util.BitSet;
 
 //[------------------------------ MAIN CLASS ----------------------------------]

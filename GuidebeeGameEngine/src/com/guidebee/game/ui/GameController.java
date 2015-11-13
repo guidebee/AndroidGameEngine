@@ -18,7 +18,6 @@ package com.guidebee.game.ui;
 
 //--------------------------------- IMPORTS ------------------------------------
 
-import com.guidebee.game.GameEngine;
 import com.guidebee.game.engine.scene.Actor;
 import com.guidebee.game.ui.drawable.TextureRegionDrawable;
 import com.guidebee.math.MathUtils;

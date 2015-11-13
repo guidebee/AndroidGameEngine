@@ -17,12 +17,13 @@
 package com.guidebee.game.engine.net;
 
 //--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.Net;
 import com.guidebee.game.Net.HttpRequest;
-import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.net.HttpStatus;
-import com.guidebee.utils.collections.ObjectMap;
 import com.guidebee.utils.StreamUtils;
+import com.guidebee.utils.collections.ObjectMap;
 
 import java.io.IOException;
 import java.io.InputStream;

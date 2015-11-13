@@ -17,9 +17,10 @@
 package com.guidebee.game.engine.graphics;
 
 //--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.engine.graphics.opengles.IGL20;
 import com.guidebee.utils.Disposable;
-import com.guidebee.game.GameEngineRuntimeException;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

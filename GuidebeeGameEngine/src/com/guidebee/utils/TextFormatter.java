@@ -16,7 +16,6 @@
 
 package com.guidebee.utils;
 
-import java.lang.*;
 import java.text.MessageFormat;
 import java.util.Locale;
 

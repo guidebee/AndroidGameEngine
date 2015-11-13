@@ -22,19 +22,19 @@ package com.guidebee.game.scene;
 import com.guidebee.game.Collidable;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.engine.graphics.opengles.ShapeRenderer;
-import com.guidebee.game.entity.EntityEngine;
-import com.guidebee.game.graphics.*;
-import com.guidebee.game.scene.actions.TweenAction;
-import com.guidebee.math.geometry.Circle;
-import com.guidebee.math.geometry.Polygon;
-import com.guidebee.game.physics.*;
-import com.guidebee.utils.collections.Array;
 import com.guidebee.game.entity.DataTrait;
 import com.guidebee.game.entity.Entity;
+import com.guidebee.game.entity.EntityEngine;
 import com.guidebee.game.entity.utils.ImmutableArray;
-import com.guidebee.math.geometry.Rectangle;
-import com.guidebee.math.Vector2;
+import com.guidebee.game.graphics.*;
+import com.guidebee.game.physics.*;
 import com.guidebee.game.scene.actions.Action;
+import com.guidebee.game.scene.actions.TweenAction;
+import com.guidebee.math.Vector2;
+import com.guidebee.math.geometry.Circle;
+import com.guidebee.math.geometry.Polygon;
+import com.guidebee.math.geometry.Rectangle;
+import com.guidebee.utils.collections.Array;
 
 /**
  * Internal Actor act as a bridge to engine.sence.Actor.

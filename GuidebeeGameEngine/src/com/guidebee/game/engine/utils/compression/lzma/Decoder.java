@@ -17,11 +17,13 @@
 package com.guidebee.game.engine.utils.compression.lzma;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.engine.utils.compression.lz.OutWindow;
 import com.guidebee.game.engine.utils.compression.rangecoder.BitTreeDecoder;
 
-//[------------------------------ MAIN CLASS ----------------------------------]
 import java.io.IOException;
+
+//[------------------------------ MAIN CLASS ----------------------------------]
 
 public class Decoder {
     class LenDecoder {

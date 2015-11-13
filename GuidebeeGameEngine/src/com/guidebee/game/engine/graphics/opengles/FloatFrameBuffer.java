@@ -17,7 +17,7 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.game.GameEngine;
+
 import com.guidebee.game.graphics.FrameBuffer;
 import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.graphics.Texture.TextureFilter;

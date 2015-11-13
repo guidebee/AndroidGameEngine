@@ -17,9 +17,10 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.TextureData;
-import com.guidebee.game.GameEngineRuntimeException;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 public class PixmapTextureData implements TextureData {

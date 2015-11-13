@@ -17,8 +17,9 @@
 package com.guidebee.math.geometry;
 
 //--------------------------------- IMPORTS ------------------------------------
-import com.guidebee.utils.NumberUtils;
+
 import com.guidebee.math.Vector2;
+import com.guidebee.utils.NumberUtils;
 import com.guidebee.utils.Pool;
 
 import java.io.Serializable;

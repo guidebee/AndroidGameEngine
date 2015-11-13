@@ -17,6 +17,7 @@
 package com.guidebee.game.engine.platform;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -36,8 +37,11 @@ import android.view.View.OnTouchListener;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import com.guidebee.game.*;
+import com.guidebee.game.Application;
+import com.guidebee.game.Configuration;
+import com.guidebee.game.GameEngine;
 import com.guidebee.game.Graphics.DisplayMode;
+import com.guidebee.game.InputProcessor;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.utils.Pool;
 

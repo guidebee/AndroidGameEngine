@@ -17,9 +17,12 @@
 package com.guidebee.game.engine.assets.loaders;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.engine.assets.AssetDescriptor;
 import com.guidebee.game.engine.assets.AssetLoaderParameters;
 import com.guidebee.game.engine.assets.AssetManager;
+import com.guidebee.game.engine.graphics.opengles.ETC1TextureData;
+import com.guidebee.game.engine.graphics.opengles.FileTextureData;
 import com.guidebee.game.files.FileHandle;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.Pixmap.Format;
@@ -27,8 +30,6 @@ import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.graphics.Texture.TextureFilter;
 import com.guidebee.game.graphics.Texture.TextureWrap;
 import com.guidebee.game.graphics.TextureData;
-import com.guidebee.game.engine.graphics.opengles.ETC1TextureData;
-import com.guidebee.game.engine.graphics.opengles.FileTextureData;
 import com.guidebee.utils.collections.Array;
 
 //[------------------------------ MAIN CLASS ----------------------------------]

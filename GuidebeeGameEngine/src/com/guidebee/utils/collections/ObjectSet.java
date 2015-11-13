@@ -17,8 +17,8 @@
 package com.guidebee.utils.collections;
 
 import com.guidebee.game.GameEngineRuntimeException;
-import com.guidebee.utils.StringBuilder;
 import com.guidebee.math.MathUtils;
+import com.guidebee.utils.StringBuilder;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

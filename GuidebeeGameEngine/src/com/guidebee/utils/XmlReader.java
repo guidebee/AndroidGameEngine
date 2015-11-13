@@ -19,17 +19,16 @@
 
 package com.guidebee.utils;
 
+import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.game.files.FileHandle;
+import com.guidebee.utils.collections.Array;
+import com.guidebee.utils.collections.ObjectMap;
+import com.guidebee.utils.collections.ObjectMap.Entry;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.lang.*;
-
-import com.guidebee.game.GameEngineRuntimeException;
-import com.guidebee.game.files.FileHandle;
-import com.guidebee.utils.collections.ObjectMap;
-import com.guidebee.utils.collections.ObjectMap.Entry;
-import com.guidebee.utils.collections.Array;
 
 /** Lightweight XML parser. Supports a subset of XML features: elements, attributes, text, predefined entities, CDATA, mixed
  * content. Namespaces are parsed as part of the element or attribute name. Prologs and doctypes are ignored. Only 8-bit character

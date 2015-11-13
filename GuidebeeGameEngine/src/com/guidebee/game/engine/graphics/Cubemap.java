@@ -17,13 +17,14 @@
 package com.guidebee.game.engine.graphics;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngine;
+import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.game.engine.graphics.opengles.IGL20;
+import com.guidebee.game.engine.graphics.opengles.PixmapTextureData;
 import com.guidebee.game.files.FileHandle;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.Pixmap.Format;
-import com.guidebee.game.engine.graphics.opengles.IGL20;
-import com.guidebee.game.engine.graphics.opengles.PixmapTextureData;
-import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.graphics.Texture;
 import com.guidebee.game.graphics.TextureData;
 

@@ -17,21 +17,22 @@
 package com.guidebee.game.engine.scene;
 
 //--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.engine.graphics.opengles.ShapeRenderer;
 import com.guidebee.game.graphics.Batch;
 import com.guidebee.game.graphics.Color;
-import com.guidebee.game.engine.graphics.opengles.ShapeRenderer;
+import com.guidebee.game.scene.ScissorStack;
+import com.guidebee.game.scene.actions.Action;
 import com.guidebee.game.ui.Event;
 import com.guidebee.game.ui.EventListener;
 import com.guidebee.game.ui.InputEvent;
 import com.guidebee.game.ui.Touchable;
 import com.guidebee.math.MathUtils;
-import com.guidebee.math.geometry.Rectangle;
 import com.guidebee.math.Vector2;
+import com.guidebee.math.geometry.Rectangle;
+import com.guidebee.utils.Pools;
 import com.guidebee.utils.collections.Array;
 import com.guidebee.utils.collections.DelayedRemovalArray;
-import com.guidebee.utils.Pools;
-import com.guidebee.game.scene.ScissorStack;
-import com.guidebee.game.scene.actions.Action;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**

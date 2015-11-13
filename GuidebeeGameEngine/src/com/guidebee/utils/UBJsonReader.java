@@ -16,12 +16,12 @@
 
 package com.guidebee.utils;
 
+import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.game.files.FileHandle;
+
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-
-import com.guidebee.game.GameEngineRuntimeException;
-import com.guidebee.game.files.FileHandle;
 
 /** Lightweight UBJSON parser.<br>
  * <br>

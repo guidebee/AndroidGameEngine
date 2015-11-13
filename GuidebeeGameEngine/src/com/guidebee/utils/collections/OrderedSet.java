@@ -19,7 +19,6 @@ package com.guidebee.utils.collections;
 import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.utils.StringBuilder;
 
-import java.lang.*;
 import java.util.NoSuchElementException;
 
 /** An unordered set where the keys are objects. This implementation uses cuckoo hashing using 3 hashes, random walking, and a

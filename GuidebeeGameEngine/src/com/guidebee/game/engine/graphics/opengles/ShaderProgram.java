@@ -17,21 +17,21 @@
 package com.guidebee.game.engine.graphics.opengles;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.Application;
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.files.FileHandle;
 import com.guidebee.game.graphics.Color;
+import com.guidebee.math.Matrix3;
+import com.guidebee.math.Matrix4;
+import com.guidebee.math.Vector2;
+import com.guidebee.math.Vector3;
 import com.guidebee.utils.Disposable;
 import com.guidebee.utils.collections.Array;
 import com.guidebee.utils.collections.BufferUtils;
 import com.guidebee.utils.collections.ObjectIntMap;
 import com.guidebee.utils.collections.ObjectMap;
-import com.guidebee.math.Matrix3;
-import com.guidebee.math.Matrix4;
-import com.guidebee.math.Vector2;
-import com.guidebee.math.Vector3;
 
-import java.lang.StringBuilder;
 import java.nio.*;
 
 //[------------------------------ MAIN CLASS ----------------------------------]

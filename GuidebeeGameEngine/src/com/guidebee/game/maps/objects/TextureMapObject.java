@@ -20,9 +20,6 @@ package com.guidebee.game.maps.objects;
 
 import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.game.maps.MapObject;
-import com.guidebee.math.geometry.Circle;
-import com.guidebee.math.geometry.Polygon;
-import com.guidebee.math.geometry.Rectangle;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 

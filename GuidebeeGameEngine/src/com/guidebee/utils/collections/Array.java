@@ -17,12 +17,13 @@
 package com.guidebee.utils.collections;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngineRuntimeException;
-import com.guidebee.utils.StringBuilder;
-import com.guidebee.math.MathUtils;
 import com.guidebee.game.engine.utils.reflect.ArrayReflection;
+import com.guidebee.math.MathUtils;
 import com.guidebee.utils.Predicate;
 import com.guidebee.utils.Select;
+import com.guidebee.utils.StringBuilder;
 
 import java.util.Comparator;
 import java.util.Iterator;

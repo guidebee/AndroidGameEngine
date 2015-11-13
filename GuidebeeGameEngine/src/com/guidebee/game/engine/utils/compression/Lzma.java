@@ -17,13 +17,15 @@
 package com.guidebee.game.engine.utils.compression;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.engine.utils.compression.lzma.Decoder;
 import com.guidebee.game.engine.utils.compression.lzma.Encoder;
 
-//[------------------------------ MAIN CLASS ----------------------------------]
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+
+//[------------------------------ MAIN CLASS ----------------------------------]
 
 /**
  * Adapted from LZMA SDK version 9.22.

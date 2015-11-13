@@ -17,12 +17,12 @@
 package com.guidebee.game.ui;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngine;
 import com.guidebee.game.InputProcessor;
 import com.guidebee.game.ScreenAdapter;
 import com.guidebee.game.camera.viewports.ScalingViewport;
 import com.guidebee.game.camera.viewports.ScreenViewport;
-import com.guidebee.game.engine.scene.Actor;
 import com.guidebee.game.engine.scene.Stage;
 import com.guidebee.game.graphics.Batch;
 import com.guidebee.game.graphics.SpriteBatch;

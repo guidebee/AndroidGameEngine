@@ -17,11 +17,12 @@
 package com.guidebee.game.input;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngine;
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.Input;
 import com.guidebee.game.InputProcessor;
 import com.guidebee.game.graphics.Pixmap;
-import com.guidebee.game.GameEngineRuntimeException;
 
 import java.io.DataInputStream;
 import java.io.IOException;

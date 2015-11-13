@@ -17,7 +17,12 @@
 package com.guidebee.game.engine.graphics;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.GameEngine;
+import com.guidebee.game.engine.graphics.opengles.ETC1TextureData;
+import com.guidebee.game.engine.graphics.opengles.FileTextureData;
+import com.guidebee.game.engine.graphics.opengles.IGL20;
+import com.guidebee.game.engine.graphics.opengles.MipMapGenerator;
 import com.guidebee.game.files.FileHandle;
 import com.guidebee.game.graphics.Pixmap;
 import com.guidebee.game.graphics.Pixmap.Blending;
@@ -26,12 +31,8 @@ import com.guidebee.game.graphics.Texture.TextureFilter;
 import com.guidebee.game.graphics.Texture.TextureWrap;
 import com.guidebee.game.graphics.TextureData;
 import com.guidebee.game.graphics.TextureData.TextureDataType;
-import com.guidebee.game.engine.graphics.opengles.ETC1TextureData;
-import com.guidebee.game.engine.graphics.opengles.FileTextureData;
-import com.guidebee.game.engine.graphics.opengles.IGL20;
-import com.guidebee.game.engine.graphics.opengles.MipMapGenerator;
-import com.guidebee.utils.collections.BufferUtils;
 import com.guidebee.utils.Disposable;
+import com.guidebee.utils.collections.BufferUtils;
 
 import java.nio.IntBuffer;
 

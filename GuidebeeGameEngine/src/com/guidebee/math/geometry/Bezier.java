@@ -17,10 +17,11 @@
 package com.guidebee.math.geometry;
 
 //--------------------------------- IMPORTS ------------------------------------
+
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.math.MathUtils;
 import com.guidebee.math.Vector;
 import com.guidebee.utils.collections.Array;
-import com.guidebee.game.GameEngineRuntimeException;
 
 //[------------------------------ MAIN CLASS ----------------------------------]
 /**

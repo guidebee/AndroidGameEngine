@@ -16,12 +16,12 @@
 
 package com.guidebee.utils.collections;
 
+import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.math.MathUtils;
+import com.guidebee.utils.StringBuilder;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
-import com.guidebee.game.GameEngineRuntimeException;
-import com.guidebee.utils.StringBuilder;
-import com.guidebee.math.MathUtils;
 
 /** An unordered map. This implementation is a cuckoo hash map using 3 hashes, random walking, and a small stash for problematic
  * keys. Null keys are not allowed. Null values are allowed. No allocation is done except when growing the table size. <br>

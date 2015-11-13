@@ -22,8 +22,6 @@ import com.guidebee.game.graphics.Batch;
 import com.guidebee.game.graphics.TextureRegion;
 import com.guidebee.math.geometry.Rectangle;
 
-import java.util.HashMap;
-
 //[------------------------------ MAIN CLASS ----------------------------------]
 
 /**

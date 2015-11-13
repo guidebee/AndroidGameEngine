@@ -17,8 +17,10 @@
 package com.guidebee.game.engine.graphics;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import com.guidebee.game.Application;
 import com.guidebee.game.GameEngine;
+import com.guidebee.game.GameEngineRuntimeException;
 import com.guidebee.game.engine.graphics.VertexAttributes.Usage;
 import com.guidebee.game.engine.graphics.opengles.*;
 import com.guidebee.math.Matrix3;
@@ -26,9 +28,8 @@ import com.guidebee.math.Matrix4;
 import com.guidebee.math.Vector2;
 import com.guidebee.math.Vector3;
 import com.guidebee.math.collision.BoundingBox;
-import com.guidebee.utils.collections.Array;
 import com.guidebee.utils.Disposable;
-import com.guidebee.game.GameEngineRuntimeException;
+import com.guidebee.utils.collections.Array;
 
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;

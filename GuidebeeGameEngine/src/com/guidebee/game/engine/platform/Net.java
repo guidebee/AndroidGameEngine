@@ -17,11 +17,14 @@
 package com.guidebee.game.engine.platform;
 
 //--------------------------------- IMPORTS ------------------------------------
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import com.guidebee.game.activity.BaseActivity;
-import com.guidebee.game.engine.net.*;
+import com.guidebee.game.engine.net.NetJavaImpl;
+import com.guidebee.game.engine.net.NetJavaServerSocketImpl;
+import com.guidebee.game.engine.net.NetJavaSocketImpl;
 import com.guidebee.game.net.ServerSocket;
 import com.guidebee.game.net.ServerSocketHints;
 import com.guidebee.game.net.Socket;
