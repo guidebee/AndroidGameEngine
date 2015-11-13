@@ -47,107 +47,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b654e2c-6def-4727-8071-82d85034e882" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/Actions.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/Actions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/scene/Actor.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/scene/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Actor.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/AlphaAction.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/AlphaAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/Array.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/Array.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ArrayMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ArrayMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/AssetLoadingTask.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/AssetLoadingTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/AssetManager.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/AssetManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/async/AsyncExecutor.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/async/AsyncExecutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/async/AsyncResult.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/async/AsyncResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/activity/BaseGameActivity.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/activity/BaseGameActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/renderers/BatchTiledMapRenderer.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/renderers/BatchTiledMapRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Bezier.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Bezier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/loaders/BitmapFontLoader.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/loaders/BitmapFontLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/BooleanArray.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/BooleanArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ByteArray.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ByteArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/CharArray.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/CharArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Circle.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/CircleMapObject.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/CircleMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/Cubemap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/Cubemap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/compression/lzma/Decoder.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/compression/lzma/Decoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ETC1.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ETC1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ETC1TextureData.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ETC1TextureData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Ellipse.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Ellipse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/EllipseMapObject.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/EllipseMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/compression/lzma/Encoder.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/compression/lzma/Encoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/EventAction.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/EventAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/FileHandle.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/FileHandle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/FileTextureData.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/FileTextureData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/FloatArray.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/FloatArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/FloatFrameBuffer.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/FloatFrameBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/FloatTextureData.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/FloatTextureData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/graphics/FrameBuffer.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/graphics/FrameBuffer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/GLTexture.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/GLTexture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/ui/GameController.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/ui/GameController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Graphics.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Graphics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/scene/Group.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/scene/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Group.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/loaders/I18NBundleLoader.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/loaders/I18NBundleLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IdentityMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IdentityMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ImmediateModeRenderer20.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ImmediateModeRenderer20.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/IndexBufferObject.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/IndexBufferObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/IndexBufferObjectSubData.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/IndexBufferObjectSubData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Input.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Input.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntArray.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntFloatMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntFloatMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntIntMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntIntMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntSet.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/IntSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/microedition/LayerManager.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/microedition/LayerManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/LayoutAction.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/LayoutAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/LittleEndianInputStream.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/LittleEndianInputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/LongArray.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/LongArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/LongMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/LongMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/compression/Lzma.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/utils/compression/Lzma.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/Mesh.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/Mesh.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/MipMapGenerator.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/MipMapGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/MipMapTextureData.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/MipMapTextureData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/NativePixmap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/NativePixmap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Net.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Net.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/net/NetJavaImpl.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/net/NetJavaImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/net/NetJavaServerSocketImpl.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/net/NetJavaServerSocketImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/net/NetJavaSocketImpl.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/net/NetJavaSocketImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectFloatMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectFloatMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectIntMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectIntMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectSet.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ObjectSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/OrderedMap.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/OrderedMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/OrderedSet.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/OrderedSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/renderers/OrthoCachedTiledMapRenderer.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/renderers/OrthoCachedTiledMapRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/ParallelAction.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/actions/ParallelAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/PerformanceCounters.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/PerformanceCounters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/PixmapTextureData.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/PixmapTextureData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/PolygonMapObject.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/PolygonMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/PolylineMapObject.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/PolylineMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Preferences.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/platform/Preferences.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Rectangle.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/math/geometry/Rectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/RectangleMapObject.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/RectangleMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/input/RemoteInput.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/input/RemoteInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Scenery.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Scenery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/ScissorStack.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/ScissorStack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/ScreenUtils.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/ScreenUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ShaderProgram.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/ShaderProgram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ShortArray.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/collections/ShortArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/scene/Stage.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/scene/Stage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/StreamUtils.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/StreamUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/TextFormatter.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/TextFormatter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/loaders/TextureLoader.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/assets/loaders/TextureLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/TextureMapObject.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/objects/TextureMapObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/TideMapLoader.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/TideMapLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/microedition/TiledLayer.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/microedition/TiledLayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/TiledMapRenderer.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/TiledMapRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/Timer.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/Timer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/tiled/TmxMapHelper.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/maps/tiled/TmxMapHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/TmxMapLoader.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/maps/tiled/TmxMapLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/tween/Tween.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/tween/Tween.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/UBJsonReader.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/UBJsonReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/VertexBufferObjectSubData.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/engine/graphics/opengles/VertexBufferObjectSubData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/ui/Window.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/ui/Window.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/XmlReader.java" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/utils/XmlReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidGameEngine.iml" afterPath="$PROJECT_DIR$/AndroidGameEngine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GuidebeeGameEngine/GuidebeeGameEngine.iml" afterPath="$PROJECT_DIR$/GuidebeeGameEngine/GuidebeeGameEngine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" afterPath="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiledmap/forest.tmx" afterPath="$PROJECT_DIR$/assets/tiledmap/forest.tmx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f2163357-2680-4fbe-98a0-1512f06b8f87" name="New changelist" comment="" />
@@ -219,7 +123,17 @@
         <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/microedition/DropScene.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="44" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mario.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7327731" vertical-offset="1961" max-vertical-offset="3332">
+              <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -237,12 +151,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5764706" vertical-offset="9313" max-vertical-offset="15028">
+            <state vertical-scroll-proportion="0.0" vertical-offset="9707" max-vertical-offset="15079">
               <caret line="637" column="9" selection-start-line="637" selection-start-column="9" selection-end-line="637" selection-end-column="9" />
-              <folding />
+              <folding>
+                <element signature="e#0#30341#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6628#6629#0" expanded="false" />
+                <element signature="e#6677#6678#0" expanded="false" />
+                <element signature="e#7666#7667#0" expanded="false" />
+                <element signature="e#7723#7724#0" expanded="false" />
+                <element signature="e#7764#7765#0" expanded="false" />
+                <element signature="e#7804#7805#0" expanded="false" />
+                <element signature="e#9085#9086#0" expanded="false" />
+                <element signature="e#9144#9145#0" expanded="false" />
+                <element signature="e#9817#9818#0" expanded="false" />
+                <element signature="e#9866#9867#0" expanded="false" />
+                <element signature="e#10000#10001#0" expanded="false" />
+                <element signature="e#10054#10055#0" expanded="false" />
+                <element signature="e#12102#12103#0" expanded="false" />
+                <element signature="e#12176#12177#0" expanded="false" />
+                <element signature="e#16937#16938#0" expanded="false" />
+                <element signature="e#16984#16985#0" expanded="false" />
+                <element signature="e#17677#17678#0" expanded="false" />
+                <element signature="e#17727#17728#0" expanded="false" />
+                <element signature="e#17872#17873#0" expanded="false" />
+                <element signature="e#17925#17926#0" expanded="false" />
+                <element signature="e#18338#18339#0" expanded="false" />
+                <element signature="e#18388#18389#0" expanded="false" />
+                <element signature="e#19554#19555#0" expanded="false" />
+                <element signature="e#19582#19583#0" expanded="false" />
+                <element signature="e#19803#19804#0" expanded="false" />
+                <element signature="e#19843#19844#0" expanded="false" />
+                <element signature="e#19953#19954#0" expanded="false" />
+                <element signature="e#19995#19996#0" expanded="false" />
+                <element signature="e#20156#20157#0" expanded="false" />
+                <element signature="e#20214#20215#0" expanded="false" />
+                <element signature="e#20371#20372#0" expanded="false" />
+                <element signature="e#20438#20439#0" expanded="false" />
+                <element signature="e#20957#20958#0" expanded="false" />
+                <element signature="e#21022#21023#0" expanded="false" />
+                <element signature="e#21413#21414#0" expanded="false" />
+                <element signature="e#21460#21461#0" expanded="false" />
+                <element signature="e#21497#21498#0" expanded="false" />
+                <element signature="e#21547#21548#0" expanded="false" />
+                <element signature="e#21597#21598#0" expanded="false" />
+                <element signature="e#21648#21649#0" expanded="false" />
+                <element signature="e#21730#21731#0" expanded="false" />
+                <element signature="e#21777#21778#0" expanded="false" />
+                <element signature="e#21861#21862#0" expanded="false" />
+                <element signature="e#21909#21910#0" expanded="false" />
+                <element signature="e#21988#21989#0" expanded="false" />
+                <element signature="e#22036#22037#0" expanded="false" />
+                <element signature="e#24839#24840#0" expanded="false" />
+                <element signature="e#24891#24892#0" expanded="false" />
+                <element signature="e#25063#25064#0" expanded="false" />
+                <element signature="e#25126#25127#0" expanded="false" />
+                <element signature="e#25245#25246#0" expanded="false" />
+                <element signature="e#25296#25297#0" expanded="false" />
+                <element signature="e#25503#25504#0" expanded="false" />
+                <element signature="e#25568#25569#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -317,13 +288,13 @@
         <option value="$PROJECT_DIR$/src/com/guidebee/game/ui/GameController.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/director/CollisionDirector.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/hud/Score.java" />
-        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/RainDropGroup.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/camera/CameraConfiguration.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/camera/ViewPortConfiguration.java" />
         <option value="$PROJECT_DIR$/src/com/guidebee/game/scene/Scene.java" />
         <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java" />
         <option value="$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java" />
+        <option value="$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java" />
       </list>
     </option>
   </component>
@@ -646,7 +617,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -665,8 +635,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidGameEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -677,14 +714,14 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.import" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27764976" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
@@ -1122,6 +1159,10 @@
       <workItem from="1447291584915" duration="17145000" />
       <workItem from="1447372113590" duration="2023000" />
       <workItem from="1447374252134" duration="951000" />
+      <workItem from="1447382380170" duration="216000" />
+      <workItem from="1447382742951" duration="368000" />
+      <workItem from="1447383450289" duration="233000" />
+      <workItem from="1447383807554" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="add android javadoc (doclava) support">
       <created>1413514803895</created>
@@ -1295,7 +1336,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165123000" />
+    <option name="totallyTimeSpent" value="166858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1433,6 +1474,338 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/microedition/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="2516">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9707" max-vertical-offset="15079">
+          <caret line="637" column="9" selection-start-line="637" selection-start-column="9" selection-end-line="637" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#30341#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6628#6629#0" expanded="false" />
+            <element signature="e#6677#6678#0" expanded="false" />
+            <element signature="e#7666#7667#0" expanded="false" />
+            <element signature="e#7723#7724#0" expanded="false" />
+            <element signature="e#7764#7765#0" expanded="false" />
+            <element signature="e#7804#7805#0" expanded="false" />
+            <element signature="e#9085#9086#0" expanded="false" />
+            <element signature="e#9144#9145#0" expanded="false" />
+            <element signature="e#9817#9818#0" expanded="false" />
+            <element signature="e#9866#9867#0" expanded="false" />
+            <element signature="e#10000#10001#0" expanded="false" />
+            <element signature="e#10054#10055#0" expanded="false" />
+            <element signature="e#12102#12103#0" expanded="false" />
+            <element signature="e#12176#12177#0" expanded="false" />
+            <element signature="e#16937#16938#0" expanded="false" />
+            <element signature="e#16984#16985#0" expanded="false" />
+            <element signature="e#17677#17678#0" expanded="false" />
+            <element signature="e#17727#17728#0" expanded="false" />
+            <element signature="e#17872#17873#0" expanded="false" />
+            <element signature="e#17925#17926#0" expanded="false" />
+            <element signature="e#18338#18339#0" expanded="false" />
+            <element signature="e#18388#18389#0" expanded="false" />
+            <element signature="e#19554#19555#0" expanded="false" />
+            <element signature="e#19582#19583#0" expanded="false" />
+            <element signature="e#19803#19804#0" expanded="false" />
+            <element signature="e#19843#19844#0" expanded="false" />
+            <element signature="e#19953#19954#0" expanded="false" />
+            <element signature="e#19995#19996#0" expanded="false" />
+            <element signature="e#20156#20157#0" expanded="false" />
+            <element signature="e#20214#20215#0" expanded="false" />
+            <element signature="e#20371#20372#0" expanded="false" />
+            <element signature="e#20438#20439#0" expanded="false" />
+            <element signature="e#20957#20958#0" expanded="false" />
+            <element signature="e#21022#21023#0" expanded="false" />
+            <element signature="e#21413#21414#0" expanded="false" />
+            <element signature="e#21460#21461#0" expanded="false" />
+            <element signature="e#21497#21498#0" expanded="false" />
+            <element signature="e#21547#21548#0" expanded="false" />
+            <element signature="e#21597#21598#0" expanded="false" />
+            <element signature="e#21648#21649#0" expanded="false" />
+            <element signature="e#21730#21731#0" expanded="false" />
+            <element signature="e#21777#21778#0" expanded="false" />
+            <element signature="e#21861#21862#0" expanded="false" />
+            <element signature="e#21909#21910#0" expanded="false" />
+            <element signature="e#21988#21989#0" expanded="false" />
+            <element signature="e#22036#22037#0" expanded="false" />
+            <element signature="e#24839#24840#0" expanded="false" />
+            <element signature="e#24891#24892#0" expanded="false" />
+            <element signature="e#25063#25064#0" expanded="false" />
+            <element signature="e#25126#25127#0" expanded="false" />
+            <element signature="e#25245#25246#0" expanded="false" />
+            <element signature="e#25296#25297#0" expanded="false" />
+            <element signature="e#25503#25504#0" expanded="false" />
+            <element signature="e#25568#25569#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/microedition/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="646">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="2516">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15079">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30341#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6628#6629#0" expanded="false" />
+            <element signature="e#6677#6678#0" expanded="false" />
+            <element signature="e#7666#7667#0" expanded="false" />
+            <element signature="e#7723#7724#0" expanded="false" />
+            <element signature="e#7764#7765#0" expanded="false" />
+            <element signature="e#7804#7805#0" expanded="false" />
+            <element signature="e#9085#9086#0" expanded="false" />
+            <element signature="e#9144#9145#0" expanded="false" />
+            <element signature="e#9817#9818#0" expanded="false" />
+            <element signature="e#9866#9867#0" expanded="false" />
+            <element signature="e#10000#10001#0" expanded="false" />
+            <element signature="e#10054#10055#0" expanded="false" />
+            <element signature="e#12102#12103#0" expanded="false" />
+            <element signature="e#12176#12177#0" expanded="false" />
+            <element signature="e#16937#16938#0" expanded="false" />
+            <element signature="e#16984#16985#0" expanded="false" />
+            <element signature="e#17677#17678#0" expanded="false" />
+            <element signature="e#17727#17728#0" expanded="false" />
+            <element signature="e#17872#17873#0" expanded="false" />
+            <element signature="e#17925#17926#0" expanded="false" />
+            <element signature="e#18338#18339#0" expanded="false" />
+            <element signature="e#18388#18389#0" expanded="false" />
+            <element signature="e#19554#19555#0" expanded="false" />
+            <element signature="e#19582#19583#0" expanded="false" />
+            <element signature="e#19803#19804#0" expanded="false" />
+            <element signature="e#19843#19844#0" expanded="false" />
+            <element signature="e#19953#19954#0" expanded="false" />
+            <element signature="e#19995#19996#0" expanded="false" />
+            <element signature="e#20156#20157#0" expanded="false" />
+            <element signature="e#20214#20215#0" expanded="false" />
+            <element signature="e#20371#20372#0" expanded="false" />
+            <element signature="e#20438#20439#0" expanded="false" />
+            <element signature="e#20957#20958#0" expanded="false" />
+            <element signature="e#21022#21023#0" expanded="false" />
+            <element signature="e#21413#21414#0" expanded="false" />
+            <element signature="e#21460#21461#0" expanded="false" />
+            <element signature="e#21497#21498#0" expanded="false" />
+            <element signature="e#21547#21548#0" expanded="false" />
+            <element signature="e#21597#21598#0" expanded="false" />
+            <element signature="e#21648#21649#0" expanded="false" />
+            <element signature="e#21730#21731#0" expanded="false" />
+            <element signature="e#21777#21778#0" expanded="false" />
+            <element signature="e#21861#21862#0" expanded="false" />
+            <element signature="e#21909#21910#0" expanded="false" />
+            <element signature="e#21988#21989#0" expanded="false" />
+            <element signature="e#22036#22037#0" expanded="false" />
+            <element signature="e#24839#24840#0" expanded="false" />
+            <element signature="e#24891#24892#0" expanded="false" />
+            <element signature="e#25063#25064#0" expanded="false" />
+            <element signature="e#25126#25127#0" expanded="false" />
+            <element signature="e#25245#25246#0" expanded="false" />
+            <element signature="e#25296#25297#0" expanded="false" />
+            <element signature="e#25503#25504#0" expanded="false" />
+            <element signature="e#25568#25569#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/microedition/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="646">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="2516">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15079">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30341#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6628#6629#0" expanded="false" />
+            <element signature="e#6677#6678#0" expanded="false" />
+            <element signature="e#7666#7667#0" expanded="false" />
+            <element signature="e#7723#7724#0" expanded="false" />
+            <element signature="e#7764#7765#0" expanded="false" />
+            <element signature="e#7804#7805#0" expanded="false" />
+            <element signature="e#9085#9086#0" expanded="false" />
+            <element signature="e#9144#9145#0" expanded="false" />
+            <element signature="e#9817#9818#0" expanded="false" />
+            <element signature="e#9866#9867#0" expanded="false" />
+            <element signature="e#10000#10001#0" expanded="false" />
+            <element signature="e#10054#10055#0" expanded="false" />
+            <element signature="e#12102#12103#0" expanded="false" />
+            <element signature="e#12176#12177#0" expanded="false" />
+            <element signature="e#16937#16938#0" expanded="false" />
+            <element signature="e#16984#16985#0" expanded="false" />
+            <element signature="e#17677#17678#0" expanded="false" />
+            <element signature="e#17727#17728#0" expanded="false" />
+            <element signature="e#17872#17873#0" expanded="false" />
+            <element signature="e#17925#17926#0" expanded="false" />
+            <element signature="e#18338#18339#0" expanded="false" />
+            <element signature="e#18388#18389#0" expanded="false" />
+            <element signature="e#19554#19555#0" expanded="false" />
+            <element signature="e#19582#19583#0" expanded="false" />
+            <element signature="e#19803#19804#0" expanded="false" />
+            <element signature="e#19843#19844#0" expanded="false" />
+            <element signature="e#19953#19954#0" expanded="false" />
+            <element signature="e#19995#19996#0" expanded="false" />
+            <element signature="e#20156#20157#0" expanded="false" />
+            <element signature="e#20214#20215#0" expanded="false" />
+            <element signature="e#20371#20372#0" expanded="false" />
+            <element signature="e#20438#20439#0" expanded="false" />
+            <element signature="e#20957#20958#0" expanded="false" />
+            <element signature="e#21022#21023#0" expanded="false" />
+            <element signature="e#21413#21414#0" expanded="false" />
+            <element signature="e#21460#21461#0" expanded="false" />
+            <element signature="e#21497#21498#0" expanded="false" />
+            <element signature="e#21547#21548#0" expanded="false" />
+            <element signature="e#21597#21598#0" expanded="false" />
+            <element signature="e#21648#21649#0" expanded="false" />
+            <element signature="e#21730#21731#0" expanded="false" />
+            <element signature="e#21777#21778#0" expanded="false" />
+            <element signature="e#21861#21862#0" expanded="false" />
+            <element signature="e#21909#21910#0" expanded="false" />
+            <element signature="e#21988#21989#0" expanded="false" />
+            <element signature="e#22036#22037#0" expanded="false" />
+            <element signature="e#24839#24840#0" expanded="false" />
+            <element signature="e#24891#24892#0" expanded="false" />
+            <element signature="e#25063#25064#0" expanded="false" />
+            <element signature="e#25126#25127#0" expanded="false" />
+            <element signature="e#25245#25246#0" expanded="false" />
+            <element signature="e#25296#25297#0" expanded="false" />
+            <element signature="e#25503#25504#0" expanded="false" />
+            <element signature="e#25568#25569#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/microedition/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="646">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="581" max-vertical-offset="2516">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9707" max-vertical-offset="15079">
+          <caret line="637" column="9" selection-start-line="637" selection-start-column="9" selection-end-line="637" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#30341#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6628#6629#0" expanded="false" />
+            <element signature="e#6677#6678#0" expanded="false" />
+            <element signature="e#7666#7667#0" expanded="false" />
+            <element signature="e#7723#7724#0" expanded="false" />
+            <element signature="e#7764#7765#0" expanded="false" />
+            <element signature="e#7804#7805#0" expanded="false" />
+            <element signature="e#9085#9086#0" expanded="false" />
+            <element signature="e#9144#9145#0" expanded="false" />
+            <element signature="e#9817#9818#0" expanded="false" />
+            <element signature="e#9866#9867#0" expanded="false" />
+            <element signature="e#10000#10001#0" expanded="false" />
+            <element signature="e#10054#10055#0" expanded="false" />
+            <element signature="e#12102#12103#0" expanded="false" />
+            <element signature="e#12176#12177#0" expanded="false" />
+            <element signature="e#16937#16938#0" expanded="false" />
+            <element signature="e#16984#16985#0" expanded="false" />
+            <element signature="e#17677#17678#0" expanded="false" />
+            <element signature="e#17727#17728#0" expanded="false" />
+            <element signature="e#17872#17873#0" expanded="false" />
+            <element signature="e#17925#17926#0" expanded="false" />
+            <element signature="e#18338#18339#0" expanded="false" />
+            <element signature="e#18388#18389#0" expanded="false" />
+            <element signature="e#19554#19555#0" expanded="false" />
+            <element signature="e#19582#19583#0" expanded="false" />
+            <element signature="e#19803#19804#0" expanded="false" />
+            <element signature="e#19843#19844#0" expanded="false" />
+            <element signature="e#19953#19954#0" expanded="false" />
+            <element signature="e#19995#19996#0" expanded="false" />
+            <element signature="e#20156#20157#0" expanded="false" />
+            <element signature="e#20214#20215#0" expanded="false" />
+            <element signature="e#20371#20372#0" expanded="false" />
+            <element signature="e#20438#20439#0" expanded="false" />
+            <element signature="e#20957#20958#0" expanded="false" />
+            <element signature="e#21022#21023#0" expanded="false" />
+            <element signature="e#21413#21414#0" expanded="false" />
+            <element signature="e#21460#21461#0" expanded="false" />
+            <element signature="e#21497#21498#0" expanded="false" />
+            <element signature="e#21547#21548#0" expanded="false" />
+            <element signature="e#21597#21598#0" expanded="false" />
+            <element signature="e#21648#21649#0" expanded="false" />
+            <element signature="e#21730#21731#0" expanded="false" />
+            <element signature="e#21777#21778#0" expanded="false" />
+            <element signature="e#21861#21862#0" expanded="false" />
+            <element signature="e#21909#21910#0" expanded="false" />
+            <element signature="e#21988#21989#0" expanded="false" />
+            <element signature="e#22036#22037#0" expanded="false" />
+            <element signature="e#24839#24840#0" expanded="false" />
+            <element signature="e#24891#24892#0" expanded="false" />
+            <element signature="e#25063#25064#0" expanded="false" />
+            <element signature="e#25126#25127#0" expanded="false" />
+            <element signature="e#25245#25246#0" expanded="false" />
+            <element signature="e#25296#25297#0" expanded="false" />
+            <element signature="e#25503#25504#0" expanded="false" />
+            <element signature="e#25568#25569#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
@@ -1445,7 +1818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="408">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1453,7 +1825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,7 +1903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1540,9 +1910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
           <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1550,15 +1917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4091904" vertical-offset="0" max-vertical-offset="914">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59080964" vertical-offset="2044" max-vertical-offset="2958">
-          <caret line="167" column="49" selection-start-line="167" selection-start-column="49" selection-end-line="167" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,7 +1938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18599562" vertical-offset="0" max-vertical-offset="914">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1588,7 +1945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.111597374" vertical-offset="0" max-vertical-offset="914">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,9 +1959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27899343" vertical-offset="0" max-vertical-offset="1037">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1613,7 +1966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1629,15 +1981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14285715" vertical-offset="0" max-vertical-offset="595">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/microedition/DropScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,8 +1996,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GuidebeeGameEngine/src/com/guidebee/game/scene/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5764706" vertical-offset="9313" max-vertical-offset="15028">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9707" max-vertical-offset="15028">
           <caret line="637" column="9" selection-start-line="637" selection-start-column="9" selection-end-line="637" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#30341#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6628#6629#0" expanded="false" />
+            <element signature="e#6677#6678#0" expanded="false" />
+            <element signature="e#7666#7667#0" expanded="false" />
+            <element signature="e#7723#7724#0" expanded="false" />
+            <element signature="e#7764#7765#0" expanded="false" />
+            <element signature="e#7804#7805#0" expanded="false" />
+            <element signature="e#9085#9086#0" expanded="false" />
+            <element signature="e#9144#9145#0" expanded="false" />
+            <element signature="e#9817#9818#0" expanded="false" />
+            <element signature="e#9866#9867#0" expanded="false" />
+            <element signature="e#10000#10001#0" expanded="false" />
+            <element signature="e#10054#10055#0" expanded="false" />
+            <element signature="e#12102#12103#0" expanded="false" />
+            <element signature="e#12176#12177#0" expanded="false" />
+            <element signature="e#16937#16938#0" expanded="false" />
+            <element signature="e#16984#16985#0" expanded="false" />
+            <element signature="e#17677#17678#0" expanded="false" />
+            <element signature="e#17727#17728#0" expanded="false" />
+            <element signature="e#17872#17873#0" expanded="false" />
+            <element signature="e#17925#17926#0" expanded="false" />
+            <element signature="e#18338#18339#0" expanded="false" />
+            <element signature="e#18388#18389#0" expanded="false" />
+            <element signature="e#19554#19555#0" expanded="false" />
+            <element signature="e#19582#19583#0" expanded="false" />
+            <element signature="e#19803#19804#0" expanded="false" />
+            <element signature="e#19843#19844#0" expanded="false" />
+            <element signature="e#19953#19954#0" expanded="false" />
+            <element signature="e#19995#19996#0" expanded="false" />
+            <element signature="e#20156#20157#0" expanded="false" />
+            <element signature="e#20214#20215#0" expanded="false" />
+            <element signature="e#20371#20372#0" expanded="false" />
+            <element signature="e#20438#20439#0" expanded="false" />
+            <element signature="e#20957#20958#0" expanded="false" />
+            <element signature="e#21022#21023#0" expanded="false" />
+            <element signature="e#21413#21414#0" expanded="false" />
+            <element signature="e#21460#21461#0" expanded="false" />
+            <element signature="e#21497#21498#0" expanded="false" />
+            <element signature="e#21547#21548#0" expanded="false" />
+            <element signature="e#21597#21598#0" expanded="false" />
+            <element signature="e#21648#21649#0" expanded="false" />
+            <element signature="e#21730#21731#0" expanded="false" />
+            <element signature="e#21777#21778#0" expanded="false" />
+            <element signature="e#21861#21862#0" expanded="false" />
+            <element signature="e#21909#21910#0" expanded="false" />
+            <element signature="e#21988#21989#0" expanded="false" />
+            <element signature="e#22036#22037#0" expanded="false" />
+            <element signature="e#24839#24840#0" expanded="false" />
+            <element signature="e#24891#24892#0" expanded="false" />
+            <element signature="e#25063#25064#0" expanded="false" />
+            <element signature="e#25126#25127#0" expanded="false" />
+            <element signature="e#25245#25246#0" expanded="false" />
+            <element signature="e#25296#25297#0" expanded="false" />
+            <element signature="e#25503#25504#0" expanded="false" />
+            <element signature="e#25568#25569#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/microedition/DropScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mapdigit/game/tutorial/drop/actor/Mario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7327731" vertical-offset="1961" max-vertical-offset="3332">
+          <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1668,7 +2084,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27764976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1680,7 +2096,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27764976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1691,7 +2107,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27764976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1703,7 +2119,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.27764976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1723,7 +2139,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android API 21 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1735,7 +2151,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>doclava-1.0.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

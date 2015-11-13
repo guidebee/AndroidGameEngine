@@ -47,6 +47,6 @@
  <objectgroup name="Collision">
   <object id="1" name="TreeCollisionArea" x="510" y="256" width="128" height="62"/>
   <object id="9" name="BucketArea" x="160" y="351" width="127" height="127"/>
-  <object id="11" name="BoxCollisionArea" x="567" y="399" width="145" height="79"/>
+  <object id="11" name="BoxCollisionArea" x="575" y="415" width="127" height="63"/>
  </objectgroup>
 </map>
