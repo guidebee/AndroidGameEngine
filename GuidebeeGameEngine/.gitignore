@@ -1,0 +1,10 @@
+build
+target
+bin
+gen
+obj
+out
+project.properties
+.idea
+proguard_logs
+atlassian-ide-plugin.xml
